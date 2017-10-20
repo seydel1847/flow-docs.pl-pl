@@ -1,0 +1,41 @@
+### YamlMime:YamlDocument
+documentType: Tutorial
+title: Wprowadzenie
+metadata:
+  title: Wprowadzenie | Microsoft Flow
+  description: 'Witamy na kursie Nauka z przewodnikiem poświęconym usłudze Microsoft Flow. Użytkownicy mogą zapoznawać się z zagadnieniami tego kursu online we własnym tempie. Zagadnienia są omawiane kolejno, można więc zdobywać wiedzę od podstaw.'
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: build-flows
+  nextTutorialTitle: Build flows
+  displayType: one-column
+  author: MSFTMan
+  manager: anneta
+  ms.service: flow
+  ms.topic: get-started-article
+  ms.date: 10/04/2017
+  ms.author: deonhe
+items:
+  - durationInMinutes: 1
+    content: |
+      Witamy na kursie Nauka z przewodnikiem poświęconym usłudze Microsoft Flow. Użytkownicy mogą zapoznawać się z zagadnieniami tego kursu online we własnym tempie. Zagadnienia są omawiane kolejno, można więc zdobywać wiedzę od podstaw.
+  - title: Podstawowe informacje na temat usługi Microsoft Flow
+    durationInMinutes: 14
+    content: |
+      > [!Video https://www.youtube.com/embed/CYR-fZc5Maw?rel=0]
+
+      [!INCLUDE [learning-introduce-flow](../includes/learning-introduce-flow.md)]
+  - title: Utwórz przepływ na podstawie szablonu
+    durationInMinutes: 9
+    content: |
+      > [!Video https://www.youtube.com/embed/D46qE7FuShM?rel=0]
+
+      [!INCLUDE [learning-create-a-flow](../includes/learning-create-a-flow.md)]
+  - title: Korzystanie z aplikacji mobilnej Microsoft Flow
+    durationInMinutes: 8
+    content: |
+      > [!Video https://www.youtube.com/embed/o80hRMpb0_4?rel=0]
+
+      [!INCLUDE [learning-mobile-app](../includes/learning-mobile-app.md)]
+  - content: |
+      Sekcja **Wprowadzenie** przewodnika szkoleniowego dotyczącego usługi Microsoft Flow została ukończona.

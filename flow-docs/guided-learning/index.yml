@@ -1,0 +1,41 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: Microsoft Flow — nauka z przewodnikiem
+metadata:
+  title: Microsoft Flow — nauka z przewodnikiem
+  meta.description: 'Start your learning journey with this sequenced collection of courses, and understand the extensive and powerful capabilities of Microsoft Flow.'
+  author: MSFTMan
+  manager: anneta
+  layout: LandingPage
+  ms.assetid: null
+  ms.service: flow
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  ms.topic: landing-page
+  ms.date: 10/13/2017
+  ms.author: deonhe
+abstract:
+  description: Rozpocznij swoją podróż szkoleniową z tą uporządkowaną sekwencyjnie kolekcją kursów i zapoznaj się z informacjami o kompleksowych i zaawansowanych możliwościach usługi Microsoft Flow.
+sections:
+  - items:
+      - type: list
+        style: cards
+        className: cardsF
+        columns: 2
+        items:
+          - html: '<p><a href="get-started#step-1">Podstawowe informacje na temat usługi Microsoft Flow</a> - 14 min</p><p><a href="get-started#step-2">Tworzenie przepływu na podstawie szablonu</a> - 9 min</p><p><a href="get-started#step-3">Korzystanie z aplikacji mobilnej Microsoft Flow</a> - 8 min</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
+            title: Wprowadzenie
+          - html: '<p><a href="build-flows#step-1">Tworzenie przepływu przycisku</a> - 11 min</p><p><a href="build-flows#step-2">Otrzymywanie powiadomień</a> - 6 min</p><p><a href="build-flows#step-3">Kopiowanie plików</a> - 4 min</p><p><a href="build-flows#step-4">Zbieranie danych</a> - 5 min</p><p><a href="build-flows#step-5">Publikowanie tweetów z przepływu</a> - 15 min</p><p><a href="build-flows#step-6">Tworzenie zaplanowanych przepływów</a> - 9 min</p><p><a href="build-flows#step-7">Konwertowanie i przechowywanie dokumentów</a> - 14 min</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_build.svg'
+            title: Kompilowanie przepływów
+          - html: '<p><a href="work-with-approvals#step-1">Tworzenie żądania zatwierdzenia</a> - 4 min</p><p><a href="work-with-approvals#step-2">Przetwarzanie żądania zatwierdzenia</a> - 7 min</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_tasks.svg'
+            title: Praca z zatwierdzeniami
+          - html: '<p><a href="administer-flows#step-1">Używanie środowisk do zarządzania przepływami</a> - 8 min</p><p><a href="administer-flows#step-2">Używanie zasad ochrony przed utratą danych</a> - 6 min</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_management.svg'
+            title: Administrowanie przepływami

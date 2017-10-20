@@ -1,0 +1,138 @@
+- name: Wprowadzenie
+  items:
+    - name: Wprowadzenie
+      href: getting-started.md
+    - name: Rejestrowanie się
+      href: sign-up-sign-in.md
+    - name: Utwórz przepływ na podstawie szablonu
+      href: get-started-logic-template.md
+    - name: Tworzenie przepływu od podstaw
+      href: get-started-logic-flow.md
+    - name: Tworzenie przepływu zespołu
+      href: create-team-flows.md
+    - name: Omówienie środowisk
+      href: environments-overview-maker.md
+    - name: Często zadawane pytania
+      href: frequently-asked-questions.md
+- name: Kompilowanie przepływu
+  items:
+    - name: Dodawanie akcji
+      href: multi-step-logic-flow.md
+    - name: Dodawanie warunku
+      href: add-condition.md
+    - name: Uruchamianie przepływu na podstawie harmonogramu
+      href: run-scheduled-tasks.md
+    - name: Wyzwalanie przepływu przy użyciu wiadomości e-mail
+      href: email-triggers.md
+    - name: Przetwarzanie listy elementów
+      href: apply-to-each.md
+    - name: Korzystanie z operacji dotyczących danych
+      href: data-operations.md
+    - name: Filtrowanie i kopiowanie danych
+      href: odata-filters.md
+    - name: Tworzenie przepływu przy użyciu usługi Dynamics 365
+      href: connection-dynamics365.md
+    - name: Dodawanie danych do usługi Common Data Service
+      href: common-data-model-intro.md
+    - name: Oglądanie przepływu
+      href: see-a-flow-run.md
+    - name: Publikowanie szablonu
+      href: publish-a-template.md
+    - name: Rozwiązywanie problemów z przepływem
+      href: fix-flow-failures.md
+- name: Tworzenie przepływów zatwierdzenia
+  items:
+    - name: Pojedyncze zatwierdzenia
+      href: modern-approvals.md
+    - name: Zatwierdzenia sekwencyjne
+      href: sequential-modern-approvals.md
+    - name: Zatwierdzenia równoległe
+      href: parallel-modern-approvals.md
+    - name: Zatwierdzenia zintegrowane
+      href: common-data-model-approve.md
+- name: Korzystanie z aplikacji mobilnej
+  items:
+    - name: Utwórz przepływ
+      href: mobile-create-flow.md
+    - name: Tworzenie przepływu przycisku
+      href: introduction-to-button-flows.md
+    - name: Tworzenie przepływu przycisku z tokenami wyzwalacza
+      href: introduction-to-button-trigger-tokens.md
+    - name: Tworzenie przepływu przycisku z danymi wejściowymi użytkownika
+      href: button-flow-with-user-input-tokens.md
+    - name: Udostępnianie przycisku
+      href: share-buttons.md
+    - name: Monitorowanie działań przepływu
+      href: mobile-monitor-activity.md
+    - name: Zarządzanie przepływami
+      href: mobile-manage-flows.md
+- name: Używanie urządzeń fizycznych
+  items:
+    - name: Używanie przycisku Flic
+      href: flic-button-flows.md
+    - name: Używanie urządzenia bttn
+      href: bttn-button-flows.md
+- name: Połączenia
+  items:
+    - name: Dostępne połączenia
+      href: 'https://go.microsoft.com/fwlink/?linkid=832211'
+    - name: Zarządzanie połączeniami
+      href: add-manage-connections.md
+    - name: Zarządzanie bramami
+      href: gateway-manage.md
+    - name: Informacje o bramach
+      href: gateway-reference.md
+- name: 'Programowanie: deweloperzy w przedsiębiorstwach'
+  items:
+    - name: Usługa Microsoft Flow dla deweloperów w firmach
+      href: dev-enterprise-intro.md
+    - name: Rejestrowanie i używanie łączników niestandardowych
+      href: register-custom-api.md
+    - name: Opisywanie łącznika niestandardowego za pomocą narzędzia Postman
+      href: postman-collection.md
+    - name: Rozszerzenia OpenAPI dla łączników niestandardowych
+      href: customapi-how-to-swagger.md
+    - name: Używanie usługi Azure Active Directory z łącznikiem niestandardowym
+      href: customapi-azure-resource-manager-tutorial.md
+    - name: Kompilowanie łącznika niestandardowego dla internetowego interfejsu API
+      href: customapi-web-api-tutorial.md
+    - name: Wyzwalanie przepływu przy użyciu elementu webhook
+      href: customapi-webhooks.md
+- name: 'Programowanie: partnerzy i niezależni dostawcy oprogramowania'
+  items:
+    - name: Usługa Microsoft Flow dla partnerów firmy Microsoft i niezależnych dostawców oprogramowania
+      href: dev-isv-partner-intro.md
+    - name: Omówienie certyfikowania łączników interfejsu API
+      href: api-connector-overview.md
+    - name: Programowanie łączników interfejsu API na potrzeby certyfikacji
+      href: api-connector-dev.md
+    - name: Przesyłanie łączników interfejsu API na potrzeby certyfikacji
+      href: api-connector-submission.md
+    - name: Często zadawane pytania dotyczące certyfikowania łączników interfejsu API
+      href: api-connector-faq.md
+    - name: Integrowanie z witrynami internetowymi i innymi technologiami
+      href: embed-flow-dev.md
+    - name: Umożliwianie klientom testowania przepływów
+      href: dev-appsource-test-drive.md
+- name: Administrowanie
+  items:
+    - name: Przepływy w organizacji — pytania i odpowiedzi
+      href: organization-q-and-a.md
+    - name: Cennik
+      href: billing-questions.md
+    - name: Wprowadzenie do Centrum administracyjnego
+      href: admin-center-introduction.md
+    - name: Administrowanie środowiskami
+      href: environments-overview-admin.md
+    - name: Ustawianie zasad w celu ułatwienia zapobiegania utracie danych
+      href: prevent-data-loss.md
+    - name: Wprowadzenie do grup danych
+      href: introduction-to-data-groups.md
+- name: Dokumentacja
+  items:
+    - name: Omówienie regionów
+      href: regions-overview.md
+    - name: Limity i konfiguracja
+      href: limits-and-config.md
+    - name: Informacje o wersji
+      href: release-notes.md

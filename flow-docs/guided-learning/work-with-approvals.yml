@@ -1,0 +1,35 @@
+### YamlMime:YamlDocument
+documentType: Tutorial
+title: Praca z zatwierdzeniami
+metadata:
+  title: Praca z zatwierdzeniami | Microsoft Flow
+  description: 'Dowiedz się, jak zarządzać zatwierdzaniem dokumentów i procesów w usłudze Microsoft Flow.'
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: administer-flows
+  nextTutorialTitle: Administer flows
+  displayType: one-column
+  author: MSFTMan
+  manager: anneta
+  ms.service: flow
+  ms.topic: get-started-article
+  ms.date: 10/04/2017
+  ms.author: deonhe
+items:
+  - durationInMinutes: 1
+    content: |
+      Dowiedz się, jak zarządzać zatwierdzaniem dokumentów i procesów w usłudze Microsoft Flow.
+  - title: Tworzenie żądania zatwierdzenia
+    durationInMinutes: 4
+    content: |
+      > [!Video https://www.youtube.com/embed/65yz8tqnWe0?rel=0]
+
+      [!INCLUDE [learning-approval-center](../includes/learning-approval-center.md)]
+  - title: Przetwarzanie żądania zatwierdzenia
+    durationInMinutes: 7
+    content: |
+      > [!Video https://www.youtube.com/embed/-0r5ZKVEIS4?rel=0]
+
+      [!INCLUDE [learning-approval-request](../includes/learning-approval-request.md)]
+  - content: |
+      Sekcja **Praca z zatwierdzeniami** przewodnika szkoleniowego dotyczącego usługi Microsoft Flow została ukończona.
