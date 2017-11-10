@@ -30,6 +30,8 @@
       href: data-operations.md
     - name: Filtrowanie i kopiowanie danych
       href: odata-filters.md
+    - name: Korzystanie z wyrażeń w warunkach
+      href: use-expressions-in-conditions.md
     - name: Tworzenie przepływu przy użyciu usługi Dynamics 365
       href: connection-dynamics365.md
     - name: Dodawanie danych do usługi Common Data Service

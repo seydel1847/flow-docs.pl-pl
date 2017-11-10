@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 06/24/2017
 ms.author: deonhe
 ms.openlocfilehash: b4d11da19db97ce94df3e3d5237f6c90b3514269
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-parallel-approval-workflows-with-microsoft-flow"></a>Tworzenie przepływów pracy zatwierdzania równoległego za pomocą usługi Microsoft Flow
 W przepływie pracy zatwierdzania równoległego elementy takie jak faktury, zamówienia, wnioski urlopowe itp. muszą być zatwierdzone przez wiele osób. Zatwierdzenie przez każdą osobę jest niezależne od innych osób zatwierdzających.

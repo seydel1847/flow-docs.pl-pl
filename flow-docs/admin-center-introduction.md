@@ -1,6 +1,6 @@
 ---
-title: "Zarządzaj środowiskami i zasadami ochrony przed utratą danych za pomocą centrum administracyjnego. | Microsoft Docs"
-description: "Centrum administracyjne usługi Flow umożliwia administratorom dzierżawy i środowiska zarządzanie zasadami ochrony przed utratą danych oraz środowiskami wdrożeń usługi Microsoft Flow."
+title: "Zarządzaj środowiskami i zasadami dotyczącymi danych za pomocą centrum administracyjnego. | Microsoft Docs"
+description: "Centrum administracyjne usługi Microsoft Flow umożliwia administratorom dzierżawy i środowiska zarządzanie zasadami dotyczącymi danych oraz środowiskami dla wdrożeń usługi Microsoft Flow."
 services: 
 suite: flow
 documentationcenter: na
@@ -13,30 +13,33 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/24/2016
+ms.date: 10/31/2017
 ms.author: deonhe
-ms.openlocfilehash: a7d4e26203912d157a35696ae6297fd54b59d734
-ms.sourcegitcommit: 122870842a07183ab3b90e07d99b60d822d6c5ae
+ms.openlocfilehash: 368b208a6f1d47f76a6f195edcd8055a03c06800
+ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/18/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="the-admin-center"></a>Centrum administracyjne
-![— informacje](./media/admin-center-introduction/overview.png)  
 
-## <a name="what-is-the-admin-center"></a>Co to jest Centrum administracyjne?
-Centrum administracyjne to centralna lokalizacja, z której zarówno administratorzy dzierżawy, jak i administratorzy środowisk zarządzają zasadami ochrony przed utratą danych (DLP) i środowiskami organizacji. Wszelkie zmiany wprowadzone w Centrum administracyjnym są natychmiast dostępne dla użytkowników z organizacji.  
+Centrum administracyjne to centralna lokalizacja, z której administratorzy dzierżawy i administratorzy środowiska zarządzają zasadami dotyczącymi danych i środowiskami organizacji. Wszelkie zmiany wprowadzone w Centrum administracyjnym są natychmiast dostępne dla użytkowników z organizacji.
+
+![— informacje](./media/admin-center-introduction/overview.png)
 
 ## <a name="access-the-admin-center"></a>Dostęp do Centrum administracyjnego
-* Dostęp do Centrum administracyjnego usługi Flow można uzyskać, przechodząc na stronę internetową https://admin.flow.microsoft.com.   
+
+* Przejdź pod adres https://admin.flow.microsoft.com w celu uzyskania dostępu do centrum administracyjnego usługi Microsoft Flow.
 
 ## <a name="environments"></a>Środowiska
-Dowiedz się więcej na temat sposobu użycia [środowisk](environments-overview-admin.md) w celu zarządzania użytkownikami, uprawnieniami i rolami.  
 
-## <a name="data-loss-prevention-dlp-policies"></a>Zasady ochrony przed utratą danych (DLP)
-Dowiedz się więcej na temat sposobu użycia [zasad ochrony przed utratą danych](prevent-data-loss.md) w celu tworzenia reguł umożliwiających zarządzanie współdzieleniem danych firmowych pomiędzy usługami w ramach przepływów.  
+Dowiedz się więcej na temat korzystania ze [środowisk](environments-overview-admin.md) do zarządzania użytkownikami, uprawnieniami i rolami.
+
+## <a name="data-policies"></a>Zasady dotyczące danych
+
+Dowiedz się więcej na temat korzystania z [zasad dotyczących danych](prevent-data-loss.md) do tworzenia reguł umożliwiających zarządzanie współdzieleniem danych firmowych pomiędzy usługami w ramach przepływów.
 
 ## <a name="next-steps"></a>Następne kroki
-* [Dowiedz się więcej o środowiskach](environments-overview-admin.md)   
-* [Dowiedz się więcej o usłudze Microsoft Flow](getting-started.md)   
 
+* [Dowiedz się więcej o środowiskach](environments-overview-admin.md)
+* [Dowiedz się więcej o usłudze Microsoft Flow](getting-started.md)
