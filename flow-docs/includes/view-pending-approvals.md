@@ -2,11 +2,11 @@ Aby wyświetlić wszystkie żądania oczekujące na zatwierdzenie, wykonaj nast�
 
 1. Zaloguj się w usłudze [Microsoft Flow](https://flow.microsoft.com).
    
-    ![logowanie](includes/media/modern-approvals/sign-in.png)
+    ![logowanie](media/modern-approvals/sign-in.png)
 2. Wybierz kartę **Zatwierdzenia**.
    
-    ![karta zatwierdzenia](includes/media/modern-approvals/approvals-tab.png)
+    ![karta zatwierdzenia](media/modern-approvals/approvals-tab.png)
 3. Znajdź wszystkie żądania oczekujące na zatwierdzenie w obszarze **Odebrane żądania**.
    
-    ![oczekujące żądania](includes/media/modern-approvals/pending-requests.png)
+    ![oczekujące żądania](media/modern-approvals/pending-requests.png)
 

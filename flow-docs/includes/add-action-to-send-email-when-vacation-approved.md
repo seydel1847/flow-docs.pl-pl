@@ -1,12 +1,12 @@
 1. Wybierz pozycję **Dodaj akcję** w gałęzi **JEŚLI TAK, NIC NIE RÓB** warunku.
    
-    ![dodawanie nowego kroku](includes/media/modern-approvals/add-action-after-condition.png)
+    ![dodawanie nowego kroku](media/modern-approvals/add-action-after-condition.png)
 2. W polu wyszukiwania na karcie **Wybierz akcję** wprowadź tekst **wyślij wiadomość e-mail**.
    
-    ![wyszukiwanie akcji poczty e-mail](includes/media/modern-approvals/search-send-email-yes.png)
+    ![wyszukiwanie akcji poczty e-mail](media/modern-approvals/search-send-email-yes.png)
 3. Wybierz akcję **Office 365 Outlook — Wyślij wiadomość e-mail**.
    
-    ![wybieranie akcji wyślij wiadomość e-mail](includes/media/modern-approvals/select-send-email-yes.png)
+    ![wybieranie akcji wyślij wiadomość e-mail](media/modern-approvals/select-send-email-yes.png)
 4. Skonfiguruj odpowiednio kartę Wiadomość e-mail.
    
      Uwaga: pola **Tytuł**, **Temat** i **Treść** są wymagane.
