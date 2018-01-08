@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/25/2017
+ms.date: 01/01/2018
 ms.author: stepsic
-ms.openlocfilehash: 37bab7ccd54ecc7976a42df2e215daa19916fc85
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 8bdfafff5fbf3a5491809063e92607cd8e10167c
+ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="release-notes"></a>Informacje o wersji
 ## <a name="top-questions"></a>Najczęściej zadawane pytania
@@ -28,23 +28,122 @@ ms.lasthandoff: 10/15/2017
    1. Zidentyfikuj problem. Zacznij od wybrania ikony powiadomień u góry portalu sieci Web lub karty **Działanie** w aplikacji mobilnej. Twój przepływ powinien być tam widoczny i można będzie go wybrać.
    2. Zostaną wyświetlone szczegóły przepływu. Znajdź krok z ikoną czerwonego wykrzyknika. Powinien tam być wyświetlany komunikat o błędzie dotyczący przepływu.
    3. W zależności od komunikatu o błędzie powinno być możliwe zmodyfikowanie przepływu za pomocą opcji **Edytuj** i usunięcie problemu. [Przeczytaj więcej na temat naprawiania typowych błędów przepływów](fix-flow-failures.md).
-2. Jak użyć zaawansowanego warunku lub formuły?
+2. Jak mogę użyć zaawansowanego warunku lub wyrażenia?
    
-   * Przeczytaj o [dodawaniu warunków](add-a-condition.md).
+   * Przeczytaj o [dodawaniu warunków](add-condition.md).
    * Jeśli w przepływach chcesz mieć wiele przypadków, kliknij lub naciśnij pozycję **Dodaj warunek** wewnątrz istniejącego warunku.
-   * Zaawansowaną formułę możesz utworzyć przez odwołanie się do [funkcji usługi Logic Apps](https://docs.microsoft.com/rest/api/logic/definition-language).
+   * Zaawansowane wyrażenie możesz utworzyć przez odwołanie się do [funkcji usługi Logic Apps](https://docs.microsoft.com/rest/api/logic/definition-language).
 3. Jak działa licencjonowanie w usłudze Office 365?
    
-   * Jeśli jesteś użytkownikiem usługi Office 365, uzyskujesz pełen dostęp za pośrednictwem planu usługi Microsoft Flow dla usługi Office 365. Aby uzyskać więcej informacji, zobacz [plany cenowe usługi Microsoft Flow](https://flow.microsoft.com/pricing/) .
+   * Jeśli jesteś użytkownikiem usługi Office 365, uzyskujesz pełen dostęp za pośrednictwem planu usługi Microsoft Flow dla usługi Office 365. Aby uzyskać więcej informacji, zobacz [plany cenowe usługi Microsoft Flow](https://flow.microsoft.com/pricing/).
    * Jeśli jesteś administratorem, zapoznaj się z informacjami na temat [licencjonowania usługi Microsoft Flow](organization-q-and-a.md), również w ramach usługi Office 365.
 
 ## <a name="known-issues-and-resolutions"></a>Znane problemy i rozwiązania
 1. Listy programu SharePoint w obszarze Moje witryny i te, które nie są typu *Lista niestandardowa*, nie są obsługiwane. Aby obejść ten problem, utwórz listę niestandardową w standardowej witrynie programu SharePoint.
-2. Metadane dokumentu nie są zwracane z wyzwalaczy w bibliotekach dokumentów programu SharePoint.
-3. Przepływy nie mogą zapisywać informacji w polach Taksonomia na listach programu SharePoint. Do czasu rozwiązania tego problemu zalecamy używanie prostego pola ciągu.
-4. Wyzwalacze plików nie będą uruchamiane w przypadku plików dodawanych wewnątrz folderów zagnieżdżonych w wybranym folderze.
+2. Przepływy nie mogą zapisywać informacji w polach Taksonomia na listach programu SharePoint. Do czasu rozwiązania tego problemu zalecamy używanie prostego pola ciągu.
+3. Wyzwalacze plików nie będą uruchamiane w przypadku plików dodawanych wewnątrz folderów zagnieżdżonych w wybranym folderze.
 
 ## <a name="whats-new"></a>Co nowego
+
+### <a name="release-2017-12-20"></a>Wersja 2017-12-20
+
+Usługa Microsoft Flow Analytics jest teraz dostępna we wszystkich regionach usługi Microsoft Flow, co oznacza, że możesz uzyskać lepszy wgląd w kondycję przepływów uruchomionych w środowisku.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/announcing-microsoft-flow-analytics/) na temat tej wersji.
+
+
+### <a name="release-2017-12-14"></a>Wersja 2017-12-14
+
+- **Ulepszenia łącznika programu Outlook** — możesz zapisywać wiadomości e-mail jako pliki „eml”, automatycznie odpowiadać na zaproszenia kalendarza i wyzwalać przepływy, gdy wzmiankowano o Tobie w wątku wiadomości e-mail.
+- **Ulepszenia połączeń** — usługa Microsoft Flow pamięta ostatnio używane połączenia i pokazuje wszystkie nowo dodane łączniki.
+- **Pięć nowych łączników** — dodano łączniki usług Azure Container Instances, Azure Kusto, Metatask, Microsoft To-Do i Plumsail Documents.
+- **Ulepszenia HTTP** — teraz akcja HTTP obsługuje kodowanie fragmentaryczne.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/outlook-connector-more/) na temat tej wersji.
+
+### <a name="release-2017-12-05"></a>Wersja 2017-12-05
+
+Panel uruchamiania usługi Microsoft Flow jest teraz dostępny we wszystkich regionach. Ten panel umożliwia dodawanie wartości do przepływu uruchamianego wewnątrz biblioteki dokumentów lub listy programu SharePoint.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/introducing-flow-launch-panel-in-sharepoint-lists-and-libraries/) na temat tej wersji.
+
+
+### <a name="release-2017-11-28"></a>Wersja 2017-11-28
+
+- **Zarządzane metadane** — odczytuj dane z kolumn w programie SharePoint używających typu (tj. taksonomii) Zarządzane metadane i zapisuj w nich dane.
+- **Dołączanie do tablic** — dodawaj elementy na końcu tablic przy użyciu nowej akcji Dołącz do zmiennej tablicowej.
+- **Tago** — nowy łącznik do usługi Tago, który zapewnia łatwe łączenie urządzeń elektronicznych z danymi zewnętrznymi w celu podejmowania lepszych decyzji na podstawie analizy kontekstowej.
+- **iPhone X** — nowa wersja aplikacji Microsoft Flow używa pełnego ekranu na telefonie iPhone X i poprawiono w niej szybkość przekazywania obrazów.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/managed-metadata-tago/) na temat tej wersji.
+
+### <a name="release-2017-11-09"></a>Wersja 2017-11-09
+
+- **Integracja z usługą OneDrive dla Firm** — [teraz w usłudze OneDrive dla Firm jest przycisk przepływu](https://flow.microsoft.com/blog/microsoft-flow-integration-in-one-drive-for-business-and-new-connector-actions/), który umożliwia tworzenie lub wyzwalanie przepływów dla wybranych plików lub folderów.
+- **Wyzwalacze aplikacji Planner** — uruchamiaj przepływy, gdy zostanie utworzone nowe zadanie, gdy zadanie zostanie przypisane do Ciebie lub gdy zostanie ukończone.
+- **Załączniki programu SharePoint** — pracuj z załącznikami w elementach listy programu SharePoint: wymieniaj je na liście, pobieraj, dodawaj lub usuwaj załączniki.
+- **Łącznik zarządzania przepływem** — twórz przepływy, które automatyzują zarządzanie innymi przepływami w danym środowisku (na przykład automatycznie dodawaj uprawnienia do przepływów).
+- **Cztery nowe łączniki** — dodano łączniki usług Azure Custom Vision Service, D&B Optimizer, Enadoc i Derdak SIGNL4. 
+- **Więcej akcji łącznika** — uruchamiaj zapytania SQL, uzyskuj szybsze wyzwalacze poczty e-mail, używaj dowolnej metody z protokołem HTTP w usłudze Azure AD i nie tylko.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/planner-triggers-connector-improvements/) na temat tej wersji.
+
+### <a name="release-2017-11-02"></a>Wersja 2017-11-02
+
+- **Rejestrowanie inspekcji** — zdarzenia inspekcji usługi Microsoft Flow są teraz dostępne w Centrum zabezpieczeń i zgodności usługi Office 365 dla wszystkich dzierżaw.
+- **Poprawki widżetu usługi Flow** — rozwiązano problem w aplikacji mobilnej Flow, który powodował, że przyciski nie były ładowane w widżecie.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/security-and-compliance-center/) na temat tej wersji.
+
+### <a name="release-2017-10-19"></a>Wersja 2017-10-19
+
+- **Zagnieżdżona akcja Zastosuj do każdego** — możesz dodawać akcje Zastosuj do każdego, filtrować i wybierać w innych kontenerach akcji Zastosuj do każdego.
+- **Akcje data/godzina** — nowe akcje do pobierania czasu lokalnego, dodawania, odejmowania lub formatowania godzin.
+- **Cztery nowe łączniki** — dodano łączniki usług Content Moderator, Docparser, Microsoft Kaizala i Pitney Bowes Data Validation.
+- **Ulepszone środowisko połączenia** — powiadomienia w portalu Flow, gdy połączenie jest przerwane, oraz dokładniejsze szczegóły połączenia.
+- **Kolekcja W drodze** — nowa kolekcja szablonów dla [pracowników w drodze](https://flow.microsoft.com/collections/onthego/).
+- **Dane wejściowe przycisku adresu e-mail** — zbieraj adresy e-mail od użytkowników, gdy uruchamiają oni przyciski.
+- **Dane wejściowe przycisku pliku** — pobieraj przekazane pliki, takie jak zdjęcia, od użytkowników, gdy uruchamiają oni przyciski.
+- **Pierwsze uruchomienie i automatyczne logowanie się** — ulepszone pierwsze uruchomienie w aplikacji mobilnej wraz z automatycznym logowaniem się.
+- **Szybsze wyzwalacze programu Microsoft Forms** — program Forms będzie wyzwalał przepływy znacznie szybciej niż dotąd (przedtem raz na godzinę).
+- **Dane wejściowe przycisku między sesjami** — przyciski wyzwalane na telefonie komórkowym będą zapamiętywać poprzednie dane wejściowe.
+- **Mobilny kanał aktywności** — ulepszony kanał aktywności zawierający bardziej szczegółowe podsumowania przebiegu i szczegóły dotyczące rozwiązywania problemów.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/nested-apply-to-each/) na temat tej wersji.
+
+### <a name="release-2017-10-03"></a>Wersja 2017-10-03
+
+- **Wszyscy muszą zatwierdzić** — wymagaj wysyłania żądania zatwierdzenia do więcej niż jednej osoby, aby każdy, kto odebrał żądanie, zatwierdził je.
+- **Nowe akcje usługi OneDrive dla Firm** — generowanie dokumentów PDF dla plików przechowywanych w usłudze OneDrive dla Firm i cztery inne nowe akcje.
+- **Łącznik Apache Impala** — Apache Impala (wersja inkubacyjna) to natywna analityczna baza danych typu open source dla platformy Apache Hadoop.
+- **Dodawanie opisów przepływów** — nadaj przepływom opisy, aby po ich udostępnieniu współpracownicy mogli zobaczyć podsumowanie działania przepływu.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/all-must-approve-and-onedrive/) na temat tej wersji.
+
+### <a name="release-2017-09-25---q3-update-for-microsoft-flow"></a>Wersja 2017-09-25 — aktualizacja z 3. kwartału dla usługi Microsoft Flow
+
+- **Głębsza integracja z programem SharePoint w ramach udostępniania natychmiastowego** — udostępniono nowe „wbudowane” przepływy wysyłania do przeglądu oraz panel Przepływ do zbierania danych wejściowych po uruchomieniu przepływu dla dzierżaw w ramach udostępniania natychmiastowego.
+- **Dynamics 365 for Customer Engagement** — usługa Flow jest teraz zintegrowana z interfejsem użytkownika usługi Dynamics 365 for Customer Engagement.
+- **Centrum zaufania firmy Microsoft** — usługa Flow jest wymieniona w Centrum zaufania firmy Microsoft z certyfikatami, takimi jak HIPAA, ISO i SOC.
+- **Analiza użycia** — każdy przepływ ma osadzony pulpit nawigacyjny usługi Power BI z podstawową analizą użycia.
+- **Rejestrowanie inspekcji w ramach udostępniania natychmiastowego** — wszystkie zdarzenia zarządzania przepływem są rejestrowane w Centrum zabezpieczeń i zgodności usługi Office 365 dla dzierżaw w ramach udostępniania natychmiastowego.
+- **Sześć nowych łączników** — dodano łączniki usług LinkedIn, Grupy usługi Office 365, Skype dla firm, Adobe Sign, Bizzy i Azure Log Analytics Data Collection.
+- **Wyzwalacze SQL** — uruchamiaj przepływy po dodaniu nowego wiersza lub zaktualizowaniu wiersza w tabeli SQL.
+- **Lokalne łączniki niestandardowe** — łączniki niestandardowe mogą teraz używać lokalnej bramy danych do nawiązywania połączenia z wewnętrznymi punktami końcowymi w Twojej sieci.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/q3-2017-update/) na temat tej wersji.
+
+### <a name="release-2017-09-21"></a>Wersja 2017-09-21
+
+- **Pobieranie historii usługi Flow** — pobierz historię uruchamiania usługi Flow w postaci pliku CSV do otwierania w programie Excel.
+- **Zaawansowany cykl** — twórz cykliczne harmonogramy, aby wyzwalać przepływy, na przykład tylko w dni robocze.
+- **Funkcja IntelliSense** — gdy wpiszesz wyrażenia, funkcja IntelliSense wyświetli sugestie dotyczące parametrów.
+- **Cztery nowe łączniki** — dodano łączniki usług HTTP usługi Azure AD, Amazon Redshift, Azure Event Grid Publish i FlowForma.
+- **Linki do udostępniania** — nowa akcja do generowania linków, które można udostępnić, dla plików usługi OneDrive lub obiektów blob usługi Azure Storage.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/download-history-recurrence/) na temat tej wersji.
+
+
 ### <a name="release-2017-08-25"></a>Wersja 2017-08-25
 * **Właściwości dokumentów i nie tylko dla programu SharePoint** - [Odczytuj i ustawiaj właściwości biblioteki dokumentów programu SharePoint](https://flow.microsoft.com/blog/support-for-sharepoint-document-library-properties/), a także korzystaj z pól dodatkowych, takich jak linki do elementów programu SharePoint.
 * **Kolekcje przepływów** — kolekcje przepływów to zestaw kolekcji szablonów uporządkowanych według roli lub specjalizacji.
@@ -406,8 +505,8 @@ Jeśli używasz przepływów logiki w ramach usługi [Microsoft PowerApps](https
 * Po dostosowaniu przepływu możesz [publikować własne szablony](publish-a-template.md) w galerii.
 * Wyświetlanie historii dla każdego sprawdzenia i uruchomienia przepływu.
 * Po zapisaniu przepływu możesz [natychmiast obejrzeć go w działaniu](see-a-flow-run.md), po prostu wykonując akcję wyzwalacza.
-* Mamy dla Ciebie [nową społeczność](http://go.microsoft.com/fwlink/?LinkID=787467) umożliwiającą dyskutowanie na temat usługi Flow oraz [przesyłanie pomysłów](https://go.microsoft.com/fwlink/?LinkID=787474).
+* Mamy dla Ciebie [nową społeczność](https://go.microsoft.com/fwlink/?LinkID=787467) umożliwiającą dyskutowanie na temat usługi Flow oraz [przesyłanie pomysłów](https://go.microsoft.com/fwlink/?LinkID=787474).
 
 ## <a name="next-steps"></a>Następne kroki
-Jeśli masz jakiekolwiek problemy, które nie zostały już omówione w tych informacjach o wersji ani w [często zadawanych pytaniach](frequently-asked-questions.md), [dołącz do naszej społeczności](http://go.microsoft.com/fwlink/?LinkID=787467), aby zadawać pytania, lub [skontaktuj się z pomocą techniczną](http://go.microsoft.com/fwlink/?LinkID=787479).
+Jeśli masz jakiekolwiek problemy, które nie zostały już omówione w tych informacjach o wersji ani w [często zadawanych pytaniach](frequently-asked-questions.md), [dołącz do naszej społeczności](https://go.microsoft.com/fwlink/?LinkID=787467), aby zadawać pytania, lub [skontaktuj się z pomocą techniczną](http://go.microsoft.com/fwlink/?LinkID=787479).
 

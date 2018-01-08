@@ -1,6 +1,6 @@
 ---
-title: "Przełączanie środowisk podczas tworzenia przepływu | Microsoft Docs"
-description: "Sposoby korzystania z różnych środowisk podczas tworzenia przepływu usługi Microsoft Flow"
+title: "Informacje na temat środowisk usługi Microsoft Flow | Microsoft Docs"
+description: "Dowiedz się, jak izolować przepływy przy użyciu środowisk"
 services: 
 suite: flow
 documentationcenter: na
@@ -13,70 +13,79 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/27/2016
+ms.date: 11/27/2017
 ms.author: sunayv
-ms.openlocfilehash: bcbb566c20291da14881d771c538dd89689b6b1d
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 202167f833c6f5e1a8105db8bd44addc24dfdc3e
+ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="choosing-an-environment"></a>Wybieranie środowiska
-Usługa Microsoft Flow umożliwia pracę w różnych środowiskach i proste przełączanie się między nimi. Zakres tego artykułu obejmuje następujące tematy dotyczące środowiska:
 
-* Podstawy funkcji oferowanych przez środowiska
-* Przełączanie środowisk
-* Jak utworzyć przepływ w odpowiednim środowisku
+W tym artykule zostały opisane **środowiska** usługi Microsoft Flow, w których można tworzyć i bezpiecznie izolować przepływy, bramy, połączenia i inne zasoby.
+
+Dowiesz się:
+
+* jakie funkcje zapewniają środowiska,
+* jak przełączać się między środowiskami,
+* jak utworzyć przepływ w odpowiednim środowisku.
 
 ## <a name="environments-overview"></a>Środowiska — omówienie
-Środowiska umożliwiają wyznaczanie granic izolacji przepływów, połączeń, bram i innych zasobów. Podczas tworzenia przepływu możesz wybrać środowisko, które ma hostować przepływ, oraz zasoby używane w obrębie tego przepływu. Możesz używać różnych środowisk dla różnych scenariuszy.
 
-Przykłady:
+Podczas tworzenia przepływu możesz wybrać środowisko, które ma hostować przepływ, oraz zasoby używane w tym przepływie. Możesz używać osobnych środowisk dla różnych scenariuszy.
 
-* Tworzysz przepływ korzystający z połączenia z usługą Microsoft Common Data Service. W tym scenariuszu przepływ i usługa Common Data Service znajdują się w tym samym środowisku. Dzięki temu wszystkie dane są izolowane w tym środowisku (w obrębie granic izolacji).
-* Tworzysz przepływ dla działu kadr. Chcesz mieć pewność, że tylko użytkownicy z działu kadr mają dostęp do tego przepływu. Na przykład nie chcesz, aby grupa Sprzedaż korzystała z przepływu. W tym scenariuszu możesz użyć oddzielnego środowiska, w którym tylko użytkownicy z działu kadr mają uprawnienia do obsługi przepływu i wszystkich używanych przez niego zasobów, takich jak bramy lub połączenia.
-* W Europie znajdują się użytkownicy, którzy za pomocą przepływu wyświetlają dane programu SharePoint. W tym scenariuszu należy utworzyć środowisko w Europie, które obsługuje przepływ, i połączenie programu SharePoint. Dzięki środowisku znajdującym się w Europie europejscy użytkownicy mogą uzyskiwać najlepszą wydajność, ponieważ wszystkie zasoby są lokalne w Europie (lokalizacja danych).
+## <a name="here-are-a-few-scenarios-for-using-environments"></a>Kilka scenariuszy używania środowisk
 
-Środowiska są tworzone przez administratorów usługi Microsoft Flow. Administratorzy ci kontrolują także, kto ma dostęp do różnych środowisk.
+Scenariusz|Zalecenie
+-----|-----
+Chcesz utworzyć przepływ korzystający z połączenia z usługą Microsoft Common Data Service.|Umieść przepływ i usługę Common Data Service w tym samym środowisku. Dzięki temu wszystkie dane są izolowane w tym środowisku (w obrębie granic izolacji).
+Tworzysz przepływ dla działu kadr. Chcesz mieć pewność, że tylko użytkownicy z działu kadr mają dostęp do tego przepływu.|Utwórz środowisko i dodaj do niego tylko użytkowników z działu kadr. Umieść przepływ i wszelkie inne zasoby używane przez przepływ w tym środowisku.
+W Europie znajdują się użytkownicy, którzy za pomocą przepływu wyświetlają dane programu SharePoint.|Utwórz środowisko w Europie, a następnie utwórz w nim przepływ i połączenie programu SharePoint. Dzięki środowisku znajdującym się w Europie europejscy użytkownicy mogą uzyskiwać najlepszą wydajność, ponieważ wszystkie zasoby są lokalne w Europie (lokalizacja danych).
 
-W tym temacie opisano sposób przechodzenia między różnymi środowiskami. Aby uzyskać szczegółowe informacje dotyczące tworzenia środowisk i zarządzania nimi, zobacz część dotyczącą [administrowania środowiskami](environments-overview-admin.md).
+Aby tworzyć środowiska, musisz być administratorem usługi Microsoft Flow. Administratorzy określają, kto ma dostęp do środowisk. Aby uzyskać szczegółowe informacje dotyczące tworzenia środowisk i zarządzania nimi, zobacz temat dotyczący [administrowania środowiskami](environments-overview-admin.md).
 
 ## <a name="switching-environments"></a>Przełączanie środowisk
-Usługa Microsoft Flow ułatwia w znacznym stopniu przełączanie między środowiskami. Po przełączeniu widzisz wszystkie elementy w określonym środowisku i nie widzisz elementów w żadnym innym środowisku.
+
+Usługa Microsoft Flow ułatwia przełączanie między środowiskami. Po przełączeniu środowisk są widoczne tylko elementy tworzone w tym konkretnym środowisku. Nie będą widoczne elementy z żadnego innego środowiska, ani nie będziesz mieć do nich dostępu.
 
 Oto przykład.
 
-Utwórz przepływ o nazwie *Nowy_pracownik* w środowisku *Kadry*. W witrynie [flow.microsoft.com](http://flow.microsoft.com) otwórz środowisko *Sprzedaż*. Przepływu *Nowy_pracownik* nie będzie na liście. Aby wyświetlić przepływ *Nowy_pracownik* otwórz środowisko *Kadry*. Pamiętaj, że dotyczy to wszelkich elementów utworzonych w środowisku, w tym połączeń, bram, aplikacji PowerApps i innych.
+Utworzono przepływ o nazwie *Nowy_pracownik* w środowisku *Kadry*. W usłudze [Microsoft Flow](https://flow.microsoft.com) otwarto środowisko *Sprzedaż*. Przepływu *Nowy_pracownik* nie ma na liście. Aby wyświetlić przepływ *Nowy_pracownik* otwórz środowisko *Kadry*. Pamiętaj, że te same reguły mają zastosowanie do wszelkich innych elementów utworzonych w środowisku, w tym połączeń, bram, przepływów i innych.
 
-1. Otwórz witrynę [flow.microsoft.com](http://flow.microsoft.com).
-2. W prawym górnym rogu jest wyświetlana Twoja nazwa i bieżące środowisko:  
-   ![](./media/environments-overview-maker/default-environment.png)
-   
-    Na ilustracji zwróć uwagę na powiadomienia. Te powiadomienia są specyficzne dla przepływu w tym środowisku domyślnym.
-3. Wybierz nazwę. Na liście rozwijanej są wyświetlane wszystkie dostępne środowiska. Twoje bieżące środowisko jest zaznaczone:  
-   ![](./media/environments-overview-maker/all-environments.png)
-4. Aby przełączyć się do innego środowiska, wybierz środowisko na liście:  
-   ![](./media/environments-overview-maker/select-europe.png)
-5. Usługa Microsoft Flow automatycznie wykona przełączenie do nowego środowiska:  
-   ![](./media/environments-overview-maker/europe-environment.png)
-   
-    Na ilustracji zwróć uwagę na brak powiadomień. Nowe środowisko Europa nie ma żadnych powiadomień.
+Wykonaj następujące kroki, aby przełączyć środowiska:
+
+1. Zaloguj się w usłudze [Microsoft Flow](https://flow.microsoft.com).
+1. W prawym górnym rogu widać obraz odzwierciedlający Twój profil.
+
+   ![Obraz profilu](./media/environments-overview-maker/default-environment.png)
+
+1. Wybierz ten obraz. Na liście rozwijanej zostaną wyświetlone wszystkie dostępne środowiska. Środowisko, do którego się obecnie zalogowano, jest oznaczone znacznikiem wyboru:
+
+   ![Obraz listy środowisk](./media/environments-overview-maker/all-environments.png)
+1. Aby przełączyć się do innego środowiska, wybierz środowisko na liście:
+
+   ![Wybierz środowisko, do którego chcesz się przełączyć](./media/environments-overview-maker/select-europe.png)
+1. Usługa Microsoft Flow wykona przełączenie do nowego środowiska.
 
 ## <a name="create-flows-in-the-right-environment"></a>Tworzenie przepływów w odpowiednim środowisku
-Przed utworzeniem przepływu zawsze upewnij się, że wybierasz odpowiednie środowisko do umieszczenia w nim przepływu. W przeciwnym razie będzie trzeba usunąć przepływ i ponownie uruchomić go w prawidłowym środowisku.
 
-Wybierając środowisko do utworzenia przepływów, weź pod uwagę następujące czynniki:
+Przed utworzeniem przepływu wybierz środowisko, do którego dodasz przepływ i jego zasoby.
 
-* Bramy są tworzone w środowisku domyślnym. Bram nie można tworzyć w innych środowiskach, dlatego aby połączyć się z danymi lokalnymi, należy użyć środowiska domyślnego.
-* W obrębie przepływów można używać tylko połączeń i innych zasobów tego samego środowiska. Nie można korzystać z zasobów w innym środowisku. Na przykład tworzysz przepływ, który używa łącznika niestandardowego. Ten łącznik niestandardowy musi działać w tym samym środowisku co przepływ.
-* Baza danych usługi Microsoft Common Data Service jest zawsze powiązana z tylko jednym środowiskiem. Oznacza to, jeśli kiedykolwiek chcesz pracować z danymi usługi Common Data Service, musisz wybrać środowisko, w którym znajduje się baza danych.
-* Będziesz widzieć wszystkie środowiska, w których możesz edytować zasoby. Nie oznacza to jednak, że możesz tworzyć nowe zasoby we wszystkich środowiskach. W związku z tym w niektórych środowiskach nie możesz tworzyć nowych przepływów. Musisz poprosić administratora, aby dodał Cię jako **twórcę** do tego środowiska, lub wybrać inne środowisko, w którym utworzysz przepływ (zawsze możesz tworzyć przepływy w środowisku domyślnym).
+> [!NOTE]
+Jeśli utworzysz przepływ w niewłaściwym środowisku, będzie trzeba go usunąć, a następnie utworzyć we właściwym środowisku.
 
-## <a name="what-you-did"></a>Co zostało zrobione
-Wykonując poniższe czynności, przełączasz się między środowiskami, których zgodnie z uprawnieniami możesz używać. Teraz możesz rozpocząć tworzenie przepływów.
+Wybierając środowisko do hostowania przepływów, weź pod uwagę następujące czynniki:
+
+* Bramy można tworzyć tylko w domyślnym środowisku. Dlatego jeśli chcesz używać bramy do łączenia przepływu z danymi lokalnymi, należy użyć środowiska domyślnego.
+* Bazy danych usługi Microsoft Common Data Service są powiązane z konkretnym środowiskiem. Dlatego jeśli chcesz utworzyć przepływ, który używa usługi Common Data Service, należy utworzyć przepływ w środowisku hostującym bazę danych.
+* Będziesz widzieć wszystkie środowiska, w których możesz edytować zasoby. Jednak należy poprosić administratora o dodanie Cię jako twórcy do wszystkich środowisk, w których chcesz tworzyć przepływy.
+
+> [!NOTE]
+Zawsze będzie można tworzyć przepływy w środowisku domyślnym.
 
 ## <a name="next-steps"></a>Następne kroki
-[Tworzenie przepływu na podstawie szablonu](get-started-logic-template.md)  
-[Tworzenie przepływu](get-started-logic-flow.md)  
-[Omówienie środowiska dla administratorów](environments-overview-admin.md)
 
+* [Tworzenie przepływu na podstawie szablonu](get-started-logic-template.md)
+* [Tworzenie przepływu](get-started-logic-flow.md)
+* [Omówienie środowiska dla administratorów](environments-overview-admin.md)
