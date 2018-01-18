@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/05/2016
 ms.author: stepsic
-ms.openlocfilehash: 6a05153864e37682ece83d8e5d90fa43a3ad01e1
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f8807ca0941761018c92a385c26f427e69ededcb
+ms.sourcegitcommit: 56d69fadcbc9169feb2e1a68d9e9361709084cf4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="flow-in-your-organization-qa"></a>Usługa Flow w organizacji — pytania i odpowiedzi
 W tym temacie opisano sposób używania przez użytkowników usługi Flow w organizacji oraz sposób kontrolowania usługi Flow.
@@ -101,12 +101,12 @@ Usunięcie licencji usługi Flow lub samej usługi dla użytkownika w organizacj
 Pamiętaj, że spowoduje to tylko domyślne usunięcie kafelka usługi Flow. Użytkownik może nadal zdecydować się na korzystanie z usługi Microsoft Flow jako osoba prywatna.
 
 ### <a name="why-did-10000-licenses-for-microsoft-flow-show-up-in-my-office-365-tenant"></a>Dlaczego w ramach mojej dzierżawy usługi Office 365 widoczne jest 10 000 licencji na usługę Microsoft Flow?
-Dowolna osoba na świecie może wypróbować plan 1 lub 2 usługi Microsoft Flow przez okres 90 dni, a te licencje próbne oznaczają dostępny limit dla nowych użytkowników usługi Flow w ramach danej dzierżawy. Za te licencje nie jest naliczana opłata. Istnieją dwie możliwe przyczyny, dla których widoczna jest liczba 10 000 licencji (wersji próbnej) usługi Flow w portalu administracyjnym usługi Office 365:
+Każdy może wypróbować plan 1 lub 2 usługi Microsoft Flow przez okres 90 dni, a te licencje próbne oznaczają dostępny limit dla nowych użytkowników usługi Flow w ramach danej dzierżawy. Za te licencje nie jest naliczana opłata. Istnieją dwie możliwe przyczyny, dla których widoczna jest liczba 10 000 licencji (wersji próbnej) usługi Flow w portalu administracyjnym usługi Office 365:
 
 1. Jeśli co najmniej jeden użytkownik w tej dzierżawie korzystał z publicznej wersji zapoznawczej usługi Flow, która była dostępna od kwietnia do października 2016 r., będzie widocznych 10 000 licencji z oznaczeniem „Microsoft PowerApps and Logic flows” (Przepływy usługi Microsoft PowerApps i logiczne)
    
     ![](./media/organization-q-and-a/licenses2.png)
-2. Jeśli co najmniej jeden użytkownik w tej dzierżawie zarejestrował się, aby skorzystać z wersji próbnej planu 2 usługi Flow, korzystając z **opcji 1** rejestracji opisanej w sekcji [Jak można się zarejestrować w usłudze PowerApps?](#how-do-users-sign-up-for-powerapps), będzie widocznych 10 000 licencji z oznaczeniem „Microsoft Power Apps & Flow” (Usługi Microsoft Power Apps i Flow)
+2. Jeśli co najmniej jeden użytkownik w tej dzierżawie zarejestrował się, aby skorzystać z wersji próbnej planu 2 usługi Flow, korzystając z **opcji 1** rejestracji opisanej w sekcji [Jak można się zarejestrować w usłudze PowerApps?](#how-do-people-sign-up-for-flow), będzie widocznych 10 000 licencji z oznaczeniem „Microsoft Power Apps & Flow” (Usługi Microsoft Power Apps i Flow)
    
     ![](./media/organization-q-and-a/licenses1.png)
 
