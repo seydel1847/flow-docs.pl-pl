@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/06/2017
 ms.author: astay
 ms.openlocfilehash: 62f8f8d0af72292a61324d75bd46f53d559b46a3
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="api-connector-overview-microsoft-flow"></a>Łącznik interfejsu API — przegląd (Microsoft Flow)
 **Łącznik interfejsu API** to otoka w standardzie OpenAPI (struktura Swagger) dla interfejsu API REST, która pozwala bazowej usłudze na komunikację z usługą [Microsoft Flow](https://flow.microsoft.com), usługą [PowerApps](https://powerapps.microsoft.com) i [aplikacjami Logic Apps](https://docs.microsoft.com/azure/logic-apps/). Udostępnia on użytkownikom metodę łączenia ich kont i możliwość korzystania z zestawu wstępnie skompilowanych **wyzwalaczy** i **akcji** do tworzenia aplikacji i przepływów pracy.
