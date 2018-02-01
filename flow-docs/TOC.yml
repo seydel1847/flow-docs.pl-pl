@@ -84,34 +84,12 @@
       href: gateway-manage.md
     - name: Informacje o bramach
       href: gateway-reference.md
-- name: 'Programowanie: deweloperzy w przedsiębiorstwach'
+- name: Programowanie dla usługi Microsoft Flow
   items:
-    - name: Usługa Microsoft Flow dla deweloperów w firmach
+    - name: 'Usługa Microsoft Flow dla niezależnych dostawców oprogramowania, partnerów i deweloperów w przedsiębiorstwach'
       href: dev-enterprise-intro.md
-    - name: Rejestrowanie i używanie łączników niestandardowych
+    - name: Tworzenie i certyfikowanie łączników niestandardowych
       href: register-custom-api.md
-    - name: Opisywanie łącznika niestandardowego za pomocą narzędzia Postman
-      href: postman-collection.md
-    - name: Rozszerzenia OpenAPI dla łączników niestandardowych
-      href: customapi-how-to-swagger.md
-    - name: Używanie usługi Azure Active Directory z łącznikiem niestandardowym
-      href: customapi-azure-resource-manager-tutorial.md
-    - name: Kompilowanie łącznika niestandardowego dla internetowego interfejsu API
-      href: customapi-web-api-tutorial.md
-    - name: Wyzwalanie przepływu przy użyciu elementu webhook
-      href: customapi-webhooks.md
-- name: 'Programowanie: partnerzy i niezależni dostawcy oprogramowania'
-  items:
-    - name: Usługa Microsoft Flow dla partnerów firmy Microsoft i niezależnych dostawców oprogramowania
-      href: dev-isv-partner-intro.md
-    - name: Omówienie certyfikowania łączników interfejsu API
-      href: api-connector-overview.md
-    - name: Programowanie łączników interfejsu API na potrzeby certyfikacji
-      href: api-connector-dev.md
-    - name: Przesyłanie łączników interfejsu API na potrzeby certyfikacji
-      href: api-connector-submission.md
-    - name: Często zadawane pytania dotyczące certyfikowania łączników interfejsu API
-      href: api-connector-faq.md
     - name: Integrowanie z witrynami internetowymi i innymi technologiami
       href: embed-flow-dev.md
     - name: Umożliwianie klientom testowania przepływów
