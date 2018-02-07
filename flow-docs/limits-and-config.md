@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/02/2017
+ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: c5fefde9bdd2f8e82052abfaa64a7188d768d8ea
-ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
+ms.openlocfilehash: 60caaba88e825e97a49c3cf65d0ecceff586046c
+ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 02/05/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Limity i konfiguracja w usłudze Microsoft Flow
 Ten temat zawiera informacje o obecnych limitach i szczegóły konfiguracji dla przepływów.
@@ -48,7 +48,7 @@ Są to limity dotyczące pojedynczego przebiegu przepływu.
 
 | Nazwa | Limit | Uwagi |
 | --- | --- | --- |
-| Czas trwania przebiegu |30 dni |Zawiera przepływy pracy z oczekującymi krokami, takimi jak zatwierdzenia. Limit czasu dla oczekujących kroków upłynie po 30 dniach. |
+| Czas trwania przebiegu |30 dni |Zawiera przepływy pracy z oczekującymi krokami, takimi jak zatwierdzenia. Limit czasu dla oczekujących kroków upłynie po 30 dniach. Zatwierdzenia, dla których upłynął limit czasu, zostaną usunięte z centrum zatwierdzeń. Próba zatwierdzenia żądania, dla którego upłynął limit czasu, spowoduje wyświetlenie komunikatu o błędzie. |
 | Przechowywanie w magazynie |30 dni |Od czasu rozpoczęcia przebiegu. |
 | Minimalny interwał cyklu |1 minuta | |
 | Maksymalny interwał cyklu |500 dni | |
@@ -107,7 +107,7 @@ Wywołania wykonywane z interfejsu API połączonego za pośrednictwem przepływ
 | Stany Zjednoczone |104.43.232.28, 104.43.232.242, 104.43.235.249, 104.43.234.211, 52.160.93.247, 52.160.91.66, 52.160.92.131, 52.160.95.100, 40.117.101.91, 40.117.98.246, 40.117.101.120, 40.117.100.191 |
 | Stany Zjednoczone (wczesny dostęp) |52.161.26.191, 52.161.27.42, 52.161.29.40, 52.161.26.33, 13.66.213.240, 13.66.214.51, 13.66.210.166, 13.66.213.29 |
 
-Na przykład jeśli trzeba umieścić adresy IP na liście dozwolonych adresów dla bazy danych usługi Azure SQL, należy użyć tych adresów.
+Na przykład jeśli trzeba autoryzować adresy IP dla bazy danych usługi Azure SQL, należy użyć tych adresów.
 
 W poniższej tabeli są wymienione usługi, z którymi łączy się usługa Microsoft Flow. Upewnij się, że żadna z tych usług nie jest blokowana w Twojej sieci.
 
