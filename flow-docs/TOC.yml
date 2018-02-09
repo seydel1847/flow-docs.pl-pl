@@ -1,4 +1,4 @@
-- name: Wprowadzenie
+- name: Get started
   items:
     - name: Wprowadzenie
       href: getting-started.md
