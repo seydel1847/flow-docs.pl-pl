@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/01/2018
+ms.date: 02/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 8bdfafff5fbf3a5491809063e92607cd8e10167c
-ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
+ms.openlocfilehash: 3687266e84c06c37ac6ae0ee3d89aae0814158f3
+ms.sourcegitcommit: 28b6b09c9f3dd98a64492668d9a3b8c7bfbd6ce3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/12/2018
 ---
 # <a name="release-notes"></a>Informacje o wersji
 ## <a name="top-questions"></a>Najczęściej zadawane pytania
@@ -35,7 +35,7 @@ ms.lasthandoff: 01/03/2018
    * Zaawansowane wyrażenie możesz utworzyć przez odwołanie się do [funkcji usługi Logic Apps](https://docs.microsoft.com/rest/api/logic/definition-language).
 3. Jak działa licencjonowanie w usłudze Office 365?
    
-   * Jeśli jesteś użytkownikiem usługi Office 365, uzyskujesz pełen dostęp za pośrednictwem planu usługi Microsoft Flow dla usługi Office 365. Aby uzyskać więcej informacji, zobacz [plany cenowe usługi Microsoft Flow](https://flow.microsoft.com/pricing/).
+   * Jeśli jesteś użytkownikiem usługi Office 365, uzyskujesz pełen dostęp za pośrednictwem planu usługi Microsoft Flow dla usługi Office 365. Aby uzyskać więcej informacji, zobacz [plany cenowe usługi Microsoft Flow](https://flow.microsoft.com/pricing/) .
    * Jeśli jesteś administratorem, zapoznaj się z informacjami na temat [licencjonowania usługi Microsoft Flow](organization-q-and-a.md), również w ramach usługi Office 365.
 
 ## <a name="known-issues-and-resolutions"></a>Znane problemy i rozwiązania
@@ -44,6 +44,30 @@ ms.lasthandoff: 01/03/2018
 3. Wyzwalacze plików nie będą uruchamiane w przypadku plików dodawanych wewnątrz folderów zagnieżdżonych w wybranym folderze.
 
 ## <a name="whats-new"></a>Co nowego
+
+### <a name="release-2018-02-09"></a>Wersja 2018-02-09
+
+- **Wysoka dostępność bramy** — tworzenie klastrów o wysokiej dostępności obejmujących lokalne bramy danych, aby utrzymać połączenia w przypadku awarii pojedynczych maszyn.
+- **Ulepszona funkcja Zastosuj do każdego** — proces planu przepływu 1 lub planu przepływu 2 obejmuje maksymalnie 100 000 elementów w jednym przebiegu i 50 akcji wykonywanych równolegle w pętli Zastosuj do każdego. 
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/gateway-ha-increased-apply-to-each/) na temat tej wersji.
+
+### <a name="release-2018-01-29"></a>Wersja 2018-01-29
+
+- **Przepływ wewnątrz obszaru Microsoft Teams** — w obszarze Teams można tworzyć przepływy i zarządzać nimi, przeglądać otrzymane i wysłane zatwierdzenia oraz uruchamiać przepływy bezpośrednio w aplikacji klasycznej Teams lub w witrynie teams.microsoft.com — [więcej informacji tutaj](https://flow.microsoft.com/blog/microsoft-flow-in-microsoft-teams/).
+- **Udostępnione powiadomienia o edycji** — za każdym razem, gdy przepływ należący do użytkownika zostanie zmieniony przez współpracownika, otrzymasz wiadomość e-mail z powiadomieniem o autorze zmiany.
+- **Nowe wyrażenia** — dodano dwa nowe zestawy wyrażeń: jeden służący do analizowania adresów URL i drugi do współpracy z obiektami JSON.
+- **Trzy nowe łączniki** — w tym tygodniu wprowadzono dwa nowe łączniki Plumsail: Plumsail SP oraz Plumsail Forms, a także nowy łącznik do platformy kintone.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/shared-notifications-and-expressions/) na temat tej wersji.
+
+### <a name="release-2018-01-17"></a>Wersja 2018-01-17
+
+- **Informacje o profilu usługi Office 365** — dodano nowe akcje do łącznika użytkowników usługi Office 365, które obsługują profile i zdjęcia użytkowników.
+- **Dołączanie do zmiennych ciągu** — można dodawać elementy do ciągów wewnątrz pętli, aby tworzyć tabele lub inne listy.
+- **Łącznik Infobip** — Infobip to usługa, która umożliwia komunikację na poziomie przedsiębiorstwa, m.in. połączenia głosowe i wyzwalanie akcji za pomocą przychodzących wiadomości SMS.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/o365-profile-infobip/) na temat tej wersji.
 
 ### <a name="release-2017-12-20"></a>Wersja 2017-12-20
 
@@ -70,7 +94,7 @@ Panel uruchamiania usługi Microsoft Flow jest teraz dostępny we wszystkich reg
 
 ### <a name="release-2017-11-28"></a>Wersja 2017-11-28
 
-- **Zarządzane metadane** — odczytuj dane z kolumn w programie SharePoint używających typu (tj. taksonomii) Zarządzane metadane i zapisuj w nich dane.
+- **Zarządzane metadane** — odczytywanie i zapisywanie danych w kolumnach w programie SharePoint, które obsługują typ (taksonomię) Zarządzane metadane.
 - **Dołączanie do tablic** — dodawaj elementy na końcu tablic przy użyciu nowej akcji Dołącz do zmiennej tablicowej.
 - **Tago** — nowy łącznik do usługi Tago, który zapewnia łatwe łączenie urządzeń elektronicznych z danymi zewnętrznymi w celu podejmowania lepszych decyzji na podstawie analizy kontekstowej.
 - **iPhone X** — nowa wersja aplikacji Microsoft Flow używa pełnego ekranu na telefonie iPhone X i poprawiono w niej szybkość przekazywania obrazów.

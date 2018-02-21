@@ -10,16 +10,16 @@ editor:
 tags: 
 ms.service: flow
 ms.devlang: na
-ms.topic: article
+ms.topic: get-started-article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 06b0198ffa75a3de673460dc13037205f58ad515
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 73567d4d553ceac1d2cee46feb07ad9a6e7ade33
+ms.sourcegitcommit: 0b7964058416fd8d5e355913eea27172f1c61992
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Informacje o lokalnych bramach danych dla programu Microsoft Flow
 Przy użyciu lokalnych bram danych w usłudze Microsoft Flow możesz ustanawiać bezpieczne połączenia z lokalnymi źródłami danych, takimi jak program Microsoft SQL Server.
@@ -28,7 +28,7 @@ Przy użyciu lokalnych bram danych w usłudze Microsoft Flow możesz ustanawiać
 ### <a name="prerequisites"></a>Wymagania wstępne
 Minimalne:
 
-* [.NET Framework 4.5](http://www.microsoft.com/download/details.aspx?id=30653)
+* [.NET Framework 4.6](https://www.microsoft.com/download/details.aspx?id=48130)
 * 64-bitowa wersja systemu Windows 7 lub Windows Server 2008 R2 (lub nowszego)
 
 Zalecane:
@@ -49,7 +49,7 @@ Zagadnienia powiązane:
 > 
 > 
 
-1. [Pobierz instalator](http://go.microsoft.com/fwlink/?LinkID=820931), a następnie go uruchom.
+1. [Pobierz instalator](https://go.microsoft.com/fwlink/?LinkID=820931), a następnie go uruchom.
    
     ![Uruchamianie instalatora](./media/gateway-reference/run-installer.png)
 2. Na pierwszym ekranie kreatora instalacji wybierz przycisk **Dalej**, aby potwierdzić przypomnienie dotyczące instalowania bramy na laptopie.
@@ -81,18 +81,25 @@ Zagadnienia powiązane:
 Brama działa jako usługa systemu Windows i, podobnie jak w przypadku wszelkich innych usług systemu Windows, można uruchamiać i zatrzymywać ją na wiele sposobów. Można na przykład otworzyć wiersz polecenia z podwyższonym poziomem uprawnień na maszynie, na której działa brama, a następnie uruchomić jedno z następujących poleceń:
 
 * Aby zatrzymać usługę, uruchom następujące polecenie:
-  
-    ````net stop PBIEgwService````
+
+```batchfile
+    net stop PBIEgwService
+```
+
 * Aby uruchomić usługę, uruchom następujące polecenie:
-  
-    ````net start PBIEgwService````
+
+```batchfile
+    net start PBIEgwService
+```
 
 ## <a name="configure-a-firewall-or-proxy"></a>Konfigurowanie zapory lub serwera proxy
 Wskazówki dotyczące podawania informacji dotyczących serwera proxy dla bramy zawiera temat [Konfigurowanie ustawień serwera proxy](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/).
 
 Aby sprawdzić, czy zapora lub serwer proxy blokuje połączenia, należy uruchomić poniższą komendę z wiersza polecenia programu PowerShell. To polecenie spowoduje przetestowanie łączności z usługą Azure Service Bus. Przy użyciu tego polecenia można sprawdzić tylko połączenie sieciowe. Polecenie to nie ma wpływu na usługę serwera w chmurze ani na bramę. W ten sposób można ustalić, czy maszyna ma łączność z Internetem.
 
-````Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350````
+```powershell
+Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
+```
 
 Wynik powinien wyglądać jak poniższe dane wyjściowe. Jeśli parametr **TcpTestSucceeded** nie ma wartości *true*, może to oznaczać, że ruch jest blokowany przez zaporę.
 
@@ -157,7 +164,7 @@ Nie jest to konto używane do nawiązywania połączenia z lokalnymi źródłami
 **Odpowiedź:** Nie. Brama używa połączeń wychodzących do usługi Azure Service Bus.
 
 **Pytanie:** Co zrobić po zablokowaniu połączeń wychodzących? Co muszę otworzyć?
-**Odpowiedź:** Sprawdź [porty](gateway-reference.md#ports) i hosty, których używa brama.
+**Odpowiedź:** Sprawdź [porty](gateway-reference.md#configure-ports) i hosty, których używa brama.
 
 **Pytanie:** Czy brama musi być zainstalowana na tej samej maszynie co źródło danych?
 **Odpowiedź:** Nie. Brama połączy się ze źródłem danych przy użyciu podanych informacji o połączeniu. W tym kontekście bramę należy traktować jako aplikację kliencką. Należy tylko zadbać o możliwość jej połączenia z serwerem o podanej nazwie.

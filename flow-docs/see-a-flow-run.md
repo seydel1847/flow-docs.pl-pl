@@ -1,11 +1,11 @@
 ---
 title: "Oglądanie przebiegu przepływu | Microsoft Docs"
-description: "Możesz wyświetlić dane wejściowe i wyjściowe dla każdego kroku przepływu przed jego zakończeniem w celu upewnienia się, że działa zgodnie z oczekiwaniami."
+description: "Możesz wyświetlić dane wejściowe i wyjściowe dla każdego kroku przepływu w celu sprawdzenia, czy zachowanie jest zgodne z oczekiwaniami."
 services: 
 suite: flow
 documentationcenter: na
 author: merwanhade
-manager: erikre
+manager: anneta
 editor: 
 tags: 
 ms.service: flow
@@ -13,31 +13,31 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/25/2016
+ms.date: 02/05/2018
 ms.author: mhade
-ms.openlocfilehash: 0aa39555a9e36db13ce9cb0abc400b71149a89b1
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 74fd0ab6273a8033749739159c70875d43a98123
+ms.sourcegitcommit: 0b7964058416fd8d5e355913eea27172f1c61992
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="watch-your-flows-in-action"></a>Oglądanie przepływów w akcji
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3wPoUCGm7Yg" frameborder="0" allowfullscreen></iframe>
 
-Aby upewnić się, że przepływ działa zgodnie z oczekiwaniami, wykonaj akcję początkową, a następnie przejrzyj dane wejściowe i wyjściowe wygenerowane przez poszczególne kroki przepływu.
+>[!VIDEO https://www.youtube.com/embed/3wPoUCGm7Yg]
 
-1. Utwórz lub zaktualizuj przepływ, ale pozostaw projektanta otwartego po wybraniu pozycji **Utwórz przepływ** lub **Aktualizuj przepływ**.
-   
-     Możesz na przykład [utworzyć przepływ](get-started-logic-flow.md), który wysyła wiadomość za każdym razem, gdy ktoś opublikuje tweet za pomocą hasztagu **#azure**.
-2. Wykonaj akcję początkową przepływu.
-   
+Aby upewnić się, że przebieg przepływu jest zgodny z oczekiwaniami, uruchom wyzwalacz zdarzenia, a następnie przejrzyj dane wejściowe i wyjściowe wygenerowane przez poszczególne kroki przepływu.
+
+1. Utwórz lub zaktualizuj przepływ. Po wybraniu pozycji **Utwórz przepływ** lub **Aktualizuj przepływ** nie zamykaj projektanta.
+
+     Możesz na przykład [utworzyć przepływ](get-started-logic-flow.md), który wysyła wiadomość e-mail za każdym razem, gdy ktoś opublikuje tweet z użyciem hasztagu **#azure**.
+1. Wykonaj akcję początkową przepływu.
+
     Wyślij na przykład tweet zawierający hasztag **#azure**.
-   
-    Akcja początkowa i każdy kolejny krok zawierają informacje o ich powodzeniu i czasie trwania
-   
-    ![Ilustracja przedstawiająca pomyślny przebieg](./media/see-a-flow-run/successful-flow-run.png)
-3. Wybierz wyzwalacz lub akcję, aby wyświetlić ich dane wejściowe i wyjściowe.
-   
-    ![Ilustracja przedstawiająca pomyślny przebieg z rozwiniętymi kartami](./media/see-a-flow-run/successful-flow-expanded-cards.png)
-4. Wybierz pozycję **Edytuj przepływ**, aby wprowadzić więcej zmian, lub wybierz pozycję **Gotowe**, jeśli przepływ działa zgodnie z oczekiwaniami.
 
+    Akcja początkowa i każdy kolejny krok zawierają informacje o powodzeniu wykonania i czasie trwania.
+
+    ![Ilustracja przedstawiająca pomyślny przebieg](./media/see-a-flow-run/successful-flow-run.png)
+1. Wybierz wyzwalacz lub akcję, aby wyświetlić ich dane wejściowe i wyjściowe.
+
+    ![Ilustracja przedstawiająca pomyślny przebieg z rozwiniętymi kartami](./media/see-a-flow-run/successful-flow-expanded-cards.png)
+1. Wybierz pozycję **Edytuj przepływ**, aby wprowadzić więcej zmian, lub wybierz pozycję **Gotowe**, jeśli przepływ działa zgodnie z oczekiwaniami.
