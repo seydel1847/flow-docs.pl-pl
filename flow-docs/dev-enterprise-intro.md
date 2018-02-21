@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: mblythe
-ms.openlocfilehash: 3e6a6e0e369f8d89dcf834b4225dfd5aa4758dd7
-ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
+ms.openlocfilehash: d8886f0828ca3b8ccf7ae1ce9c46f6e9b8fcc766
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="microsoft-flow-for-enterprise-developers-isvs-and-partners"></a>Usługa Microsoft Flow dla deweloperów w przedsiębiorstwach, niezależnych dostawców oprogramowania i partnerów
 
@@ -51,7 +51,7 @@ Jako partner firmy Microsoft lub niezależny dostawca oprogramowania (ISV, Indep
 
 ### <a name="1-connecting-to-your-apis-or-enabling-customers-to-connect-to-your-apis"></a>1. Łączenie się z interfejsami API ALBO umożliwianie klientom łączenia się z interfejsami API
 
-Niezależni dostawcy oprogramowania często mają zastrzeżone dane, do których klienci powinni uzyskiwać dostęp za pośrednictwem przepływów dostawcy. Możesz uwidocznić dostęp do dowolnych swoich danych za pośrednictwem łącznika niestandardowego. [Dowiedz się więcej](https://docs.microsoft.com/en-us/connectors/custom-connectors/)
+Niezależni dostawcy oprogramowania często mają zastrzeżone dane, do których klienci powinni uzyskiwać dostęp za pośrednictwem przepływów dostawcy. Możesz uwidocznić dostęp do dowolnych swoich danych za pośrednictwem łącznika niestandardowego. [Dowiedz się więcej](https://docs.microsoft.com/connectors/custom-connectors/)
 
 Po utworzeniu łącznika można udostępnić go klientom na dwa sposoby:
 - Łącznik można wdrożyć w dzierżawie klienta za pośrednictwem interfejsów API REST lub programu PowerShell.
@@ -77,7 +77,7 @@ Aby udostępnić użytkownikom końcowym przepływy, których mogą używać aut
 
 Jeśli klienci mają już usługę Office 365 lub Dynamics 365, a te licencje są skojarzone z tożsamościami, za pomocą których użytkownicy logują się w usłudze Azure AD, nie ma żadnych dodatkowych wymagań dotyczących licencjonowania. Jednak jeśli klienci nie korzystają z usługi Office 365 ani Dynamics 365, należy uzyskać w ich imieniu prawa do używania usługi Microsoft Flow, aby mieli licencje na korzystanie z tych składników osadzonych w aplikacji.
 
-Udostępniamy program [Microsoft Cloud Solution Provider](https://partner.microsoft.com/en-US/cloud-solution-provider) na potrzeby uzyskiwania licencji w imieniu klientów. Istnieją dwa różne [plany cenowe](https://flow.microsoft.com/pricing/) dostępne dla usługi Microsoft Flow — sprawdź szczegóły planów i funkcji.
+Udostępniamy program [Microsoft Cloud Solution Provider](https://partner.microsoft.com/cloud-solution-provider) na potrzeby uzyskiwania licencji w imieniu klientów. Istnieją dwa różne [plany cenowe](https://flow.microsoft.com/pricing/) dostępne dla usługi Microsoft Flow — sprawdź szczegóły planów i funkcji.
 
 ### <a name="7-list-on-appsource"></a>7. Udostępnianie w usłudze AppSource
 

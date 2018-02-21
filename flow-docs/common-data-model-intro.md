@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: a63ccacb1e6d9bd63d5a11a8db6ea01a9fc37333
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: e4e92bfdcf1ea65de272233b2056523641010cf2
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Tworzenie przepływu, który używa usługi Common Data Service
 Popraw wydajność operacyjną za pomocą ujednoliconego widoku danych biznesowych, tworząc przepływ, który używa usługi [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/). Wdróż w swojej organizacji tę bezpieczną biznesową bazę danych, która obejmuje dobrze sformułowane jednostki biznesowe, takie jak Sales (Dział sprzedaży), Purchase (Dział zakupów), Customer Service (Dział obsługi klienta) i Productivity (Dział produktywności). Przechowuj dane organizacyjne w co najmniej jednej [jednostce niestandardowej](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/), które mają kilka zalet w porównaniu z zewnętrznymi źródłami danych, takimi jak program Microsoft Excel i usługa Salesforce.
@@ -37,7 +37,7 @@ Oto przykłady wykorzystania usługi Common Data Service w usłudze Microsoft Fl
 
 * Zarejestruj się w programie [Microsoft Flow](https://flow.microsoft.com) oraz w usłudze [PowerApps](https://web.powerapps.com).
   
-    Jeśli masz problemy, sprawdź, czy program [Microsoft Flow](sign-up-sign-in.md) i usługa [PowerApps](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/) obsługuje typ konta, którego używasz, a Twoja organizacja nie zablokowała rejestrowania się.
+    Jeśli masz problemy, sprawdź, czy program [Microsoft Flow](sign-up-sign-in.md) i usługa [PowerApps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/) obsługuje typ konta, którego używasz, a Twoja organizacja nie zablokowała rejestrowania się.
 * Jeśli usługa Common Data Service nie była jeszcze używana, otwórz kartę **Jednostki** w witrynie [powerapps.com](https://web.powerapps.com/#/entities), a następnie kliknij lub naciśnij pozycję **Utwórz moją bazę danych**.
 
 ## <a name="sign-in-to-your-environment"></a>Logowanie się do środowiska

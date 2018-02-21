@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: 41c416557dbb491432448c33369767f9705278c9
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f56b109cc0263c8464d6d7475421ab32af8888d5
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="build-an-approval-loop-by-using-microsoft-flow-and-the-microsoft-common-data-service"></a>Tworzenie pętli zatwierdzania za pomocą usługi Microsoft Flow i usługi Microsoft Common Data Service
 Usługa Common Data Service umożliwia tworzenie przepływów, których informacje są przechowywane w bazie danych niezależnej od przepływu. Najlepszym przykładem są zatwierdzenia. Jeśli stan zatwierdzania zostanie zapisany w jednostce, przepływ może działać na jego podstawie.
@@ -34,7 +34,7 @@ Wykonując kroki opisane w tej sekcji, utworzysz następujące elementy:
 
 **Wymagania wstępne**
 
-* Zarejestruj się w programie [Microsoft Flow](sign-up-sign-in.md) oraz w usłudze [PowerApps](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/).
+* Zarejestruj się w programie [Microsoft Flow](sign-up-sign-in.md) oraz w usłudze [PowerApps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/).
 * Utwórz połączenia z usługą Dropbox i Office 365 Outlook zgodnie z opisem w temacie [Manage your connections](https://powerapps.microsoft.com/tutorials/add-manage-connections/) (Zarządzanie połączeniami).
 
 ## <a name="build-the-entity"></a>Tworzenie jednostki

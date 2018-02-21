@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/22/2017
 ms.author: deonhe
-ms.openlocfilehash: 0e0309793cfcb45ca7ee72910803a4abc27d2f26
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 6b152f0ec85558889970db2784fe8c2dcbf526ed
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="create-an-approval-flow-that-requires-everyone-to-approve"></a>Tworzenie przepływu zatwierdzania wymagającego zatwierdzenia przez wszystkich użytkowników
 W tym przewodniku przedstawiono sposób tworzenia przepływu pracy zatwierdzania, który wymaga, aby wszyscy (wszystkie przypisane osoby zatwierdzające) wyrazili zgodę na zatwierdzenie wniosku urlopowego i który może zostać w całości odrzucony przez jedną z osób zatwierdzających.
@@ -28,12 +28,12 @@ Ten rodzaj przepływu pracy zatwierdzania przydaje się w organizacji, w której
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 * Dostęp do usług [Microsoft Flow](https://flow.microsoft.com), Office 365 Outlook oraz Użytkownicy usługi Office 365.
-* [Lista](https://support.office.com/en-us/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) usługi SharePoint Online.
+* [Lista](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) usługi SharePoint Online.
   
     W tym przewodniku przyjęto założenie, że utworzono już listę usługi SharePoint Online, która służy do tworzenia wniosków urlopowych. Zobacz przewodnik dotyczący [zatwierdzania równoległego](parallel-modern-approvals.md), aby dogłębnie zapoznać się ze szczegółowym przykładem tego, jak może wyglądać lista programu SharePoint.
 * Znajomość podstaw tworzenia przepływów.
   
-    Możesz przejrzeć informacje na temat dodawania [akcji, wyzwalaczy](multi-step-logic-flow.md#add-another-action) i [warunków](add-a-condition.md). W następujących krokach założono, że wiesz, jak wykonywać te akcje.
+    Możesz przejrzeć informacje na temat dodawania [akcji, wyzwalaczy](multi-step-logic-flow.md#add-another-action) i [warunków](add-condition.md). W następujących krokach założono, że wiesz, jak wykonywać te akcje.
 
 > [!NOTE]
 > Mimo że w tym przewodniku używane są usługi SharePoint Online i Office 365 Outlook, można użyć innych usług, takich jak Zendesk, Salesforce, Gmail lub każdej z ponad [150 usług](https://flow.microsoft.com/connectors/) obsługiwanych przez usługę Microsoft Flow.

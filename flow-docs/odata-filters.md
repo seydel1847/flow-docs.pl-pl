@@ -15,16 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
-ms.openlocfilehash: 37b53fa50afdc6865c5ba905957405f0e4b67520
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: b266a953785b79c0dbc5e2d483330b239a7bf17f
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="filter-and-copy-data-with-microsoft-flow"></a>Filtrowanie i kopiowanie danych przy użyciu usługi Microsoft Flow
 W tym przewodniku przedstawiono sposób tworzenia przepływu, który monitoruje źródło pod kątem nowych lub zmienionych elementów, a następnie kopiuje te zmiany do miejsca docelowego. Taki przepływ możesz utworzyć, jeśli Twoi użytkownicy wprowadzają dane w jednej lokalizacji, a zespół potrzebuje ich w innej lokalizacji lub w innym formacie.
 
-W tym przewodniku dane są kopiowane z [listy](https://support.office.com/en-us/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) programu Microsoft SharePoint (źródło) do tabeli w usłudze [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) (miejsce docelowe), ale dane można kopiować między dowolnymi z ponad [150 usług](https://flow.microsoft.com/connectors/) obsługiwanych przez usługę Microsoft Flow.
+W tym przewodniku dane są kopiowane z [listy](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) programu Microsoft SharePoint (źródło) do tabeli w usłudze [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) (miejsce docelowe), ale dane można kopiować między dowolnymi z ponad [150 usług](https://flow.microsoft.com/connectors/) obsługiwanych przez usługę Microsoft Flow.
 
 > [!IMPORTANT]
 > Zmiany wprowadzane w miejscu docelowym nie są kopiowane do źródła, ponieważ synchronizacje dwukierunkowe nie są obsługiwane. Jeśli spróbujesz skonfigurować synchronizację dwukierunkową, utworzysz pętlę nieskończoną, w której zmiany będą bez końca przesyłane między źródłem i miejscem docelowym.
@@ -35,7 +35,7 @@ W tym przewodniku dane są kopiowane z [listy](https://support.office.com/en-us/
 * Dostęp do źródła danych i miejsca docelowego. W tym przewodniku nie przedstawiono procedury tworzenia źródła i miejsca docelowego.
 * Należy mieć dostęp do usługi [Microsoft Flow](https://flow.microsoft.com).
 * Podstawowa wiedza na temat sposobu przechowywania danych.
-* Znajomość podstaw tworzenia przepływów. Możesz przejrzeć informacje na temat dodawania [akcji, wyzwalaczy](multi-step-logic-flow.md#add-another-action) i [warunków](add-a-condition.md). W następujących krokach założono, że wiesz, jak wykonywać te akcje.
+* Znajomość podstaw tworzenia przepływów. Możesz przejrzeć informacje na temat dodawania [akcji, wyzwalaczy](multi-step-logic-flow.md#add-another-action) i [warunków](add-condition.md). W następujących krokach założono, że wiesz, jak wykonywać te akcje.
 
 > [!TIP]
 > Nie wszystkie nazwy kolumn w źródle i miejscu docelowym muszą być zgodne, ale musisz podać dane we wszystkich *wymaganych* kolumnach, gdy wstawiasz lub aktualizujesz element. Usługa Microsoft Flow identyfikuje wymagane pola za Ciebie.
