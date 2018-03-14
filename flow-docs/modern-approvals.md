@@ -15,18 +15,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
-ms.openlocfilehash: fe05ce536b61887f52ea4e297457c71ead3e8bfd
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f6fc61a25dadba50c4906310b0562d32c11f8e73
+ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="create-and-test-an-approval-workflow-with-microsoft-flow"></a>Tworzenie i testowanie przepływu pracy zatwierdzania za pomocą usługi Microsoft Flow
 Dzięki usłudze Microsoft Flow możesz zarządzać zatwierdzaniem dokumentów lub procesów w kilku usługach, w tym SharePoint, Dynamics CRM, Salesforce, OneDrive dla Firm, Zendesk lub WordPress.
 
 Aby utworzyć przepływ pracy zatwierdzania, dodaj akcję **Zatwierdzenia — Uruchom zatwierdzanie** do dowolnego przepływu. Po dodaniu tej akcji Twój przepływ może zarządzać zatwierdzaniem dokumentów i procesów. Możesz na przykład utworzyć przepływy zatwierdzania dokumentów służące do zatwierdzania faktur, zleceń pracy i ofert sprzedaży. Możesz też utworzyć przepływy zatwierdzania procesów do zatwierdzania wniosków urlopowych, pracy w nadgodzinach lub planów podróży.
 
-Osoby zatwierdzające zarządzają żądaniami z poziomu skrzynki odbiorczej poczty e-mail, [centrum zatwierdzeń](https://flow.microsoft.com/manage/approvals/received/) w witrynie internetowej usługi Microsoft Flow lub aplikacji usługi Microsoft Flow.
+Osoby zatwierdzające mogą odpowiadać na żądania z poziomu skrzynki odbiorczej poczty e-mail, [centrum zatwierdzeń](https://flow.microsoft.com/manage/approvals/received/) w witrynie internetowej usługi Microsoft Flow lub aplikacji Microsoft Flow.
 
 ## <a name="create-an-approval-flow"></a>Tworzenie przepływu zatwierdzenia
 Poniżej przedstawiono omówienie przepływu, który utworzymy i przetestujemy:
@@ -129,4 +129,3 @@ Teraz, po utworzeniu i przetestowaniu przepływu, pamiętaj, aby poinstruować i
 * Utwórz [sekwencyjne przepływy zatwierdzania.](sequential-modern-approvals.md)
 * Utwórz [równoległe przepływy zatwierdzania.](parallel-modern-approvals.md)
 * Zainstaluj aplikację mobilną usługi Microsoft Flow dla systemu [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) lub [Windows Phone](https://aka.ms/flowmobilewindows).
-

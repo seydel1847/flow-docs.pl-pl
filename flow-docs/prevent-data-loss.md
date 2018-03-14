@@ -13,114 +13,173 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/24/2016
+ms.date: 02/28/2018
 ms.author: deonhe
-ms.openlocfilehash: 29eaa9299e09c641538ab8f9dfbc9954bca66a3b
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 7dbf6296383551d82d22682121210f1cd339b65e
+ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="data-loss-prevention-dlp-policies"></a>Zasady ochrony przed utratą danych (DLP)
-## <a name="what-is-a-data-loss-prevention-policy"></a>Czym są zasady ochrony przed utratą danych?
-Dane organizacji mają bardzo istotne znaczenie dla jej sukcesu. Dane muszą być łatwo dostępne, by łatwiej było podejmować decyzje, ale należy je chronić, by nie zostały udostępnione osobom, które nie powinny mieć do nich dostępu. W celu ochrony danych usługa Microsoft Flow (Flow) zapewnia możliwość tworzenia i egzekwowania zasad określających, którym usługom dla klientów/łącznikom mogą być udostępniane określone dane firmy. Zasady określające sposób udostępniania danych nazywamy zasadami ochrony przed utratą danych (DLP).
+
+Ten dokument stanowi wprowadzenie do zasad ochrony przed utratą danych, które pomagają chronić dane organizacji przed udostępnianiem za pomocą zdefiniowanej listy łączników.
+
+## <a name="whats-a-data-loss-prevention-policy"></a>Czym są zasady ochrony przed utratą danych?
+
+Dane organizacji mają bardzo istotne znaczenie dla jej sukcesu. Dane muszą być łatwo dostępne na potrzeby podejmowania decyzji, ale należy je chronić, aby nie zostały udostępnione osobom, które nie powinny mieć do nich dostępu. W celu ochrony danych usługa Microsoft Flow zapewnia możliwość tworzenia i egzekwowania zasad określających, które łączniki mogą mieć dostęp do danych biznesowych i udostępniać je. Zasady określające sposób udostępniania danych nazywamy zasadami ochrony przed utratą danych (DLP).
 
 ## <a name="why-create-a-dlp-policy"></a>Dlaczego należy utworzyć zasady DLP?
-Zasady DLP należy utworzyć, aby wyraźnie określić, którym usługom dla klientów można udostępnić dane firmy. Na przykład organizacja korzystająca z usługi Flow może nie chcieć, by dane firmy przechowywane w programie SharePoint były automatycznie publikowane w serwisie Twitter. Aby temu zapobiec, można utworzyć zasady DLP, które zablokują korzystanie z danych programu SharePoint jako źródła tweetów.
+
+Zasady DLP tworzy się w celu wyraźnego zdefiniowania, które łączniki konsumenta mogą uzyskać dostęp do danych biznesowych i udostępniać je. Na przykład organizacja korzystająca z usługi Microsoft Flow może nie chcieć, aby dane firmy przechowywane w programie SharePoint były automatycznie publikowane w serwisie Twitter. Aby temu zapobiec, należy utworzyć zasady DLP, które zablokują korzystanie z danych programu SharePoint jako źródła tweetów.
 
 ## <a name="benefits-of-a-dlp-policy"></a>Zalety zasad DLP
-* Gwarantują, że dane są zarządzane w jednolity sposób w całej organizacji.  
-* Uniemożliwiają przypadkowe publikowanie ważnych danych firmy w takich serwisach jak witryny mediów społecznościowych.   
+
+* Gwarantują, że dane są zarządzane w jednolity sposób w całej organizacji.
+* Uniemożliwiają przypadkowe publikowanie ważnych danych firmy do łączników takich jak witryny mediów społecznościowych.
 
 ## <a name="managing-dlp-policies"></a>Zarządzanie zasadami DLP
-**Wymagania wstępne**  
-Do utworzenia, edycji lub usunięcia zasad DLP wymagane są następujące elementy: 
 
-* Uprawnienia administratora środowiska lub administratora dzierżawy. Więcej informacji na temat uprawnień znajduje się w [temacie dotyczącym środowisk](environments-overview-admin.md).  
-* [Licencja Flow P2](billing-questions.md).  
+### <a name="prerequisites-for-managing-dlp-policies"></a>Wymagania wstępne dla zarządzania zasadami DLP
+
+* Uprawnienia administratora środowiska lub administratora dzierżawy.
+
+    Więcej informacji na temat uprawnień znajduje się w [artykule dotyczącym środowisk](environments-overview-admin.md).
+* [Licencja P2 usługi Microsoft Flow](billing-questions.md).
 
 ## <a name="create-a-dlp-policy"></a>Tworzenie zasad DLP
-**Wymagania wstępne**  
-Aby utworzyć zasady DLP, trzeba mieć uprawnienia do przynajmniej jednego środowiska.  
 
-Wykonaj poniższe czynności, aby utworzyć zasady DLP, które uniemożliwią publikowanie danych przechowywanych w programie SharePoint firmy w serwisie Twitter:  
+### <a name="prerequisites-for-creating-dlp-policies"></a>Wymagania wstępne dla tworzenia zasad DLP
 
-1. Na karcie Zasady danych wybierz link **Nowe zasady**:  
-   ![Logowanie](./media/prevent-data-loss/create-policy-1.png)    
-2. Wprowadź nazwę zasad DLP *Bezpieczny dostęp do danych dla Contoso* w etykiecie **Nazwa zasad danych** na górze strony, która zostanie otwarta:   
-   ![Logowanie](./media/prevent-data-loss/create-policy-2.png)  
-3. Wybierz [środowisko](environments-overview-admin.md) na karcie **Dotyczy**.  
-   **Uwaga:** jako administrator środowiska możesz tworzyć zasady, które dotyczą tylko jednego środowiska. Jako administrator dzierżawy możesz tworzyć zasady dotyczące wszystkich środowisk, co najmniej jednego środowiska lub wszystkich środowisk z wyłączeniem wybranego zestawu:  
-   ![Logowanie](./media/prevent-data-loss/create-policy-3.png)  
-4. Wybierz kartę **Grupy danych**:  
-   ![Logowanie](./media/prevent-data-loss/create-policy-4.png)  
-5. Wybierz link **+ Dodaj** znajdujący się w polu grupy **Tylko dane biznesowe**:    
-   ![Logowanie](./media/prevent-data-loss/create-policy-5.png)  
-6. Wybierz usługi **SharePoint** i **Salesforce** ze strony **Dodaj usługi**:  
-   ![Logowanie](./media/prevent-data-loss/create-policy-6.png)  
-7. Wybierz przycisk **Dodaj usługi**, aby dodać usługi, które mogą udostępniać dane biznesowe:    
-   ![Logowanie](./media/prevent-data-loss/create-policy-7.png)  
-8. Wybierz przycisk **Zapisz zasady**:  
-   ![Logowanie](./media/prevent-data-loss/create-policy-8.png)  
-9. Po chwili nowe zasady DLP zostaną wyświetlone na liście zasad ochrony przed utratą danych:  
-   ![Logowanie](./media/prevent-data-loss/create-policy-9.png)  
-10. **Opcjonalnie** Wyślij wiadomość e-mail lub inny komunikat do zespołu zawierający alert z informacją o udostępnieniu nowych zasad DLP.
+Do utworzenia zasad DLP są wymagane uprawnienia do co najmniej jednego środowiska.
 
-Gratulacje, utworzono zasady DLP, które umożliwiają aplikacji udostępnianie danych między programem SharePoint i Saleforce oraz blokują udostępnianie danych innym usługom.  
+Wykonaj poniższe kroki, aby utworzyć zasady DLP, które uniemożliwią publikowanie danych w witrynie programu SharePoint firmy do serwisu Twitter:
 
-**Uwaga**: dodanie usługi do jednej grupy danych automatycznie powoduje jej usunięcie z drugiej grupy danych. Jeśli na przykład usługa Twitter znajduje się obecnie w grupie **tylko dane biznesowe**, a nie chcesz zezwalać, aby dane biznesowe można było udostępniać w usłudze Twitter, wystarczy dodać usługę Twitter do grupy danych **bez danych biznesowych**. Spowoduje to usunięcie usługi Twitter z grupy danych „tylko dane biznesowe”.  
+1. Zaloguj się do [Centrum administracyjnego usługi Microsoft Flow](https://admin.flow.microsoft.com) (Centrum administracyjnego).
+
+1. Wybierz kartę Zasady danych, a następnie link **Nowe zasady**:
+
+    ![Logowanie](./media/prevent-data-loss/create-policy-1.png)
+1. Wybierz kartę **Grupy danych**.
+
+1. Wprowadź nazwę zasad DLP *Bezpieczny dostęp do danych dla Contoso* w ramach etykiety **Nazwa zasad danych** na górze strony:
+
+    ![Logowanie](./media/prevent-data-loss/create-policy-2.png)
+
+1. Wybierz [środowisko](environments-overview-admin.md) na karcie **Środowiska**.
+
+    > [!NOTE]
+    > Jako administrator środowiska możesz tworzyć zasady, które dotyczą tylko jednego środowiska. Jako administrator dzierżawy możesz tworzyć zasady, które dotyczą dowolnej kombinacji środowisk:
+    >
+    >
+
+    ![Wybieranie środowiska](./media/prevent-data-loss/create-policy-3.png)
+
+1. Wybierz kartę **Grupy danych**:
+
+    ![Wybieranie grup danych](./media/prevent-data-loss/create-policy-4.png)
+
+1. Wybierz link **Dodaj** znajdujący się w polu grupy **Tylko dane biznesowe**:
+
+    ![Wybieranie opcji dodawania](./media/prevent-data-loss/create-policy-5.png)
+
+1. Wybierz łączniki **SharePoint** i **Salesforce** ze strony **Dodaj łączniki**:
+
+   ![Wybieranie łączników](./media/prevent-data-loss/create-policy-6.png)
+
+1. Wybierz przycisk **Dodaj łączniki**, aby dodać łączniki, które mogą udostępniać dane biznesowe.
+
+1. Wybierz polecenie **Zapisz zasady** w prawym górnym rogu ekranu.
+
+1. Po chwili nowe zasady DLP zostaną wyświetlone na liście zasad ochrony przed utratą danych:
+
+    ![Lista zasad DLP](./media/prevent-data-loss/create-policy-9.png)
+
+1. **Opcjonalnie** Wyślij wiadomość e-mail lub inny komunikat do zespołu zawierający alert z informacją o udostępnieniu nowych zasad DLP.
+
+Gratulacje, utworzono zasady DLP, które umożliwiają aplikacji udostępnianie danych między programem SharePoint i usługą Salesforce oraz blokują udostępnianie danych innym usługom.
+
+> [!NOTE]
+> Dodanie usługi do jednej grupy danych automatycznie powoduje jej usunięcie z drugiej grupy danych. Jeśli na przykład usługa Twitter znajduje się obecnie w grupie **tylko dane biznesowe**, a nie chcesz zezwalać, aby dane biznesowe można było udostępniać w usłudze Twitter, wystarczy dodać usługę Twitter do grupy danych **bez danych biznesowych**. Spowoduje to usunięcie usługi Twitter z grupy danych „tylko dane biznesowe”.
+>
+>
 
 ## <a name="data-sharing-violations"></a>Naruszenia udostępniania danych
-Jeśli zostały utworzone zasady DLP wymienione powyżej i jeśli użytkownik utworzy przepływ udostępniający dane między usługą Salesforce (która znajduje się w grupie danych **tylko dane biznesowe**) i usługą Twitter (która znajduje się w grupie danych **żadne dane biznesowe nie są dozwolone**), to zobaczy informację, że przepływ jest **zawieszony** z powodu konfliktu z utworzonymi zasadami zapobiegania utracie danych.  
-![tworzenie przepływu](./media/prevent-data-loss/10.png)  
 
-Jeśli użytkownicy skontaktują się z Tobą w sprawie zawieszonych przepływów, oto kwestie do rozważenia:  
+Jeśli po utworzeniu zasad DLP wymienionych powyżej użytkownik utworzy przepływ udostępniający dane między usługą Salesforce (która znajduje się w grupie danych **Tylko dane biznesowe**) i usługą Twitter (która znajduje się w grupie danych **Żadne dane biznesowe nie są dozwolone**), to zobaczy informację, że przepływ jest **zawieszony** z powodu konfliktu z utworzonymi zasadami zapobiegania utracie danych.
 
-1. Dla tego przykładu: jeśli istnieje uzasadnienie biznesowe dla udostępniania danych biznesowych między usługami SharePoint i Twitter, możesz poddać edycji zasady DLP.  
-2. Poproś użytkownika o taką edycję przepływu, aby był zgodny z zasadami DLP.  
-3. Poproś użytkownika o pozostawienie przepływu w stanie zawieszonym do czasu podjęcia decyzji dotyczącej udostępniania danych między tymi dwoma jednostkami.  
+![Tworzenie przepływu](./media/prevent-data-loss/10.png)
+
+Jeśli użytkownicy skontaktują się z Tobą w sprawie zawieszonych przepływów, oto kwestie do rozważenia:
+
+1. Jeśli w przypadku tego przykładu istnieje uzasadnienie biznesowe dla udostępniania danych biznesowych między usługami SharePoint i Twitter, możesz zmodyfikować zasady DLP.
+
+1. Poproś użytkownika o taką edycję przepływu, aby był zgodny z zasadami DLP.
+
+1. Poproś użytkownika o pozostawienie przepływu w stanie zawieszonym do czasu podjęcia decyzji dotyczącej udostępniania danych między tymi dwoma jednostkami.
 
 ## <a name="find-a-dlp-policy"></a>Znajdowanie zasad DLP
-### <a name="admins"></a>Administratorzy
-Aby znaleźć określone zasady DLP, administratorzy mogą używać funkcji wyszukiwania w centrum administracyjnym.  
 
-**UWAGA** Administratorzy powinni opublikować wszystkie zasady DLP, by użytkownicy w organizacji zapoznali się z nimi przed utworzeniem przepływów.
+### <a name="admins"></a>Administratorzy
+
+Aby znaleźć określone zasady DLP, administratorzy mogą używać funkcji wyszukiwania w centrum administracyjnym.
+
+> [!NOTE]
+> Administratorzy powinni opublikować wszystkie zasady DLP, aby użytkownicy w organizacji zapoznali się z nimi przed tworzeniem przepływów.
+>
+>
 
 ### <a name="makers"></a>Kreatorzy
-Jeśli nie masz uprawnień administratora, a chcesz dowiedzieć się więcej na temat zasad DLP w Twojej organizacji, skontaktuj się z administratorem. Więcej informacji znajduje się również w [temacie dotyczącym środowisk kreatora](environments-overview-maker.md)  
 
-**UWAGA** Tylko administratorzy mogą edytować lub usuwać zasady DLP.  
+Jeśli nie masz uprawnień administratora, a chcesz dowiedzieć się więcej na temat zasad DLP w Twojej organizacji, skontaktuj się z administratorem. Więcej informacji znajduje się również w [artykule dotyczącym środowisk kreatora](environments-overview-maker.md)
+
+> [!NOTE]
+> Tylko administratorzy mogą edytować lub usuwać zasady DLP.
+>
+>
 
 ## <a name="edit-a-dlp-policy"></a>Edytowanie zasad DLP
-1. Uruchom centrum administracyjne, przechodząc do witryny https://admin.flow.microsoft.com.  
-2. W uruchomionym centrum administracyjnym wybierz link **Zasady danych** po lewej stronie.  
-   ![Logowanie](./media/prevent-data-loss/2.png)  
-3. Wyszukaj listę istniejących zasad DLP i wybierz przycisk Edytuj obok zasad, które zamierzasz edytować:  
-   ![Logowanie](./media/prevent-data-loss/3.png)  
-4. Wprowadź żądane zmiany. Możesz np. zmodyfikować środowisko lub usługi w grupach danych.  
-5. Wybierz opcję **Zapisz zasady**, aby zapisać zmiany:  
-   ![Logowanie](./media/prevent-data-loss/create-policy-8.png)  
 
-Zasady zostały zaktualizowane. Możesz potwierdzić zmiany wprowadzone do zasad, znajdując je na liście zasad ochrony przed utratą danych i sprawdzając ich właściwości.   
+1. Uruchom [Centrum administracyjne](https://admin.flow.microsoft.com).
 
-**Uwaga** Zasady DLP utworzone przez administratorów dzierżawy mogą być wyświetlane przez administratorów środowiska, ale nie mogą być przez nich edytowane.  
+1. W uruchomionym centrum administracyjnym wybierz link **Zasady danych** po lewej stronie.
+
+    ![Wybieranie zasad danych](./media/prevent-data-loss/2.png)
+
+1. Przeszukaj listę istniejących zasad DLP i wybierz przycisk edycji obok zasad, które zamierzasz edytować.
+
+1. Wprowadź wymagane zmiany zasad. Możesz np. zmodyfikować środowisko lub usługi w grupach danych.
+
+1. Wybierz pozycję **Zapisz zasady**, aby zapisać zmiany.
+
+> [!NOTE]
+> Zasady DLP utworzone przez administratorów dzierżawy mogą być wyświetlane przez administratorów środowiska, ale nie mogą być przez nich edytowane.
+>
+>
 
 ## <a name="delete-a-dlp-policy"></a>Usuwanie zasad DLP
-1. Uruchom centrum administracyjne, przechodząc do witryny https://admin.flow.microsoft.com.  
-2. W uruchomionym centrum administracyjnym wybierz link **Zasady danych** po lewej stronie.  
-   ![Logowanie](./media/prevent-data-loss/2.png)  
-3. Przeszukaj listę istniejących zasad DLP i wybierz przycisk Usuń obok zasad, które zamierzasz usunąć:  
-   ![Logowanie](./media/prevent-data-loss/3-delete.png)  
-4. Potwierdź, że rzeczywiście chcesz usunąć zasady, wybierając przycisk **Usuń**:  
-   ![Logowanie](./media/prevent-data-loss/4.png)  
 
-Zasady zostały usunięte. Możesz sprawdzić, czy zasady nie są już wyświetlane na liście zasad ochrony przed utratą danych, wybierając link **Zasady danych** po lewej stronie i przeglądając listę zasad.   
+1. Uruchom [Centrum administracyjne](https://admin.flow.microsoft.com).
+
+1. Wybierz kartę **Zasady danych** po lewej stronie.
+
+    ![Wybieranie karty Zasady danych](./media/prevent-data-loss/2.png)
+
+1. Przeszukaj listę istniejących zasad DLP i wybierz przycisk usuwania obok zasad, które zamierzasz usunąć:
+
+    ![Wybieranie przycisku usuwania](./media/prevent-data-loss/3-delete.png)
+
+1. Potwierdź, że rzeczywiście chcesz usunąć zasady, wybierając przycisk **Usuń**:
+
+    ![Potwierdzanie usuwania zasad](./media/prevent-data-loss/4.png)
 
 ## <a name="dlp-policy-permissions"></a>Uprawnienia do zasad DLP
-Tylko administratorzy dzierżawy i środowiska mogą tworzyć i modyfikować zasady DLP. Więcej informacji na temat uprawnień znajduje się w temacie dotyczącym [środowisk](environments-overview-admin.md).  
+
+Tylko administratorzy dzierżawy i środowiska mogą tworzyć i modyfikować zasady DLP. Więcej informacji na temat uprawnień znajduje się w artykule dotyczącym [środowisk](environments-overview-admin.md).
 
 ## <a name="next-steps"></a>Następne kroki
-* [Dowiedz się więcej o środowiskach](environments-overview-admin.md)  
-* [Dowiedz się więcej o usłudze Microsoft Flow](getting-started.md)  
-* [Dowiedz się więcej na temat centrum administracyjnego](introduction-to-the-admin-center.md)  
 
+* [Dowiedz się więcej o środowiskach](environments-overview-admin.md)
+* [Dowiedz się więcej o usłudze Microsoft Flow](getting-started.md)
+* [Dowiedz się więcej na temat centrum administracyjnego](admin-center-introduction.md)
+* [Dowiedz się więcej o integracji danych](https://docs.microsoft.com/common-data-service/entity-reference/dynamics-365-integration)
