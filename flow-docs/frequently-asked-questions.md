@@ -1,13 +1,13 @@
 ---
-title: "Często zadawane pytania | Microsoft Docs"
-description: "Odpowiedzi na kilka często zadawanych pytań dotyczących usługi Microsoft Flow"
-services: 
+title: Często zadawane pytania | Microsoft Docs
+description: Odpowiedzi na kilka często zadawanych pytań dotyczących usługi Microsoft Flow
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: 5b8deda5f22bcc1fa7cfa37a0d4244f26c2004a4
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 99a66520b5a922b4945c9d3c94c7a5c053df98ee
+ms.sourcegitcommit: a0435b92fa7f5dedff3b0ff806836c7a07309fd2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="frequently-asked-questions"></a>Często zadawane pytania
 ## <a name="audience-and-strategy"></a>Odbiorcy i strategia
@@ -99,10 +99,21 @@ Rozpocznij od poniższych zasobów:
 * [Blog](https://flow.microsoft.com)
 * [Kanał YouTube](https://youtube.com/playlist?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF)
 * [Temat](getting-started.md)
-* [Społeczność](http://powerusers.microsoft.com)
+* [Społeczność](https://powerusers.microsoft.com)
 
 ### <a name="what-operating-systems-does-the-mobile-app-for-microsoft-flow-support"></a>Jakie systemy operacyjne obsługuje aplikacja mobilna dla usługi Microsoft Flow?
 Aplikacja mobilna usługi Microsoft Flow jest dostępna dla systemów [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) i [Windows Phone](https://aka.ms/flowmobilewindows).
+
+### <a name="can-flows-be-turned-off-or-disabled"></a>Czy przepływy można wyłączyć?
+
+Tak, każdy przepływ ma wyłącznik umożliwiający zatrzymanie przetwarzania żądań przez przepływ.
+
+W poniższej tabeli opisano sposób, w jaki zachowuje się przepływ po jego ponownym włączeniu.
+
+Typ wyzwalacza|Opis
+-------|--------
+Sondowanie, na przykład wyzwalacz **Cykl**|Po ponownym włączeniu przepływu przetwarzane są wszystkie nieprzetworzone/oczekujące zdarzenia.
+Webhook|Po ponownym włączeniu przepływu będzie on przetwarzał tylko nowe zdarzenia, które zostały wygenerowane po włączeniu przepływu.
 
 ### <a name="what-regions-and-languages-does-microsoft-flow-support"></a>Jakie regiony i języki są obsługiwane przez usługę Microsoft Flow?
 Usługa Microsoft Flow jest dostępna w 42 językach i w [sześciu regionach](regions-overview.md).
