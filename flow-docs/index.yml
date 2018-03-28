@@ -1,0 +1,105 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: Dokumentacja usługi Microsoft Flow
+metadata:
+  title: 'Dokumentacja, filmy wideo, informacje referencyjne i inne materiały dotyczące usługi Microsoft Flow'
+  description: Rozpocznij tworzenie i udostępnianie przepływów oraz zarządzanie nimi przy użyciu dostępnych w tym miejscu zasobów. Możesz rozpocząć od prostego przycisku lub utworzyć własne przepływy zatwierdzenia.
+  author: MSFTMan
+  manager: anneta
+  layout: LandingPage
+  ms.assetid: null
+  ms.service: flow
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  ms.topic: landing-page
+  ms.date: 10/18/2017
+  ms.author: deonhe
+sections:
+  - items:
+      - type: markdown
+        text: |
+          Rozpocznij tworzenie i udostępnianie przepływów oraz zarządzanie nimi przy użyciu dostępnych w tym miejscu zasobów. Możesz rozpocząć od prostego przycisku lub utworzyć własne przepływy zatwierdzenia.
+  - items:
+      - type: list
+        style: cards
+        className: cardsM
+        columns: 2
+        items:
+          - href: guided-learning/index
+            html: <p>Zapoznaj się z przewodnikiem szkoleniowym</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
+            title: Zapoznaj się z produktem
+          - href: getting-started
+            html: <p>Zapoznaj się z omówieniem usługi Microsoft Flow</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
+            title: Wprowadzenie
+          - href: mobile-create-flow
+            html: <p>Tworzenie przepływów na dowolnym urządzeniu przenośnym</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_mobileapp.svg'
+            title: Informacje o aplikacji mobilnej
+          - href: introduction-to-button-flows
+            html: <p>Tworzenie przepływu przycisku w 2 minuty</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_api-reference.svg'
+            title: Informacje na temat przycisków
+          - href: 'https://aka.ms/flowoftheweek'
+            html: <p>Czerp inspirację z przepływu tygodnia</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_api-reference.svg'
+            title: Przepływ tygodnia
+          - href: 'https://flow.microsoft.com/support/'
+            html: <p>Uzyskiwanie pomocy i pomocy technicznej</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_support.svg'
+            title: Możesz liczyć na naszą pomoc
+  - title: Samouczki krok po kroku
+    items:
+      - type: paragraph
+        text: 'Dowiedz się, jak tworzyć różne typy przepływów.'
+      - type: list
+        style: cards
+        className: cardsM
+        columns: 3
+        items:
+          - href: get-started-logic-template
+            title: Utwórz przepływ na podstawie szablonu
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_guide.svg'
+          - href: get-started-logic-flow
+            title: Tworzenie przepływu od podstaw
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_build.svg'
+          - href: modern-approvals
+            title: Tworzenie przepływów zatwierdzenia
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_tasks.svg'
+          - href: share-buttons
+            title: Udostępnianie przycisków do użycia przez inne osoby
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_setup.svg'
+          - href: create-team-flows
+            title: Udostępnianie własności przepływów
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_configure-teams.svg'
+          - href: fix-flow-failures
+            title: Rozwiązywanie problemów z przepływami
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_investigate.svg'
+  - title: Film wideo z omówieniem usługi Microsoft Flow
+    items:
+      - type: markdown
+        text: '<iframe width="560" height="315" src="https://www.youtube.com/embed/iMteXfAvDSE?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>'
+  - title: Zaawansowane samouczki
+    items:
+      - type: paragraph
+        text: 'Dowiedz się, jak używać wyrażeń i interfejsu API REST, a także jak tworzyć łączniki niestandardowe i wykonywać inne zadania...'
+      - type: list
+        style: unordered
+        items:
+          - html: <a href="environments-overview-admin">Zarządzanie usługą Microsoft Flow dla organizacji</a>
+          - html: '<a href="https://flow.microsoft.com/blog/call-flow-restapi/">Informacje na temat używania interfejsów API REST z przepływami</a>'
+          - html: <a href="customapi-web-api-tutorial">Tworzenie łącznika niestandardowego</a>
+          - html: '<a href="https://flow.microsoft.com/blog/grow-up-to-logic-apps/">Rozszerzanie przepływów przy użyciu usługi Logic Apps</a>'
