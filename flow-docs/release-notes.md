@@ -1,13 +1,13 @@
 ---
 title: Informacje o wersji | Microsoft Docs
-description: "Typowe problemy i nowości w wydaniach usługi Microsoft Flow"
-services: 
+description: Typowe problemy i nowości w wydaniach usługi Microsoft Flow
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 57a86fa86633e040cf788443d54bd60cfd340844
-ms.sourcegitcommit: 6308b1f4ec4ed18a8a7c89911a83cd2f12ed6dc4
+ms.openlocfilehash: 4d88b0baee16fb0aeea24e2f2c84806595f21662
+ms.sourcegitcommit: 753d52fa29d04f2eb774f7bec29b8d5793ccbb93
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="release-notes"></a>Informacje o wersji
 ## <a name="top-questions"></a>Najczęściej zadawane pytania
@@ -391,7 +391,7 @@ Teraz możesz wykorzystać cenne informacje podczas wyzwalania przepływu przyci
 ### <a name="release-2016-11-23"></a>Wersja 2016-11-23
 * **Obsługa alertów Power BI w usłudze Flow** — przekształć spostrzeżenia w działania, wyzwalając przepływy przy użyciu alertów danych usługi Power BI.
 * **Ulepszenia aplikacji mobilnej** — do istniejącego środowiska tworzenia przepływów na podstawie szablonów dodano możliwość tworzenia ich od podstaw. Poprawiono również wydajność wyświetlania przebiegów przepływów.
-* **Osiem nowych usług** — teraz możesz już łączyć się z usługami Azure Resource Manager, Azure Queues, Chatter, Disqus, Azure DocumentDB, Cognitive Services Face API, HipChat oraz Wordpress.
+* **Osiem nowych usług** — teraz możesz już łączyć się z usługami Azure Resource Manager, Azure Queues, Chatter, Disqus, Azure Cosmos DB, Cognitive Services Face API, HipChat oraz Wordpress.
 
 [Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/power-bi-and-eight-other-services/) na temat tej wersji.
 
