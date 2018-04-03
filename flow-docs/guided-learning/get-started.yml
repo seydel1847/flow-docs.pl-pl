@@ -2,11 +2,11 @@
 title: Wprowadzenie
 metadata:
   title: Wprowadzenie | Microsoft Flow
-  description: "Witamy na kursie Nauka z przewodnikiem poświęconym usłudze Microsoft Flow. Użytkownicy mogą zapoznawać się z zagadnieniami tego kursu online we własnym tempie. Zagadnienia są omawiane kolejno, można więc zdobywać wiedzę od podstaw."
+  description: Witamy na kursie Nauka z przewodnikiem poświęconym usłudze Microsoft Flow. Użytkownicy mogą zapoznawać się z zagadnieniami tego kursu online we własnym tempie. Zagadnienia są omawiane kolejno, można więc zdobywać wiedzę od podstaw.
   audience: Business User
   level: Beginner
   nextTutorialHref: build-flows
-  nextTutorialTitle: "Kompilowanie przepływów"
+  nextTutorialTitle: Kompilowanie przepływów
   displayType: one-column
   author: MSFTMan
   manager: anneta
@@ -14,25 +14,26 @@ metadata:
   ms.topic: get-started-article
   ms.date: 10/04/2017
   ms.author: deonhe
-  ms.openlocfilehash: e0cc75bf5ca6683b5b5ca751908311b226a5065d
-  ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
+  ms.openlocfilehash: 3f5cc6ac324e5e389b05d84c10cc45891ea518d2
+  ms.sourcegitcommit: aee927ab32b5e28ee9b1880b4a292f9c15025f88
   ms.translationtype: HT
   ms.contentlocale: pl-PL
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 03/28/2018
 items:
 - durationInMinutes: 1
-  content: "Witamy na kursie Nauka z przewodnikiem poświęconym usłudze Microsoft Flow. Użytkownicy mogą zapoznawać się z zagadnieniami tego kursu online we własnym tempie. Zagadnienia są omawiane kolejno, można więc zdobywać wiedzę od podstaw.\n"
-- title: "Podstawowe informacje na temat usługi Microsoft Flow"
+  content: >
+    Witamy na kursie Nauka z przewodnikiem poświęconym usłudze Microsoft Flow. Użytkownicy mogą zapoznawać się z zagadnieniami tego kursu online we własnym tempie. Zagadnienia są omawiane kolejno, można więc zdobywać wiedzę od podstaw.
+- title: Podstawowe informacje na temat usługi Microsoft Flow
   durationInMinutes: 14
   content: >
     > [!Video https://www.youtube.com/embed/CYR-fZc5Maw?rel=0]
 
 
     [!INCLUDE [learning-introduce-flow](../includes/learning-introduce-flow.md)]
-- title: "Utwórz przepływ na podstawie szablonu"
+- title: Utwórz przepływ na podstawie szablonu
   durationInMinutes: 9
   content: >
-    > [!Video https://www.youtube.com/embed/D46qE7FuShM?rel=0]
+    > [!Wideo https://www.youtube.com/watch?v=NeCu5VnL4s0
 
 
     [!INCLUDE [learning-create-a-flow](../includes/learning-create-a-flow.md)]
@@ -43,4 +44,4 @@ items:
 
 
     [!INCLUDE [learning-mobile-app](../includes/learning-mobile-app.md)]
-- content: "Sekcja **Wprowadzenie** przewodnika szkoleniowego dotyczącego usługi Microsoft Flow została ukończona.\0"
+- content: Sekcja **Wprowadzenie** przewodnika szkoleniowego dotyczącego usługi Microsoft Flow została ukończona.
