@@ -2,6 +2,7 @@
 Środowisko to wirtualne miejsce do przechowywania i udostępniania aplikacji, przepływów i danych biznesowych oraz zarządzania nimi w ramach usługi Common Data Service. Środowiska mają określoną lokalizację geograficzną, tak samo jak wszystkie aplikacje i dane przechowywane w bazach danych środowisk.  
 
 ## <a name="terms-you-should-get-familiar-with"></a>Terminy, które warto znać
+
 | **Termin** | **Opis** |
 | --- | --- |
 | **Centrum administracyjne** |Centrum administracyjne to [portal sieci Web](https://admin.flow.microsoft.com), który umożliwia zarządzanie wszystkimi środowiskami i zasadami ochrony przed utratą danych. |

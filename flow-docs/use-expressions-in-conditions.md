@@ -1,23 +1,23 @@
 ---
-title: "Używanie wyrażeń z warunkami | Microsoft Docs"
-description: "Używanie wyrażeń zaawansowanych, takich jak "
-"\"and\"\",": 
-"\"\"or\"\",": 
-"\"\"empty\"\",": 
-"\"\"less\"\"": 
-and: 
-"\"\"greater\"\"": 
-with: 
-microsoft: 
-flow: 
-conditions.": 
-services: 
+title: Używanie wyrażeń z warunkami | Microsoft Docs
+description: 'Używanie wyrażeń zaawansowanych, takich jak '
+"\"and\"\",": ''
+"\"\"or\"\",": ''
+"\"\"empty\"\",": ''
+"\"\"less\"\"": ''
+and: ''
+"\"\"greater\"\"": ''
+with: ''
+microsoft: ''
+flow: ''
+conditions.": ''
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -25,11 +25,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/01/2017
 ms.author: deonhe
-ms.openlocfilehash: a833abf7cb43e6d8a1c67b0f4160c90a4b24545a
-ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+ms.openlocfilehash: 3a089735cc2d8c9144e18a2765b549b528470d1e
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>Sprawdzanie wielu wartości przy użyciu wyrażeń w warunkach
 W tym przewodniku dowiesz się, jak porównywać wiele wartości w **trybie zaawansowanym** przy użyciu wyrażeń i **warunków**.
@@ -74,71 +74,71 @@ Utwórzmy przepływ.
 
 ### <a name="start-with-a-blank-flow"></a>Zaczynanie od pustego przepływu
 1. Zaloguj się w usłudze [Microsoft Flow](https://flow.microsoft.com).
-   
+
     ![logowanie](includes/media/modern-approvals/sign-in.png)
 2. Wybierz kartę **Moje przepływy**.
-   
+
     ![wybieranie karty moje przepływy](includes/media/modern-approvals/select-my-flows.png)
 3. Wybierz opcję **Utwórz z pustego**.
-   
+
     ![tworzenie od podstaw](includes/media/modern-approvals/blank-template.png)
 
 ### <a name="add-a-trigger-to-your-flow"></a>Dodawanie wyzwalacza do przepływu
 1. Wyszukaj pozycję **Harmonogram**, a następnie wybierz wyzwalacz **Harmonogram — Cykl**.
-   
+
     ![wyzwalacz harmonogramu](includes/media/schedule-trigger/schedule-trigger.png)
 2. Ustaw harmonogram tak, aby był uruchamiany raz dziennie.
-   
+
     ![ustawianie harmonogramu](includes/media/schedule-trigger/set-schedule.png)
 
 ### <a name="select-the-spreadsheet-and-get-all-rows"></a>Wybieranie arkusza kalkulacyjnego i pobieranie wszystkich wierszy
 1. Wybierz kolejno pozycje **Nowy krok** > **Dodaj akcję**.
-   
+
     ![nowy krok](includes/media/new-step/action.png)
 2. Wyszukaj pozycję **wiersze**, a następnie wybierz pozycję **Excel — Pobierz wiersze**.
-   
+
     Uwaga: wybierz akcję „pobierz wiersze” odpowiadającą używanemu arkuszowi kalkulacyjnemu. Jeśli na przykład korzystasz z usługi Arkusze Google, wybierz pozycję **Arkusze Google — Pobierz wiersze**.
-   
+
     ![pobieranie wierszy](includes/media/new-step/get-excel-rows.png)
 3. Wybierz ikonę folderu w polu **Nazwa pliku**, przejdź do arkusza kalkulacyjnego zawierającego dane i wybierz go.
-   
+
     ![wybieranie arkusza kalkulacyjnego](includes/media/new-step/select-spreadsheet.png)
 4. Wybierz z listy **Nazwa tabeli** tabelę zawierającą dane.
-   
+
     ![wybieranie tabeli](includes/media/new-step/select-table.png)
 
 ### <a name="check-the-status-column-of-each-row"></a>Sprawdź kolumnę stanu każdego wiersza.
 1. Wybierz kolejno pozycje **Nowy krok** > **Więcej** > **Dodaj instrukcję Zastosuj do każdego**.
-   
+
     ![wybieranie tabeli](includes/media/new-step/apply-to-each.png)
 2. Dodaj token **Wartość** do pola **Wybierz dane wyjściowe z poprzednich kroków**.
-   
+
     ![wybieranie tabeli](includes/media/apply-to-each/add-value-token.png)
 3. Wybierz kolejno pozycje **Dodaj warunek** > **Edytowanie w trybie zaawansowanym**.
 4. Dodaj następujące wyrażenie **or**. To wyrażenie **or** sprawdza wartość każdego wiersza w tabeli (wiersz nazywany jest elementem, gdy jest używany w wyrażeniu). Jeśli wartość kolumny **status** to *completed* **lub** *unnecessary*, wynikiem wyrażenia **or** jest wartość „true”.
-   
+
     Wyrażenie **or** wygląda następująco:
-   
+
     ````@or(equals(item()?['status'], 'unnecessary'), equals(item()?['status'], 'completed'))````
-   
+
     Karta **Warunek** wygląda następująco:
-   
+
     ![obraz wyrażenia or](./media/use-expressions-in-conditions/or-expression.png)
 
 ### <a name="delete-matching-rows-from-the-spreadsheet"></a>Usuwanie pasujących wierszy z arkusza kalkulacyjnego
 1. Wybierz pozycję **Dodaj akcję** w gałęzi **JEŚLI TAK, NIC NIE RÓB** warunku.
 2. Wyszukaj pozycję **Usuń wiersz**, a następnie pozycję **Excel — Usuń wiersz**.
-   
+
     ![obraz przedstawiający usuwanie wiersza](includes/media/new-step/select-delete-excel-row.png)
 3. W polu **Nazwa pliku** wyszukaj i wybierz plik arkusza kalkulacyjnego zawierający dane, które chcesz usunąć.
 4. Z listy **Nazwa tabeli** wybierz tabelę zawierającą dane.
 5. Umieść token **Identyfikator wiersza** w polu **Identyfikator wiersza**.
-   
+
     ![plik arkusza kalkulacyjnego](includes/media/new-step/delete-excel-row.png)
 
 ### <a name="name-the-flow-and-save-it"></a>Nadawanie nazwy przepływowi i zapisywanie go
 1. Określ nazwę przepływu, a następnie wybierz przycisk **Utwórz przepływ**.
-   
+
     ![zapisywanie przepływu](./media/use-expressions-in-conditions/name-and-save.png)
 
 ### <a name="run-the-flow-with-the-or-expression"></a>Uruchamianie przepływu z wyrażeniem or
@@ -201,10 +201,11 @@ Wyobraź sobie, że masz bilety na mecz siatkówki dla swoich współpracownikó
 
 Użyj wyrażenia **and** wraz z wyrażeniem **less**, ponieważ walidowane są dwa warunki:
 
-| Warunek do sprawdzenia | wyrażenie do użycia | Przykład |
-| --- | --- | --- |
-| Czy została zapłacona cała kwota? |greater |@greater(item()?['Due'], item()?['Paid']) |
-| Czy termin przypada na mniej niż jeden dzień od bieżącej daty? |less |@less(item()?['DueDate'], addDays(utcNow(),1)) |
+
+|          Warunek do sprawdzenia          | wyrażenie do użycia |                    Przykład                     |
+|-----------------------------------------|-------------------|------------------------------------------------|
+|   Czy została zapłacona cała kwota?    |      greater      |   @greater(item()?['Due'], item()?['Paid'])    |
+| Czy termin przypada na mniej niż jeden dzień od bieżącej daty? |       less        | @less(item()?['DueDate'], addDays(utcNow(),1)) |
 
 ## <a name="combine-the-greater-and-less-expressions-in-an-and-expression"></a>Połączenie wyrażeń greater i less w wyrażeniu and
 Przy użyciu wyrażenia **greater** zidentyfikuj pracowników, którzy zapłacili mniej niż wynosi należna kwota, a przy użyciu wyrażenia **less** określ, czy termin zapłaty przypada na mniej niż jeden dzień od bieżącej daty. Następnie przy użyciu akcji **Wyślij wiadomość e-mail** możesz wysłać przypomnienie do osób, które nie zapłaciły całej kwoty, gdy termin zapłaty przypada na mniej niż jeden dzień od bieżącej daty.

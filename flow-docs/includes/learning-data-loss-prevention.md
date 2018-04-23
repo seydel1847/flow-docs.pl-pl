@@ -1,6 +1,7 @@
 Wraz z powiększającą się listą [usług](https://flow.microsoft.com/services) dostępnych do tworzenia przepływów pracy w usłudze [Microsoft Flow](https://flow.microsoft.com) może zajść potrzeba ochrony danych poufnych lub o krytycznym znaczeniu dla firmy przechowywanych w ramach usług dla przedsiębiorstw, takich jak SharePoint lub Salesforce. Może się okazać, że Twoja organizacja musi utworzyć zasady, które zapewnią, że wrażliwe dane biznesowe nie będą publikowane w ramach usług dla konsumentów, takich jak Twitter i Facebook. Za pomocą usługi Microsoft Flow możesz łatwo tworzyć zasady **ochrony przed utratą danych** (DLP, data loss prevention), które ściśle określają, w jakich usługach dla konsumentów mogą być udostępniane Twoje dane biznesowe, gdy użytkownicy tworzą przepływy.  
 
 ## <a name="terms-you-should-get-familiar-with"></a>Terminy, które warto znać
+
 | Termin | Opis |
 | --- | --- |
 | **DLP** |Skrótowe określenie dla ochrony przed utratą danych. Utworzysz zasady DLP do zarządzania udostępnianiem danych między **usługami**. |

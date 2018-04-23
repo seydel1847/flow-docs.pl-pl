@@ -1,13 +1,13 @@
 ---
-title: "Informacje na temat środowisk usługi Microsoft Flow | Microsoft Docs"
-description: "Dowiedz się, jak izolować przepływy przy użyciu środowisk"
-services: 
+title: Informacje na temat środowisk usługi Microsoft Flow | Microsoft Docs
+description: Dowiedz się, jak izolować przepływy przy użyciu środowisk
+services: ''
 suite: flow
 documentationcenter: na
 author: sunaysv
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/27/2017
 ms.author: sunayv
-ms.openlocfilehash: 202167f833c6f5e1a8105db8bd44addc24dfdc3e
-ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
+ms.openlocfilehash: e6667c1c1999c36177d40d52fa657edadd063516
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="choosing-an-environment"></a>Wybieranie środowiska
 
@@ -73,7 +73,7 @@ Wykonaj następujące kroki, aby przełączyć środowiska:
 Przed utworzeniem przepływu wybierz środowisko, do którego dodasz przepływ i jego zasoby.
 
 > [!NOTE]
-Jeśli utworzysz przepływ w niewłaściwym środowisku, będzie trzeba go usunąć, a następnie utworzyć we właściwym środowisku.
+> Jeśli utworzysz przepływ w niewłaściwym środowisku, będzie trzeba go usunąć, a następnie utworzyć we właściwym środowisku.
 
 Wybierając środowisko do hostowania przepływów, weź pod uwagę następujące czynniki:
 
@@ -82,7 +82,7 @@ Wybierając środowisko do hostowania przepływów, weź pod uwagę następując
 * Będziesz widzieć wszystkie środowiska, w których możesz edytować zasoby. Jednak należy poprosić administratora o dodanie Cię jako twórcy do wszystkich środowisk, w których chcesz tworzyć przepływy.
 
 > [!NOTE]
-Zawsze będzie można tworzyć przepływy w środowisku domyślnym.
+> Zawsze będzie można tworzyć przepływy w środowisku domyślnym.
 
 ## <a name="next-steps"></a>Następne kroki
 

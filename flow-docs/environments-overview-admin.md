@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/22/2017
 ms.author: sunayv
-ms.openlocfilehash: 631c53aaa19e137e1df82f8070192f6f4271339e
-ms.sourcegitcommit: aee927ab32b5e28ee9b1880b4a292f9c15025f88
+ms.openlocfilehash: cf1a618b9e0ed76147eb4ede2aed42111c66b4a5
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-environments-within-microsoft-flow"></a>Używanie środowisk za pomocą usługi Microsoft Flow
 
@@ -79,18 +79,20 @@ Przejdź do witryny [admin.flow.microsoft.com](https://admin.flow.microsoft.com)
 ## <a name="create-an-environment"></a>Tworzenie środowiska
 
 1. W [centrum administratora usługi Microsoft Flow](https://admin.flow.microsoft.com) wybierz pozycję **Środowiska**. Zobaczysz wszystkie istniejące środowiska: ![Środowiska](./media/environments-overview-admin/environments-list.png)
-1. Wybierz pozycję **Nowe środowisko**, a następnie podaj wymagane informacje:
+2. Wybierz pozycję **Nowe środowisko**, a następnie podaj wymagane informacje:
 
-   | Właściwość | Opis |
-   | --- | --- |
-   | Nazwa środowiska |Podaj nazwę środowiska, taką jak `Human Resources` lub `Europe flows`. |
-   | Region |Wybierz lokalizację na potrzeby hostowania środowiska. W celu uzyskania najwyższej wydajności należy użyć regionu, który jest najbliżej użytkowników.|
-   |Typ środowiska | Wybierz typ środowiska zgodnie ze swoją licencją: Produkcja lub Wersja próbna.| 
+
+   |     Właściwość     |                                                 Opis                                                 |
+   |------------------|-------------------------------------------------------------------------------------------------------------|
+   | Nazwa środowiska |              Podaj nazwę środowiska, taką jak `Human Resources` lub `Europe flows`.              |
+   |      Region      | Wybierz lokalizację na potrzeby hostowania środowiska. W celu uzyskania najwyższej wydajności należy użyć regionu, który jest najbliżej użytkowników. |
+   | Typ środowiska |                  Wybierz typ środowiska zgodnie ze swoją licencją: Produkcja lub Wersja próbna.                   |
+
      ![ustawienia środowiska](./media/environments-overview-admin/new-environment-dialog.png)
-1. Kliknij pozycję **Utwórz środowisko**.
-1. Masz teraz dostępne następujące opcje: **Utwórz bazę danych** lub **Pomiń**.
-1. Jeśli wybierz opcję **utworzenia bazy danych**, pojawi się monit o określenie **waluty** i **języka** bazy danych. Ponadto możesz wybrać opcję wdrożenia przykładowych aplikacji i danych.
-   
+3. Kliknij pozycję **Utwórz środowisko**.
+4. Masz teraz dostępne następujące opcje: **Utwórz bazę danych** lub **Pomiń**.
+5. Jeśli wybierz opcję **utworzenia bazy danych**, pojawi się monit o określenie **waluty** i **języka** bazy danych. Ponadto możesz wybrać opcję wdrożenia przykładowych aplikacji i danych.
+
    ![ustawienia konfiguracji bazy danych](./media/environments-overview-admin/create-database-dialog2.png)
 
 
