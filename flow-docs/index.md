@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Dokumentacja usługi Microsoft Flow | Microsoft Flow
+title: Dokumentacja usługi Microsoft Flow | Microsoft Docs
 description: Microsoft Flow to usługa, która umożliwia tworzenie zautomatyzowanych przepływów pracy w wielu lubianych aplikacjach i usługach. Przepływy te mogą dotyczyć synchronizowania plików, odbierania powiadomień, gromadzenia danych i wykonywania wielu innych działań.
 keywords:
 - Microsoft Flow
@@ -18,11 +18,11 @@ ms.prod: flow
 ms.technology: ''
 ms.reviewer:
 - karann-msft
-ms.openlocfilehash: 3115f66c783cfda5085344d74d939f8dc9d7cb0d
-ms.sourcegitcommit: aee927ab32b5e28ee9b1880b4a292f9c15025f88
+ms.openlocfilehash: 0fb3e966593c85d2a437614f9c34087fca3a06ab
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 <div id="main" class="v2">
 <div class="container">
@@ -41,8 +41,7 @@ ms.lasthandoff: 03/28/2018
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage  bgdAccent1">
-                                                <img src="media/index/guidedlearningtour.svg" alt="Take a guided learning tour" />        
-                                            </div>
+                                                <img src="media/index/guidedlearningtour.svg" alt="Take a guided learning tour" /><br/>                                            </div>
                                         </div>
                                         <div class="cardText">
                                             <h3>Zapoznaj się z przewodnikiem szkoleniowym</h3>
@@ -141,7 +140,7 @@ ms.lasthandoff: 03/28/2018
                                         </div>
                                         <div class="cardText">
                                             <h3>Uzyskaj pomoc</h3>
-                                            <p>Zawsze Ci pomożemy. O czym myślisz?</p>
+                                            <p>Zawsze chętnie Ci pomożemy. Z czym masz problem?</p>
                                         </div>
                                     </div>
                                 </div>

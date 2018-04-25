@@ -54,7 +54,7 @@ Domyślnie ten szablon uruchamia proces zatwierdzania za każdym razem, gdy na o
 12. Wybierz parametr **Stan zatwierdzenia** i ustaw wartość **Tak**, a następnie wybierz pozycję **Komentarze osoby zatwierdzającej** i ustaw wartość **Komentarze** z listy zawartości dynamicznej. 
     
      ![Stan i komentarze](./media/learning-approval-center/approver-status.png)
-13. W pobliżu dolnej części pola **JEŚLI NIE, *NIC NIE RÓB*** wybierz pozycję **Dodaj akcję**.
+13. W pobliżu dolnej części pola **JEŚLI NIE, NIC NIE RÓB** wybierz pozycję **Dodaj akcję**.
     
      ![Dodawanie braku akcji](./media/learning-approval-center/add-a-no-action.png)
 14. Używając tych samych kroków, jak w przypadku konfiguracji **JEŚLI TAK**, utwórz akcję **SharePoint — Aktualizuj element** i skonfiguruj pola z użyciem tych samych wartości, z wyjątkiem ustawienia wartości **Nie** dla parametru **Stan zatwierdzenia**. 

@@ -1,13 +1,13 @@
 ---
 title: Filtrowanie i kopiowanie danych | Microsoft Docs
-description: "Informacje na temat filtrowania i kopiowania danych ze źródła do miejsca docelowego przy użyciu usługi Microsoft Flow"
-services: 
+description: Informacje na temat filtrowania i kopiowania danych ze źródła do miejsca docelowego przy użyciu usługi Microsoft Flow
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
-ms.openlocfilehash: b266a953785b79c0dbc5e2d483330b239a7bf17f
-ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
+ms.openlocfilehash: 7c182328c341043ffc155a679f39bcbc2130a0bc
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="filter-and-copy-data-with-microsoft-flow"></a>Filtrowanie i kopiowanie danych przy użyciu usługi Microsoft Flow
 W tym przewodniku przedstawiono sposób tworzenia przepływu, który monitoruje źródło pod kątem nowych lub zmienionych elementów, a następnie kopiuje te zmiany do miejsca docelowego. Taki przepływ możesz utworzyć, jeśli Twoi użytkownicy wprowadzają dane w jednej lokalizacji, a zespół potrzebuje ich w innej lokalizacji lub w innym formacie.
@@ -106,7 +106,7 @@ Na karcie Warunek:
     ![Konfigurowanie warunku](media/odata-filters/configure-condition.png)
 5. Wybierz pozycję **Edytuj w trybie zaawansowanym**.
    
-    Po otwarciu trybu zaawansowanego w polu zostanie wyświetlone wyrażenie **@equals(body('Get_rows')?['value'], 0)**. Zmodyfikuj to wyrażenie przez dodanie funkcji **length()** wokół funkcji **body('Get_items')?['value']**. Całe wyrażenie wygląda teraz następująco: **@equals(length(body('Get_rows')?['value']), 0)**
+    Po otwarciu trybu zaawansowanego w polu zostanie wyświetlone wyrażenie **\@equals(body('Get_rows')?['value'], 0)**. Zmodyfikuj to wyrażenie przez dodanie funkcji **length()** wokół funkcji **body('Get_items')?['value']**. Całe wyrażenie wygląda teraz następująco: **@equals(length(body('Get_rows')?['value']), 0)**
    
     Teraz karta **Warunek** wygląda następująco:
    

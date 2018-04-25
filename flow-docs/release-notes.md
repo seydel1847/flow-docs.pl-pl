@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/12/2018
+ms.date: 04/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 4d88b0baee16fb0aeea24e2f2c84806595f21662
-ms.sourcegitcommit: 753d52fa29d04f2eb774f7bec29b8d5793ccbb93
+ms.openlocfilehash: ef14fd29dbf0b227acf4d5fef6233837514d4ab0
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="release-notes"></a>Informacje o wersji
 ## <a name="top-questions"></a>Najczęściej zadawane pytania
@@ -44,6 +44,39 @@ ms.lasthandoff: 03/23/2018
 3. Wyzwalacze plików nie będą uruchamiane w przypadku plików dodawanych wewnątrz folderów zagnieżdżonych w wybranym folderze.
 
 ## <a name="whats-new"></a>Co nowego
+
+### <a name="release-2018-04-12"></a>Wersja 2018-04-12
+
+- **Zwracanie danych do usługi PowerApps z przepływu** — twórz przepływy, które można wywołać z aplikacji utworzonej w usłudze PowerApps, i zwracaj dane z powrotem do aplikacji. Użyj wizualnego projektanta przepływu działającego na zasadzie „przeciągnij i upuść”, aby utworzyć logikę potrzebną dla aplikacji. 
+- **Dodawanie wielu rekordów do tablicy danych wejściowych** — dodano konstruktora list do usługi Microsoft Flow; można użyć go na przykład do dodawania wielu załączników do wiadomości e-mail.
+- **Testowanie przepływów z użyciem danych z wcześniejszych przebiegów** — dodano do projektanta nowy przycisk Testuj przepływ, który umożliwia przetestowanie przepływu z danymi wyzwalającymi z poprzednich przebiegów przepływów.
+- **Nowe pola workflow()** — możesz teraz uzyskać dostęp do nazwy środowiska i nazwy wyświetlanej przepływu przy użyciu wyrażenia workflow().
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/return-data-to-powerapps/) na temat tej wersji.
+
+### <a name="release-2018-04-04"></a>Wersja 2018-04-04
+
+- **Zatwierdzenia w usłudze Common Data Service** — nowoczesne zatwierdzenia są oparte na najnowszej wersji usługi Common Data Service for Apps. Oznacza to, że możesz tworzyć przepływy, które odczytują stan zatwierdzeń wysłanych lub odebranych przy użyciu łącznika CDS.
+- **Znajdowanie błędów w pętlach „zastosuj do każdego”** — przeskakuj bezpośrednio do błędów w pętlach w widoku przebiegu przepływu, nawet jeśli w pętli istnieją setki elementów.
+- **Ponowne przypisywanie zatwierdzeń** — możesz przypisać wszelkie odebrane zatwierdzenia do innej osoby w organizacji, aby delegować do niej zatwierdzenie. 
+- **Listy pokojów** — łącznik Office 365 Outlook zawiera teraz akcje umożliwiające pobranie danych o pokojach w organizacji.
+- **Przyciski wyświetlania szczegółów przepływu** — podczas uruchamiania udostępnionego przepływu możesz teraz zobaczyć wszystkie akcje używane przez przepływ.
+- **Region Zjednoczone Królestwo** — środowiska można teraz tworzyć tak, aby dane były przechowywane w regionie Zjednoczone Królestwo.
+- **Dwa nowe łączniki** — dodano obsługę łączników AtBot Admin i Marketing Content Hub.
+- **Nowa strona docelowa dokumentacji** — zaktualizowano stronę docelową dokumentacji, aby zawrzeć zawartość pogrupowaną według poziomu zaawansowania użytkownika: dla osób początkujących, średniozaawansowanych i ekspertów. 
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/approvals-in-cds-and-seven-updates/) na temat tej wersji.
+
+### <a name="release-2018-03-13"></a>Wersja 2018-03-13
+
+- **Historia zatwierdzania** — zobacz wszystkie wysłane żądania zatwierdzenia, w tym odpowiedzi, wysłane komentarze oraz dokładny czas zdarzenia.
+- **Cztery nowe łączniki** — dodano łączniki Excel Online (Business), Excel Online (OneDrive), Azure SQL Data Warehouse oraz Pitney Bowes Tax Calculator.
+- **Dynamiczne kontekstowe etykietki narzędzi** — zatrzymaj wskaźnik myszy na dynamicznej zawartości, aby zobaczyć miejsce w akcjach, z którego pochodzi, a także wyświetlić podgląd wyrażeń bez otwierania pełnego edytora wyrażeń.
+- **Kontrola współbieżności** — włącz kontrolę współbieżności, aby dany przepływ uzyskał tylko jeden przebieg w danym czasie.
+- **Ponawianie wykładnicze** — nowy typ zasad ponawiania, który zwiększa odstępy pomiędzy ponawianiem prób wykładniczo w czasie.
+- **Zgodność ze standardami ułatwień dostępu** — wydano nowe dokumenty potwierdzające zgodność, które opisują sposób spełniania standardów ułatwień dostępu przez usługę Microsoft Flow.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/approval-history-accessibility/) na temat tej wersji.
 
 ### <a name="release-2018-02-09"></a>Wersja 2018-02-09
 

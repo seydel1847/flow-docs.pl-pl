@@ -1,13 +1,13 @@
 ---
-title: "Tworzenie przepływu za pomocą szablonu | Microsoft Docs"
-description: "Możesz utworzyć przepływ przy użyciu jednego z wielu wbudowanych szablonów."
-services: 
+title: Tworzenie przepływu za pomocą szablonu | Microsoft Docs
+description: Możesz utworzyć przepływ przy użyciu jednego z wielu wbudowanych szablonów.
+services: ''
 suite: flow
 documentationcenter: na
 author: aftowen
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/07/2017
 ms.author: anneta
-ms.openlocfilehash: 876723b62274f3a306c0a8472095b131e223408b
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: b755d9abe70740a97ad85aaa60b8a3f4685a7b26
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-a-flow-from-a-template-in-microsoft-flow"></a>Tworzenie przepływu za pomocą szablonu w usłudze Microsoft Flow
 Utwórz przepływ przy użyciu jednego z wielu wbudowanych szablonów, które umożliwiają na przykład wysłanie do Ciebie wiadomości w usłudze Slack, gdy kierownik wyśle do Ciebie wiadomość e-mail w usłudze Office 365.
@@ -54,7 +54,7 @@ Utwórz przepływ przy użyciu jednego z wielu wbudowanych szablonów, które um
 1. Zaznacz pasek tytułu, aby rozwinąć zdarzenie, a następnie dostosuj je (na przykład przez określenie filtru dla interesujących Cię wiadomości e-mail).
 2. Akcje wymagające wprowadzania danych zostaną automatycznie rozwinięte.
    
-    Na przykład akcja **Ogłoszenie** jest rozwinięta, ponieważ musisz podać kanał, taki jak *@username*. Możesz również dostosować zawartość wiadomości. Domyślnie wiadomość zawiera tylko temat, ale możesz dołączyć inne informacje.
+    Na przykład akcja **Ogłoszenie** jest rozwinięta, ponieważ musisz podać kanał, taki jak *\@nazwa_użytkownika*. Możesz również dostosować zawartość wiadomości. Domyślnie wiadomość zawiera tylko temat, ale możesz dołączyć inne informacje.
    
     ![Określanie kanału dla usługi Slack](./media/get-started-logic-template/specify-keyword.png)
 3. W górnej części ekranu podaj nazwę przepływu, a następnie wybierz pozycję **Utwórz przepływ**.
