@@ -54,6 +54,8 @@
       href: all-assigned-must-approve.md
     - name: Zatwierdzenia zintegrowane
       href: common-data-model-approve.md
+    - name: Żądania zatwierdzenia formatu
+      href: approvals-markdown-support.md
 - name: Korzystanie z aplikacji mobilnej
   items:
     - name: Utwórz przepływ
@@ -110,6 +112,16 @@
       href: prevent-data-loss.md
     - name: Wprowadzenie do grup danych
       href: introduction-to-data-groups.md
+- name: Odpowiadanie na żądania DSR
+  items:
+    - name: Podsumowanie
+      href: gdpr-dsr-summary.md
+    - name: Odnajdowanie żądań
+      href: gdpr-dsr-discovery.md
+    - name: Eksportowanie żądań
+      href: gdpr-dsr-export.md
+    - name: Usuwanie żądań
+      href: gdpr-dsr-delete.md
 - name: Dokumentacja
   items:
     - name: Omówienie regionów
