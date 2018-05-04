@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Dokumentacja usługi Microsoft Flow | Microsoft Docs
+title: Dokumentacja usługi Microsoft Flow | Microsoft Flow
 description: Microsoft Flow to usługa, która umożliwia tworzenie zautomatyzowanych przepływów pracy w wielu lubianych aplikacjach i usługach. Przepływy te mogą dotyczyć synchronizowania plików, odbierania powiadomień, gromadzenia danych i wykonywania wielu innych działań.
 keywords:
 - Microsoft Flow
@@ -14,15 +14,13 @@ ms.author: deonhe
 manager: kfile
 ms.date: 03/28/2018
 ms.topic: hub-page
-ms.prod: flow
-ms.technology: ''
 ms.reviewer:
 - karann-msft
-ms.openlocfilehash: 0fb3e966593c85d2a437614f9c34087fca3a06ab
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.openlocfilehash: 7a030259095667ed64c796c8c8ab68495d3d61dc
+ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 <div id="main" class="v2">
 <div class="container">
@@ -370,6 +368,92 @@ ms.lasthandoff: 04/16/2018
                                         <div class="cardText">
                                             <h3>Rozszerzanie przepływów przy użyciu usługi Logic Apps</h3>
                                             <p>Usługa Azure Logic Apps oferuje zestaw możliwości większy niż uwzględniony w usłudze Microsoft Flow. Po prostu zapisz dowolny przepływ jako szablon usługi Logic Apps, a następnie zarządzaj nim tak samo jak innymi zasobami usługi Logic Apps.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#admin">Jestem administratorem</a>
+            <ul id="admin">
+                <li>
+                    <a href="#admin-all"></a>
+                    <ul id="admin-all" class="cardsC">
+                        <li>
+                            <a href="environments-overview-admin.md">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/environments_dlp.svg" alt="Manage environments." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Zarządzanie środowiskami</h3>
+                                            <p>Zarządzaj środowiskami swojej organizacji.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="prevent-data-loss.md">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/environments_dlp.svg" alt="Define data policies." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Zapobieganie utracie danych</h3>
+                                            <p>Definiuj zasady ochrony danych organizacji.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://flow.microsoft.com/blog/accessing-office-365-security-compliance-center-logs-from-microsoft-flow/">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/manage_runs.svg" alt="Manage flow runs." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Zarządzanie przebiegami przepływów</h3>
+                                            <p>Badaj poszczególne przebiegi przepływów i zarządzaj nimi.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://flow.microsoft.com/blog/announcing-microsoft-flow-analytics/">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/analytics_reporting.svg" alt="Gain insights into your flows" />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Uzyskiwanie szczegółowych informacji na temat przepływów</h3>
+                                            <p>Uzyskuj wgląd w kondycję swoich przepływów z poziomu analitycznego pulpitu nawigacyjnego.</p>
                                         </div>
                                     </div>
                                 </div>

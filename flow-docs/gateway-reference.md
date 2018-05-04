@@ -1,13 +1,13 @@
 ---
 title: Informacje o lokalnych bramach danych | Microsoft Docs
-description: "Informacje referencyjne oraz informacje dotyczące instalacji lokalnych bram danych i rozwiązywania problemów, które ich dotyczą"
-services: 
+description: Informacje referencyjne oraz informacje dotyczące instalacji lokalnych bram danych i rozwiązywania problemów, które ich dotyczą
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
-manager: anneta
-editor: 
-tags: 
+manager: KFile
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: get-started-article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 73567d4d553ceac1d2cee46feb07ad9a6e7ade33
-ms.sourcegitcommit: 0b7964058416fd8d5e355913eea27172f1c61992
+ms.openlocfilehash: 3ff4148f88c145df1db5e8ec8468138fe7413a6a
+ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Informacje o lokalnych bramach danych dla programu Microsoft Flow
 Przy użyciu lokalnych bram danych w usłudze Microsoft Flow możesz ustanawiać bezpieczne połączenia z lokalnymi źródłami danych, takimi jak program Microsoft SQL Server.
@@ -141,6 +141,10 @@ Użytkownicy będą się logować za pomocą konta służbowego. Jest to Twoje k
 Lokalna brama danych jest skonfigurowana do używania identyfikatora *NT SERVICE\PBIEgwService* jako poświadczeń logowania do usługi systemu Windows. Domyślnie ten identyfikator ma uprawnienia do logowania się jako usługa. Jest to w kontekście maszyny, na której instalujesz bramę.
 
 Nie jest to konto używane do nawiązywania połączenia z lokalnymi źródłami danych ani konto służbowe używane do logowania się w usługach w chmurze.
+
+## <a name="tenant-level-administration"></a>Administracja na poziomie dzierżawy
+
+Obecnie nie ma jednego miejsca, w którym administratorzy dzierżawy mogą zarządzać wszystkimi bramami zainstalowanymi i skonfigurowanymi przez innych użytkowników.  Jeśli jesteś administratorem dzierżawy, zalecamy poproszenie użytkowników w organizacji o dodanie Cię jako administratora do każdej instalowanej bramy. Pozwoli Ci to na zarządzanie wszystkimi bramami w organizacji za pomocą strony Ustawienia bramy lub [poleceń programu PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters).
 
 ## <a name="frequently-asked-questions"></a>Często zadawane pytania
 ### <a name="general-questions"></a>Pytania ogólne
