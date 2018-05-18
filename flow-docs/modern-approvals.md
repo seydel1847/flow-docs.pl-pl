@@ -1,13 +1,13 @@
 ---
-title: "Łatwa automatyzacja przepływów pracy zatwierdzania | Microsoft Docs"
-description: "Zautomatyzuj przepływy pracy zatwierdzania integrowane z usługami SharePoint, Dynamics CRM, Salesforce, OneDrive dla Firm, Zendesk lub WordPress."
-services: 
+title: Łatwa automatyzacja przepływów pracy zatwierdzania | Microsoft Docs
+description: Zautomatyzuj przepływy pracy zatwierdzania integrowane z usługami SharePoint, Dynamics CRM, Salesforce, OneDrive dla Firm, Zendesk lub WordPress.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,13 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
-ms.openlocfilehash: f6fc61a25dadba50c4906310b0562d32c11f8e73
-ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
+ms.openlocfilehash: bd89bca994a77072815a73ba1cbc7ba1db6955d3
+ms.sourcegitcommit: e52f04b5953240d71d726c0e3373740cc59292dc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="create-and-test-an-approval-workflow-with-microsoft-flow"></a>Tworzenie i testowanie przepływu pracy zatwierdzania za pomocą usługi Microsoft Flow
+
 Dzięki usłudze Microsoft Flow możesz zarządzać zatwierdzaniem dokumentów lub procesów w kilku usługach, w tym SharePoint, Dynamics CRM, Salesforce, OneDrive dla Firm, Zendesk lub WordPress.
 
 Aby utworzyć przepływ pracy zatwierdzania, dodaj akcję **Zatwierdzenia — Uruchom zatwierdzanie** do dowolnego przepływu. Po dodaniu tej akcji Twój przepływ może zarządzać zatwierdzaniem dokumentów i procesów. Możesz na przykład utworzyć przepływy zatwierdzania dokumentów służące do zatwierdzania faktur, zleceń pracy i ofert sprzedaży. Możesz też utworzyć przepływy zatwierdzania procesów do zatwierdzania wniosków urlopowych, pracy w nadgodzinach lub planów podróży.
@@ -49,12 +50,13 @@ Utwórz następujące kolumny na liście usługi SharePoint Online:
 
    ![Kolumny na liście w usłudze SharePoint Online](./media/modern-approvals/sharepoint-list-fields.png)
 
-Zanotuj nazwę i adres URL listy usługi SharePoint Online. Te informacje będą potrzebne później, podczas konfigurowania wyzwalacza **SharePoint — Po utworzeniu nowego elementu**.
+Zanotuj nazwę i adres URL listy usługi SharePoint Online. Te informacje będą potrzebne później, podczas konfigurowania wyzwalacza **SharePoint — Po utworzeniu elementu**.
 
 ## <a name="create-your-flow-from-the-blank-template"></a>Tworzenie przepływu na podstawie pustego szablonu
 [!INCLUDE [sign-in-and-create-flow-from-blank-template](includes/sign-in-and-create-flow-from-blank-template.md)]
 
 ## <a name="add-a-trigger"></a>Dodawanie wyzwalacza
+
 [!INCLUDE [add-trigger-when-sharepoint-item-created](includes/add-trigger-when-sharepoint-item-created.md)]
 
 Ustawienia **Adres witryny** i **Nazwa listy** to informacje zanotowane we wcześniejszej części tego przewodnika.
@@ -62,6 +64,7 @@ Ustawienia **Adres witryny** i **Nazwa listy** to informacje zanotowane we wcze�
 ![Informacje programu SharePoint](./media/modern-approvals/select-sharepoint-site-info.png)
 
 ## <a name="add-a-profile-action"></a>Dodawanie akcji profilu
+
 1. Wybierz pozycję **Nowy krok**, a następnie wybierz pozycję **Dodaj akcję**.
    
     ![nowy krok](./media/modern-approvals/select-sharepoint-add-action.png)
@@ -76,14 +79,20 @@ Ustawienia **Adres witryny** i **Nazwa listy** to informacje zanotowane we wcze�
     ![zapisywanie przepływu](./media/modern-approvals/save.png)
 
 ## <a name="add-an-approval-action"></a>Dodawanie akcji zatwierdzenia
+
 [!INCLUDE [add-an-approval-action](includes/add-an-approval-action.md)]
 
-Uwaga: ta akcja spowoduje wysłanie żądania zatwierdzenia na adres e-mail podany w polu **Przypisano do**.
+> [!NOTE]
+> Ta akcja spowoduje wysłanie żądania zatwierdzenia na adres e-mail podany w polu **Przypisano do**.
+>
+>
 
 ## <a name="add-a-condition"></a>Dodawanie warunku
+
 [!INCLUDE [add-approval-condition-response](includes/add-approval-condition-response.md)]
 
 ## <a name="add-an-email-action-for-approvals"></a>Dodawanie akcji poczty e-mail dla zatwierdzeń
+
 Wykonaj następujące czynności, aby wysłać wiadomość e-mail, jeśli wniosek urlopowy zostanie zatwierdzony:
 
 [!INCLUDE [add-action-to-send-email-when-vacation-approved](includes/add-action-to-send-email-when-vacation-approved.md)]
@@ -91,21 +100,30 @@ Wykonaj następujące czynności, aby wysłać wiadomość e-mail, jeśli wniose
    ![konfigurowanie szablonu wiadomości e-mail informującej o zatwierdzeniu](./media/sequential-modern-approvals/yes-email-config.png)
 
 ## <a name="add-an-update-action-for-approved-requests"></a>Dodawanie akcji aktualizacji dla zatwierdzonych wniosków
+
 [!INCLUDE [add-action-to-update-sharepoint-with-approval](includes/add-action-to-update-sharepoint-with-approval.md)]
 
-Uwaga: pola **Adres witryny**, **Nazwa listy**, **Identyfikator** i **Tytuł** są wymagane.
+> [!NOTE]
+> Pola **Adres witryny**, **Nazwa listy**, **Identyfikator** i **Tytuł** są wymagane.
+>
+>
 
 ![konfigurowanie aktualizacji elementu](./media/modern-approvals/configure-update-item.png)
 
 ## <a name="add-an-email-action-for-rejections"></a>Dodawanie akcji poczty e-mail dla odrzuceń
+
 [!INCLUDE [add-action-to-send-email-when-vacation-rejected](includes/add-action-to-send-email-when-vacation-rejected.md)]
 
 ![konfiguracja dla odrzuconych wniosków](./media/modern-approvals/configure-rejected-email.png)
 
 ## <a name="add-update-action-for-rejected-requests"></a>Dodawanie akcji aktualizacji dla odrzuconych wniosków
+
 [!INCLUDE [add-action-to-update-sharepoint-with-rejection](includes/add-action-to-update-sharepoint-with-rejection.md)]
 
-   Uwaga: pola **Adres witryny**, **Nazwa listy**, **Identyfikator** i **Tytuł** są wymagane.
+   > [!NOTE]
+   > Pola **Adres witryny**, **Nazwa listy**, **Identyfikator** i **Tytuł** są wymagane.
+   >
+   >
 
 ![karta aktualizuj element](./media/modern-approvals/configure-update-item-no.png)
 
@@ -120,11 +138,13 @@ Po wykonaniu tych czynności przepływ powinien wyglądać podobnie do przedstaw
 Po utworzeniu przepływu należy go przetestować.
 
 ## <a name="request-an-approval"></a>Wysyłanie wniosku o zatwierdzenie
+
 [!INCLUDE [request-vacation-approval](includes/request-vacation-approval.md)]
 
 Teraz, po utworzeniu i przetestowaniu przepływu, pamiętaj, aby poinstruować innych, jak z niego korzystać.
 
 ## <a name="learn-more"></a>Dowiedz się więcej
+
 * Wyświetlanie [oczekujących żądań zatwierdzenia](approve-reject-requests.md) i zarządzanie nimi
 * Utwórz [sekwencyjne przepływy zatwierdzania.](sequential-modern-approvals.md)
 * Utwórz [równoległe przepływy zatwierdzania.](parallel-modern-approvals.md)

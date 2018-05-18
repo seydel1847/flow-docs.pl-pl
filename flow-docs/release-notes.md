@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/12/2018
 ms.author: stepsic
-ms.openlocfilehash: ef14fd29dbf0b227acf4d5fef6233837514d4ab0
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.openlocfilehash: bae4991754de37ca9483d540891431e216ee74cd
+ms.sourcegitcommit: b6ac1562b3ed6601401d23f4009b7528c1ce8925
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="release-notes"></a>Informacje o wersji
 ## <a name="top-questions"></a>Najczęściej zadawane pytania
@@ -44,6 +44,14 @@ ms.lasthandoff: 04/16/2018
 3. Wyzwalacze plików nie będą uruchamiane w przypadku plików dodawanych wewnątrz folderów zagnieżdżonych w wybranym folderze.
 
 ## <a name="whats-new"></a>Co nowego
+
+### <a name="release-2014-05-01"></a>Wersja 2014-05-01
+
+- **Tekst sformatowany w komunikatach zatwierdzających** — za pomocą języka znaczników Markdown możesz sformatować wysyłane szczegóły zatwierdzenia.
+- **Przyciski umożliwiające wielokrotny wybór danych wejściowych** — możesz tworzyć przyciski przepływu, które umożliwiają pobieranie wielu wartości jednocześnie za pomocą listy wielokrotnego wyboru.
+- **Praca z szerszymi przepływami** — aplikacja mobilna Microsoft Flow już obsługuje widok poziomy, a projektant internetowy jest wyposażony w poziomy pasek przewijania.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/rich-approvals-text-and-multiselect/) na temat tej wersji.
 
 ### <a name="release-2018-04-12"></a>Wersja 2018-04-12
 
