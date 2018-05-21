@@ -1,4 +1,4 @@
-1. Wybierz pozycję **Dodaj akcję** w gałęzi **JEŚLI TAK, NIC NIE RÓB** warunku.
+1. Wybierz pozycję **Dodaj akcję** w gałęzi **JEŚLI TAK** warunku.
    
     ![dodawanie nowego kroku](media/modern-approvals/add-action-after-condition.png)
 2. W polu wyszukiwania na karcie **Wybierz akcję** wprowadź tekst **wyślij wiadomość e-mail**.
@@ -9,7 +9,10 @@
     ![wybieranie akcji wyślij wiadomość e-mail](media/modern-approvals/select-send-email-yes.png)
 4. Skonfiguruj odpowiednio kartę Wiadomość e-mail.
    
-     Uwaga: pola **Tytuł**, **Temat** i **Treść** są wymagane.
+     >[!NOTE]
+     > Pola **Do**, **Temat** i **Treść** są wymagane.
+     >
+     >
    
      Ta karta jest szablonem wiadomości e-mail, która jest wysyłana, gdy stan wniosku urlopowego się zmienia.
    

@@ -8,3 +8,5 @@
    
     ![tworzenie od podstaw](media/modern-approvals/blank-template.png)
 
+4. Wybierz przycisk **Utwórz z pustego**.
+
