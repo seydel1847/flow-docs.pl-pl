@@ -1,13 +1,13 @@
 ---
-title: "Tworzenie nowoczesnego przepływu pracy zatwierdzania z wieloma osobami zatwierdzającymi | Microsoft Docs"
-description: "Tworzenie nowoczesnego przepływu pracy zatwierdzania z wieloma osobami zatwierdzającymi "
-services: 
+title: Tworzenie nowoczesnego przepływu pracy zatwierdzania z wieloma osobami zatwierdzającymi | Microsoft Docs
+description: 'Tworzenie nowoczesnego przepływu pracy zatwierdzania z wieloma osobami zatwierdzającymi '
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 06/08/2017
 ms.author: deonhe
 ms.openlocfilehash: 8620cd49f9e19f6641909fcab3103568d148e565
-ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="manage-sequential-approvals-with-microsoft-flow"></a>Zarządzanie zatwierdzeniami sekwencyjnymi za pomocą usługi Microsoft Flow
 Niektóre przepływy pracy wymagają wstępnego zatwierdzenia, zanim będzie wymagane zatwierdzenie przez osobę ostatecznie zatwierdzającą. Firma może mieć na przykład zasady zatwierdzania sekwencyjnego, które wymagają wstępnego zatwierdzenia faktur powyżej 1000,00 zł przed zatwierdzeniem przez dział finansowy.

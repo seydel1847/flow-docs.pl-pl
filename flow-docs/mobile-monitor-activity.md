@@ -1,13 +1,13 @@
 ---
-title: "Monitorowanie aktywności z telefonu | Microsoft Docs"
-description: "Wyświetlanie liczby pomyślnie i niepomyślnie uruchomionych przepływów, czasów uruchomienia i czasów trwania poszczególnych przebiegów"
-services: 
+title: Monitorowanie aktywności z telefonu | Microsoft Docs
+description: Wyświetlanie liczby pomyślnie i niepomyślnie uruchomionych przepływów, czasów uruchomienia i czasów trwania poszczególnych przebiegów
+services: ''
 suite: flow
 documentationcenter: na
 author: adiregev
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 06/11/2016
 ms.author: adiregev
 ms.openlocfilehash: a9318a1571d46635babbb0b061ff65734ad172fe
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="monitor-activity-in-microsoft-flow-from-your-phone"></a>Monitorowanie aktywności w usłudze Microsoft Flow z telefonu
 Wyświetl podsumowanie liczby pomyślnie i niepomyślnie uruchomionych przepływów dzisiaj, wczoraj i w poprzednich dniach. Sprawdź szczegóły każdego przebiegu, np. czas jego uruchomienia, czas trwania każdego etapu, a także sprawdź, czy przebieg zakończył się pomyślnie, czy niepomyślnie.

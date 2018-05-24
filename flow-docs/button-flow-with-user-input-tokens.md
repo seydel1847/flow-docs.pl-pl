@@ -1,13 +1,13 @@
 ---
-title: "Informacje o automatyzowaniu powtarzających się zadań przy użyciu przepływów przycisku, które akceptują dane wejściowe użytkownika | Microsoft Docs"
-description: "Usługa Microsoft Flow ułatwia automatyzację powtarzających się zadań. Przepływy mogą nawet akceptować dane wejściowe użytkownika podczas uruchamiania powtarzającego się zadania."
-services: 
+title: Informacje o automatyzowaniu powtarzających się zadań przy użyciu przepływów przycisku, które akceptują dane wejściowe użytkownika | Microsoft Docs
+description: Usługa Microsoft Flow ułatwia automatyzację powtarzających się zadań. Przepływy mogą nawet akceptować dane wejściowe użytkownika podczas uruchamiania powtarzającego się zadania.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 73feb90b3907ee8a7a192f16bc29c5893d0be4bb
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 483837a013b5fa0c8dfa27d2ed3a1e3481c36c5b
+ms.sourcegitcommit: 8bf92483780a5682777dd9fb73be8c2fb0e78dc4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="introducing-button-flows-with-user-input"></a>Wprowadzenie do przepływów przycisku z danymi wejściowymi użytkownika
 Utwórz przepływ przycisku do uruchamiania rutynowych zadań za pomocą prostego naciśnięcia przycisku. Dostosuj przepływ przez umożliwienie użytkownikowi wprowadzenia konkretnych szczegółów, które zostaną użyte podczas przebiegów przepływów. W tym temacie omówiono tworzenie przepływu przycisku, który akceptuje dane wejściowe od użytkownika, a następnie uruchomienie przepływu przycisku ze szczególnym naciskiem na wprowadzanie danych wejściowych użytkownika.
@@ -116,7 +116,7 @@ W tym przewodniku uruchomisz utworzony właśnie przepływ przycisku za pomocą 
 
 ## <a name="next-steps"></a>Następne kroki
 * [Udostępnianie przepływów przycisków](share-buttons.md)
-* [Więcej informacji na temat przepływów](guided-learning/learning-introducing-flow.md)  
+* [Więcej informacji na temat przepływów](guided-learning/get-started.yml?tutorial-step=1)  
 * [Więcej informacji na temat przepływów przycisku](introduction-to-button-flows.md)  
 * [Więcej informacji na temat przepływów przycisku z tokenami wyzwalacza](introduction-to-button-trigger-tokens.md)  
 

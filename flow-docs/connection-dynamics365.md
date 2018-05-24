@@ -1,13 +1,13 @@
 ---
-title: "Tworzenie przepływu przy użyciu usługi Dynamics 365 (online) | Microsoft Docs"
-description: "Tworzenie przydatnych przepływów pracy przy użyciu połączenia Dynamics 365 i usługi Microsoft Flow"
-services: 
+title: Tworzenie przepływu przy użyciu usługi Dynamics 365 (online) | Microsoft Docs
+description: Tworzenie przydatnych przepływów pracy przy użyciu połączenia Dynamics 365 i usługi Microsoft Flow
+services: ''
 suite: flow
 documentationcenter: na
 author: Mattp123
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: 5ef3de417b1557644ce9bfcd935353e017ceb676
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 923fd1fc573586871d506a66aaa2b09d5b5dc9da
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Tworzenie przepływu przy użyciu usługi Dynamics 365 (online)
 Za pomocą łącznika usługi Dynamics 365 możesz utworzyć przepływy, które będą inicjowane w momencie wystąpienia zdarzenia w usłudze Dynamics 365 lub innej, a następnie będą wykonywać akcję w usłudze Dynamics 365 lub innej. 
@@ -73,7 +73,7 @@ Jeśli nie ma dostępnego szablonu spełniającego dane wymagania, utwórz szabl
 12. Kliknij lub naciśnij pozycję **Utwórz przepływ**.
 
 ## <a name="create-a-wunderlist-task-from-a-dynamics-365-task"></a>Tworzenie zadania programu Wunderlist na podstawie zadania usługi Dynamics 365
-W tym przewodniku zawarto informacje dotyczące tworzenia zadania w programie [Wunderlist](http://www.wunderlist.com) za każdym razem, gdy w usłudze Dynamics 365 zostaje utworzone zadanie. Wunderlist jest usługą internetową, dzięki której możesz tworzyć listy zadań do wykonania, dodawać przypomnienia lub śledzić zadania.
+W tym przewodniku zawarto informacje dotyczące tworzenia zadania w programie [Wunderlist](https://www.wunderlist.com) za każdym razem, gdy w usłudze Dynamics 365 zostaje utworzone zadanie. Wunderlist jest usługą internetową, dzięki której możesz tworzyć listy zadań do wykonania, dodawać przypomnienia lub śledzić zadania.
 
 1. Zaloguj się do [witryny sieci Web usługi Microsoft Flow](https://flow.microsoft.com/).
 2. Kliknij lub naciśnij pozycję **Moje przepływy**, a następnie kliknij lub naciśnij pozycję **Utwórz z pustego**.
@@ -129,7 +129,7 @@ W tym przykładzie zadanie zostaje przypisane do określonego użytkownika w opa
 
   ![Identyfikator rekordu i typ użytkownika przepływu](./media/connection-dynamics365/flow-recordid-user.png)
 
-Aby znaleźć identyfikator rekordu, zobacz sekcję [Znajdowanie identyfikatora rekordu](#find-the-record-id) w dalszej części tego tematu.
+Aby znaleźć identyfikator rekordu, zobacz sekcję [Znajdowanie identyfikatora rekordu](#find-the-records-id) w dalszej części tego tematu.
 
 > **Ważne:** pola nie powinny zawierać wartości, jeśli mają opis „Tylko do użytku wewnętrznego”. Pola te obejmują między innymi następujące: **Pokonana ścieżka**, **Dodatkowe parametry** i **Numer wersji reguły strefy czasowej**.
 > 
