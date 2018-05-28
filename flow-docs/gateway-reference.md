@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 3ff4148f88c145df1db5e8ec8468138fe7413a6a
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: fc69517beb24d50432c1cbed216f28cfc0f862fb
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Informacje o lokalnych bramach danych dla programu Microsoft Flow
 Przy użyciu lokalnych bram danych w usłudze Microsoft Flow możesz ustanawiać bezpieczne połączenia z lokalnymi źródłami danych, takimi jak program Microsoft SQL Server.
@@ -192,7 +192,7 @@ W celu określenia przepustowości sieci można użyć narzędzia innej firmy, k
 
 ### <a name="high-availabilitydisaster-recovery"></a>Wysoka dostępność/odzyskiwanie po awarii
 **Pytanie:** Czy jest planowane umożliwienie realizacji scenariuszy wysokiej dostępności w ramach bramy?
-**Odpowiedź:** Mamy to w planach, ale nie ustaliliśmy jeszcze terminu realizacji takich założeń.
+**Odpowiedź:** Tak, obsługa wysokiej dostępności [została już udostępniona](https://flow.microsoft.com/blog/gateway-ha-increased-apply-to-each).
 
 **Pytanie:** Jakie opcje są dostępne na potrzeby odzyskiwania po awarii?
 **Odpowiedź:** w celu przywrócenia lub przeniesienia bramy można użyć klucza odzyskiwania.

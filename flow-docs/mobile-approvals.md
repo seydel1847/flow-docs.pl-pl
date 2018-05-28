@@ -1,13 +1,13 @@
 ---
-title: "Zatwierdzanie żądań na urządzeniu przenośnym | Microsoft Docs"
-description: "Żądania utworzone w usłudze Microsoft Flow można zatwierdzać na urządzeniu przenośnym."
-services: 
+title: Zatwierdzanie żądań na urządzeniu przenośnym | Microsoft Docs
+description: Żądania utworzone w usłudze Microsoft Flow można zatwierdzać na urządzeniu przenośnym.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
-ms.openlocfilehash: 18546c044dc823d703544c48f5cda76a3581e99f
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 2b856dfa75e0acb7eb83525c4d64d070315b5735
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="approve-requests-on-your-mobile-device-by-using-microsoft-flow"></a>Zatwierdzanie żądań na urządzeniu przenośnym za pomocą usługi Microsoft Flow
 Jeśli jesteś w przepływie wskazany jako osoba zatwierdzająca i masz zainstalowaną aplikację mobilną usługi Microsoft Flow, otrzymasz powiadomienie wypychane za każdym razem, gdy będzie potrzebne Twoje zatwierdzenie.
@@ -52,7 +52,7 @@ Aby ukończyć ten przewodnik, potrzebne są:
 Jeśli nie masz żadnych oczekujących żądań zatwierdzenia, utwórz [przepływ zatwierdzania](modern-approvals.md), ustaw siebie jako osobę zatwierdzającą, a następnie wyzwól przepływ. Żądania zatwierdzenia pojawiają się w centrum zatwierdzania kilka sekund po wyzwoleniu przepływu i wysłaniu żądania do zatwierdzenia.
 
 ## <a name="approve-requests-and-leave-an-optional-comment"></a>Zatwierdzanie żądań i pozostawianie opcjonalnego komentarza
-1. Jeśli nie zostało to jeszcze zrobione, wykonaj wcześniejsze kroki, aby [wyświetlić wszystkie oczekujące żądania zatwierdzenia](mobile-approvals.md#view-pending-approval-requests).
+1. Jeśli nie zostało to jeszcze zrobione, wykonaj wcześniejsze kroki, aby [wyświetlić oczekujące żądania](mobile-approvals.md#view-pending-requests).
 2. Wybierz pozycję **ZATWIERDŹ** dla żądania, które chcesz zatwierdzić.
    
     ![Wybieranie pozycji Zatwierdź](./media/mobile-approvals/select-approve.png)

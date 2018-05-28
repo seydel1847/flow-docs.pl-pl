@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: 06e327963a44f74141492ec14f2bef7cab802b79
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: 9b2447ce0a7c9bc353e47ee1edb4bea55f2c49f4
+ms.sourcegitcommit: f9be24c533003146d75e5a7fa6e40356d4ce47d7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Limity i konfiguracja w usłudze Microsoft Flow
 Ten temat zawiera informacje o obecnych limitach i szczegóły konfiguracji dla przepływów.
@@ -31,7 +31,8 @@ Są to limity dotyczące pojedynczego żądania wychodzącego.
 
 | Nazwa | Limit |
 | --- | --- |
-| Limit czasu żądania |120 sekund |
+| Limit czasu żądania dla wywołań synchronicznych |120 sekund |
+| Limit czasu żądania dla wywołań asynchronicznych|Można skonfigurować. Maksymalna wartość to 30 dni. |
 
 ### <a name="message-size"></a>Rozmiar komunikatu
 
@@ -55,6 +56,7 @@ Są to limity dotyczące pojedynczego przebiegu przepływu.
 | Przechowywanie w magazynie |30 dni |Od czasu rozpoczęcia przebiegu. |
 | Minimalny interwał cyklu |1 minuta | |
 | Maksymalny interwał cyklu |500 dni | |
+| Maksymalny okres przechowywania historii uruchamiania |28 dni zgodnie z wymogami RODO. | |
 
 ## <a name="looping-and-debatching-limits"></a>Limity pętli i dzielenia partii na elementy
 Są to limity dotyczące pojedynczego przebiegu przepływu.
