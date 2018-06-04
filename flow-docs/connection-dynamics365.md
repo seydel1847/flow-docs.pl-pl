@@ -15,16 +15,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: 923fd1fc573586871d506a66aaa2b09d5b5dc9da
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.openlocfilehash: d34cfd6632ca0e8c560c5af199877b13b210a64a
+ms.sourcegitcommit: a378fb36722ae4be9909fb453efa81808b509255
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/01/2018
+ms.locfileid: "34689381"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Tworzenie przepływu przy użyciu usługi Dynamics 365 (online)
 Za pomocą łącznika usługi Dynamics 365 możesz utworzyć przepływy, które będą inicjowane w momencie wystąpienia zdarzenia w usłudze Dynamics 365 lub innej, a następnie będą wykonywać akcję w usłudze Dynamics 365 lub innej. 
 
 W usłudze Microsoft Flow możesz skonfigurować zautomatyzowane przepływy pracy między ulubionymi aplikacjami, a także synchronizować pliki, uzyskiwać powiadomienia, gromadzić dane i wykonywać wiele innych operacji. Więcej informacji znajduje się w temacie [Wprowadzenie do usługi Microsoft Flow](getting-started.md).
+
+> [!IMPORTANT] 
+> Aby wywołać wyzwalacz przepływu, jednostka zaangażowania klientów usługi Dynamics 365 używana z przepływem musi mieć włączoną funkcję **Śledzenie zmian**. Więcej informacji: [Włączanie śledzenia zmian w celu kontrolowania synchronizacji danych](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization) 
 
 ## <a name="create-a-flow-from-a-template"></a>Utwórz przepływ na podstawie szablonu
 Możesz utworzyć przepływ, korzystając z jednego z wielu dostępnych szablonów, np. poniższych:
