@@ -1,13 +1,13 @@
 ---
-title: "Uruchamianie przepływów za pomocą przycisków Flic | Microsoft Docs"
-description: "Łatwe uruchamianie przepływów za pomocą przycisków fizycznych Flic firmy Shortcut Labs."
-services: 
+title: Uruchamianie przepływów za pomocą przycisków Flic | Microsoft Docs
+description: Łatwe uruchamianie przepływów za pomocą przycisków fizycznych Flic firmy Shortcut Labs.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 05/19/2017
 ms.author: deonhe
 ms.openlocfilehash: 518834103c1a17ef2f5af218eae43ccab4e5fda2
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440842"
 ---
 # <a name="run-your-flows-by-pressing-a-flic-smart-button-preview"></a>Uruchamianie przepływów przez naciśnięcie przycisku inteligentnego Flic (wersja zapoznawcza)
 Wyzwalaj przepływy, naciskając przycisk fizyczny Flic firmy Shortcut Labs. Przez naciśnięcie przycisku Flic możesz na przykład śledzić godziny pracy, zablokować kalendarz, policzyć gości na imprezie lub zapisać lokalizacje geograficzne.

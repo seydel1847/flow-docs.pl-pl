@@ -1,13 +1,13 @@
 ---
-title: "Tworzenie przepływu na telefonie | Microsoft Docs"
-description: "Utwórz przepływ na podstawie szablonu, który, na przykład, wysyła powiadomienie wypychane po otrzymaniu wiadomości e-mail z określonego adresu"
-services: 
+title: Tworzenie przepływu na telefonie | Microsoft Docs
+description: Utwórz przepływ na podstawie szablonu, który, na przykład, wysyła powiadomienie wypychane po otrzymaniu wiadomości e-mail z określonego adresu
+services: ''
 suite: flow
 documentationcenter: na
 author: adiregev
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/18/2016
 ms.author: adiregev
 ms.openlocfilehash: 27a2001e3fa154f9354ef5ad888e194f30b3d6ab
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440302"
 ---
 # <a name="create-a-flow-from-your-phone-by-using-microsoft-flow"></a>Tworzenie przepływu na telefonie przy użyciu usługi Microsoft Flow
 Utwórz przepływ na telefonie za pomocą szablonu, który można znaleźć, przeszukując listę usług, przeglądając kategorie lub określając słowa kluczowe. Wykonaj instrukcje zawarte w tym temacie, aby utworzyć przepływ wysyłający powiadomienie wypychane na telefon po otrzymaniu wiadomości e-mail od kierownika.

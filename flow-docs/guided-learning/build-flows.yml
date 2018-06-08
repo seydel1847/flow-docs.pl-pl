@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
-title: "Kompilowanie przepływów"
+title: Kompilowanie przepływów
 metadata:
-  title: "Kompilowanie przepływów | Microsoft Flow"
-  description: "Dowiedz się, jak kompilować przepływy kopiujące i zbierające dane, a także przepływy wysyłające powiadomienia. Uruchamiaj przepływy na podstawie harmonogramu lub na żądanie przy użyciu przycisku."
+  title: Kompilowanie przepływów | Microsoft Flow
+  description: Dowiedz się, jak kompilować przepływy kopiujące i zbierające dane, a także przepływy wysyłające powiadomienia. Uruchamiaj przepływy na podstawie harmonogramu lub na żądanie przy użyciu przycisku.
   audience: Business User
   level: Beginner
   nextTutorialHref: work-with-approvals
@@ -15,28 +15,30 @@ metadata:
   ms.date: 10/04/2017
   ms.author: deonhe
   ms.openlocfilehash: 6653c723ba9c3dfce8c953b86e3b54d5226cd258
-  ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
+  ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
   ms.translationtype: HT
   ms.contentlocale: pl-PL
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 06/04/2018
+  ms.locfileid: "26580792"
 items:
 - durationInMinutes: 1
-  content: "Dowiedz się, jak kompilować przepływy kopiujące i zbierające dane, a także przepływy wysyłające powiadomienia. Uruchamiaj przepływy na podstawie harmonogramu lub na żądanie przy użyciu przycisku.\n"
-- title: "Tworzenie przepływu przycisku"
+  content: >
+    Dowiedz się, jak kompilować przepływy kopiujące i zbierające dane, a także przepływy wysyłające powiadomienia. Uruchamiaj przepływy na podstawie harmonogramu lub na żądanie przy użyciu przycisku.
+- title: Tworzenie przepływu przycisku
   durationInMinutes: 11
   content: >
     > [!Video https://www.youtube.com/embed/s8ozmlVRV-Q?rel=0]
 
 
     [!INCLUDE [learning-create-button-flow](../includes/learning-create-button-flow.md)]
-- title: "Otrzymywanie powiadomień"
+- title: Otrzymywanie powiadomień
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/VEHKGLY0hq4?rel=0]
 
 
     [!INCLUDE [learning-get-notifications](../includes/learning-get-notifications.md)]
-- title: "Kopiowanie plików"
+- title: Kopiowanie plików
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/liL0IWNcRcc?rel=0]
@@ -50,25 +52,25 @@ items:
 
 
     [!INCLUDE [learning-collect-data](../includes/learning-collect-data.md)]
-- title: "Publikowanie tweetów z przepływu"
+- title: Publikowanie tweetów z przepływu
   durationInMinutes: 15
   content: >
     > [!Video https://www.youtube.com/embed/y1iDal8XPAo?rel=0]
 
 
     [!INCLUDE [learning-push-notifications](../includes/learning-push-notifications.md)]
-- title: "Tworzenie zaplanowanych przepływów"
+- title: Tworzenie zaplanowanych przepływów
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/hh4nmS_M8Co?rel=0]
 
 
     [!INCLUDE [learning-recurrence](../includes/learning-recurrence.md)]
-- title: "Konwertowanie i przechowywanie dokumentów"
+- title: Konwertowanie i przechowywanie dokumentów
   durationInMinutes: 14
   content: >
     > [!Video https://www.youtube.com/embed/ukRhuJGC9A0?rel=0]
 
 
     [!INCLUDE [learning-create-pdf](../includes/learning-create-pdf.md)]
-- content: "Sekcja **Kompilowanie przepływów** przewodnika szkoleniowego dotyczącego usługi Microsoft Flow została ukończona.\0"
+- content: Sekcja **Kompilowanie przepływów** przewodnika szkoleniowego dotyczącego usługi Microsoft Flow została ukończona.

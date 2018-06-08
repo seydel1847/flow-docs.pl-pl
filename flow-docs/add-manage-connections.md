@@ -1,13 +1,13 @@
 ---
-title: "Dowiedz się, jak nawiązać połączenie z danymi za pomocą połączeń i lokalnych bram danych | Microsoft Docs"
-description: "Dodawanie połączeń z produktami SharePoint, SQL Server, OneDrive dla Firm, Salesforce, Office 365, OneDrive, Dropbox, Twitter, Dysk Google itp. lub zarządzanie nimi"
-services: 
+title: Dowiedz się, jak nawiązać połączenie z danymi za pomocą połączeń i lokalnych bram danych | Microsoft Docs
+description: Dodawanie połączeń z produktami SharePoint, SQL Server, OneDrive dla Firm, Salesforce, Office 365, OneDrive, Dropbox, Twitter, Dysk Google itp. lub zarządzanie nimi
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 02/15/2017
 ms.author: stepsic
 ms.openlocfilehash: c0e115732e26bdeb0d7e4c3c60e1aa6c63e0ffc1
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23439780"
 ---
 # <a name="manage-connections-in-microsoft-flow"></a>Zarządzanie połączeniami w usłudze Microsoft Flow
 Utworzenie połączenia w usłudze Microsoft Flow zapewnia łatwy dostęp do danych podczas tworzenia przepływu. Usługa Microsoft Flow zawiera często używane połączenia, w tym połączenia z produktami SharePoint, SQL Server, Office 365, OneDrive dla Firm, Salesforce, Excel, Dropbox, Twitter itp. Połączenia są współdzielone z usługą PowerApps, więc po utworzeniu połączenia w jednym produkcie pojawia się ono w drugim i na odwrót.

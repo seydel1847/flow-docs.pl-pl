@@ -1,13 +1,13 @@
 ---
-title: "Integrowanie usługi Microsoft Flow z aplikacjami i witrynami internetowymi | Microsoft Docs"
-description: "Osadź środowiska usługi Microsoft Flow w witrynie sieci Web lub aplikacji."
-services: 
+title: Integrowanie usługi Microsoft Flow z aplikacjami i witrynami internetowymi | Microsoft Docs
+description: Osadź środowiska usługi Microsoft Flow w witrynie sieci Web lub aplikacji.
+services: ''
 suite: flow
 documentationcenter: na
 author: bbarath
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/09/2017
 ms.author: barathb
-ms.openlocfilehash: 12664286a9e7d88fb5e24607d600b42f95398cee
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: af03ee70b09ba5ee1164a9a7ea5019b13c19eec6
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440050"
 ---
 # <a name="integrate-microsoft-flow-with-websites-and-apps"></a>Integrowanie usługi Microsoft Flow z witrynami sieci Web i aplikacjami
 Osadź usługę Microsoft Flow bezpośrednio w aplikacji lub witrynie sieci Web w celu udostępnienia użytkownikom łatwego sposobu automatyzacji zadań osobistych lub zawodowych.
@@ -33,7 +34,7 @@ Aby tworzyć przepływy, użytkownicy potrzebują **konta Microsoft** albo konta
 ## <a name="show-templates-for-your-scenarios"></a>Wyświetlanie szablonów dla Twoich scenariuszy
 Aby rozpocząć, dodaj następujący kod w celu wyświetlenia szablonów przepływu bezpośrednio w swojej witrynie sieci Web:
 
-```
+```html
 <iframe src="https://flow.microsoft.com/{locale}/widgets/templates/?q={search term}
 &pagesize={number of templates}&destination={destination}"></iframe>
 ```
@@ -59,7 +60,7 @@ Jeśli użytkownik znajduje się w pewnym kontekście witryny sieci Web lub apli
 ### <a name="full-sample"></a>Pełny przykład
 Aby wyświetlić pierwsze cztery szablony dla aplikacji Wunderlist w języku niemieckim i po uruchomieniu wyświetlać użytkownikowi listę **myCoolList**:
 
-```
+```html
 <iframe src="https://flow.microsoft.com/de-de/widgets/templates/?q=wunderlist
 &pagesize=4&destination=details&parameters.listName=myCoolList"></iframe>
 ```
@@ -75,20 +76,20 @@ Użyj uwierzytelnionego zestawu SDK przepływu, aby umożliwić użytkownikom tw
 ### <a name="include-the-javascript-for-the-authenticated-sdk"></a>Uwzględnianie języka JavaScript dla uwierzytelnionego zestawu SDK
 Uwzględnij zestaw SDK w kodzie HTML, postępując zgodnie z tym przykładem. Możesz też pobrać i zmniejszyć zestaw SDK oraz utworzyć jego pakiet za pomocą produktu.
 
-```
+```javascript
 <script src="https://flow.microsoft.com/content/msflowsdk-1.1.js" async defer></script>
 ```
 
 ### <a name="create-a-container-to-contain-the-view"></a>Tworzenie kontenera zawierającego widok
 Dodaj tag div języka HTML:
 
-```
+```html
 <div id="flowDiv" class="flowContainer"></div>
 ```
 
 Zalecamy dopasowanie stylu tego kontenera tak, aby miał on rozmiar odpowiedni dla używanego środowiska:
 
-```
+```html
 <head>
     <style>
         .flowContainer iframe {
@@ -106,7 +107,7 @@ Pamiętaj, że element iframe nie będzie poprawnie renderowany poniżej 320 pik
 ### <a name="authentication-against-the-sdk"></a>Uwierzytelnianie względem zestawu SDK
 Aby wyświetlić listę przepływów, które użytkownik już utworzył, oraz aby utworzyć przepływy z szablonów, podaj element authToken z usługi AAD.
 
-```
+```javascript
 <script>
     window.msFlowSdkLoaded = function() {
         var sdk = new MsFlowSdk({
@@ -132,7 +133,7 @@ Aby wyświetlić listę przepływów, które użytkownik już utworzył, oraz ab
 
 Element `environmentId` możesz znaleźć, wykonując następujące wywołanie interfejsu API, które zwraca listę środowisk dostępnych dla użytkownika:
 
-```
+```http
 GET https://management.azure.com/providers/Microsoft.ProcessSimple/environments
 ?api-version=2016-11-01 
 ```
@@ -141,7 +142,7 @@ Zwraca odpowiedź JSON z listą środowisk, z której można wybrać dowolne śr
 
 W tym przykładzie element `requestParam` jest zdefiniowany jako:
 
-```
+```javascript
 export interface IRpcRequestParam {
     callInfo: IRpcCallInfo,
     data?: any;
@@ -150,7 +151,7 @@ export interface IRpcRequestParam {
 
 Z kolei element `widgetDoneCallback` to funkcja wywołania zwrotnego, którą należy wywołać, gdy host ma już token. Przyczyną jest to, że uzyskanie tokenu jest prawdopodobnie procesem asynchronicznym. Parametry, które należy przekazać przy wywołaniu tej funkcji, to `(errorResult: any, successResult: any)`. Wartość successResult zależy od typu wywołania zwrotnego. Dla elementu `GetAccessToken` typ to:
 
-```
+```javascript
 export interface IGetAccessTokenResult {
     token: string;
 }

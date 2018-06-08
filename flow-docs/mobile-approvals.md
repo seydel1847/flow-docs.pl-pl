@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
 ms.openlocfilehash: 2b856dfa75e0acb7eb83525c4d64d070315b5735
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440194"
 ---
 # <a name="approve-requests-on-your-mobile-device-by-using-microsoft-flow"></a>Zatwierdzanie żądań na urządzeniu przenośnym za pomocą usługi Microsoft Flow
 Jeśli jesteś w przepływie wskazany jako osoba zatwierdzająca i masz zainstalowaną aplikację mobilną usługi Microsoft Flow, otrzymasz powiadomienie wypychane za każdym razem, gdy będzie potrzebne Twoje zatwierdzenie.

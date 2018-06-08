@@ -1,13 +1,13 @@
 ---
 title: Informacje o operacjach na danych | Microsoft Docs
-description: "Naucz się wykonywać operacje takie jak tworzenie tabeli HTML, tworzenie tabeli CSV oraz tworzenie, łączenie, wybieranie i filtrowanie tablicy przy użyciu usługi Microsoft Flow."
-services: 
+description: Naucz się wykonywać operacje takie jak tworzenie tabeli HTML, tworzenie tabeli CSV oraz tworzenie, łączenie, wybieranie i filtrowanie tablicy przy użyciu usługi Microsoft Flow.
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 08/02/2017
 ms.author: deonhe
 ms.openlocfilehash: aa3f61d09cb5e9b8d07124838883da9b5b9794ab
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440914"
 ---
 # <a name="use-data-operations-with-microsoft-flow"></a>Używanie operacji na danych w usłudze Microsoft Flow
 W tym przewodniku poznasz niektóre popularne operacje na danych w usłudze Microsoft Flow — takie jak tworzenie, łączenie, wybieranie i filtrowanie tablicy, tworzenie tabeli oraz analizowanie kodu JSON — przy użyciu których można manipulować danymi podczas tworzenia przepływu.

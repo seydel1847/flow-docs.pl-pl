@@ -1,13 +1,13 @@
 ---
-title: "Zarządzanie przepływami z telefonu | Microsoft Docs"
-description: "Wyświetlaj listę przepływów, włączaj je lub wyłączaj oraz wyświetlaj zdarzenia, akcje i historię uruchomień każdego przepływu"
-services: 
+title: Zarządzanie przepływami z telefonu | Microsoft Docs
+description: Wyświetlaj listę przepływów, włączaj je lub wyłączaj oraz wyświetlaj zdarzenia, akcje i historię uruchomień każdego przepływu
+services: ''
 suite: flow
 documentationcenter: na
 author: adiregev
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 06/11/2016
 ms.author: adiregev
 ms.openlocfilehash: 4a04fec70ae70ff17ddf6e1f93e6461ec432e8d2
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440104"
 ---
 # <a name="manage-flows-in-microsoft-flow-from-your-phone"></a>Zarządzanie przepływami w usłudze Microsoft Flow z telefonu
 Wyświetlaj listę wszystkich utworzonych przepływów oraz wyświetlaj powiązane z każdym przepływem zdarzenia i akcje, włączaj je lub wyłączaj, a także poznawaj ich historię uruchomień.

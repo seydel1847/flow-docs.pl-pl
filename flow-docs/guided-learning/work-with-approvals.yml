@@ -2,11 +2,11 @@
 title: Praca z zatwierdzeniami
 metadata:
   title: Praca z zatwierdzeniami | Microsoft Flow
-  description: "Dowiedz się, jak zarządzać zatwierdzaniem dokumentów i procesów w usłudze Microsoft Flow."
+  description: Dowiedz się, jak zarządzać zatwierdzaniem dokumentów i procesów w usłudze Microsoft Flow.
   audience: Business User
   level: Beginner
   nextTutorialHref: administer-flows
-  nextTutorialTitle: "Administrowanie przepływami"
+  nextTutorialTitle: Administrowanie przepływami
   displayType: one-column
   author: MSFTMan
   manager: anneta
@@ -15,25 +15,27 @@ metadata:
   ms.date: 02/22/2018
   ms.author: deonhe
   ms.openlocfilehash: b3b77f073464ae15eaf3ca49ce6664ed5d03cfe8
-  ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
+  ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
   ms.translationtype: HT
   ms.contentlocale: pl-PL
-  ms.lasthandoff: 02/27/2018
+  ms.lasthandoff: 06/04/2018
+  ms.locfileid: "29563024"
 items:
 - durationInMinutes: 1
-  content: "Dowiedz się, jak zarządzać zatwierdzaniem dokumentów i procesów w usłudze Microsoft Flow.\n"
-- title: "Tworzenie żądania zatwierdzenia"
+  content: >
+    Dowiedz się, jak zarządzać zatwierdzaniem dokumentów i procesów w usłudze Microsoft Flow.
+- title: Tworzenie żądania zatwierdzenia
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/65yz8tqnWe0?rel=0]
 
 
     [!INCLUDE [learning-approval-center](../includes/learning-approval-center.md)]
-- title: "Przetwarzanie żądania zatwierdzenia"
+- title: Przetwarzanie żądania zatwierdzenia
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/-0r5ZKVEIS4?rel=0]
 
 
     [!INCLUDE [learning-approval-request](../includes/learning-approval-request.md)]
-- content: "Sekcja **Praca z zatwierdzeniami** przewodnika szkoleniowego dotyczącego usługi Microsoft Flow została ukończona.\0"
+- content: Sekcja **Praca z zatwierdzeniami** przewodnika szkoleniowego dotyczącego usługi Microsoft Flow została ukończona.

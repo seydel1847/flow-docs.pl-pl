@@ -1,13 +1,13 @@
 ---
-title: "Używanie akcji Zastosuj do każdego w celu przetwarzania tablicy elementów w ramach pętli | Microsoft Docs"
-description: "Za pomocą usługi Microsoft Flow możesz przetwarzać tablice elementów w ramach pętli, aby sprawdzać wiele warunków i wykonywać akcje na podstawie tych warunków."
-services: 
+title: Używanie akcji Zastosuj do każdego w celu przetwarzania tablicy elementów w ramach pętli | Microsoft Docs
+description: Za pomocą usługi Microsoft Flow możesz przetwarzać tablice elementów w ramach pętli, aby sprawdzać wiele warunków i wykonywać akcje na podstawie tych warunków.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 03/16/2017
 ms.author: deonhe
 ms.openlocfilehash: 37f1ce939db23694bcd92e7f1af75bf6c474be91
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440464"
 ---
 # <a name="use-the-apply-to-each-action-in-microsoft-flow-to-process-a-list-of-items-periodically"></a>Używanie akcji Zastosuj do każdego w usłudze Microsoft Flow w celu okresowego przetwarzania listy elementów
 Wiele wyzwalaczy może natychmiast uruchomić przepływ na podstawie zdarzenia, takiego jak odebranie nowej wiadomości e-mail w skrzynce odbiorczej. Te wyzwalacze są znakomite, ale czasami trzeba uruchomić przepływ, który wykonuje zapytania względem źródła danych zgodnie ze wstępnie zdefiniowanym harmonogramem i wykonuje określone akcje na podstawie właściwości elementów w źródle danych. W tym celu Twój przepływ może być uruchamiany zgodnie z harmonogramem (na przykład raz dziennie) i używać akcji pętli, takiej jak **Zastosuj do każdego** do przetwarzania listy elementów. Akcji **Zastosuj do każdego** można użyć na przykład w celu zaktualizowania rekordów z bazy danych lub listy elementów z programu Microsoft SharePoint.

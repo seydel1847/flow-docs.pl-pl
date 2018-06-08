@@ -1,13 +1,13 @@
 ---
-title: "Przesyłanie szablonu przepływu | Microsoft Docs"
-description: "Prześlij utworzony przez siebie przepływ jako szablon, aby inne organizacje mogły go znaleźć w galerii szablonów i używać."
-services: 
+title: Przesyłanie szablonu przepływu | Microsoft Docs
+description: Prześlij utworzony przez siebie przepływ jako szablon, aby inne organizacje mogły go znaleźć w galerii szablonów i używać.
+services: ''
 suite: flow
 documentationcenter: na
 author: sunaysv
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 06/10/2017
 ms.author: sunayv
 ms.openlocfilehash: c265556631d19cb3c9179454bcf3b8a26e88651b
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442048"
 ---
 # <a name="submit-a-template-to-the-microsoft-flow-gallery"></a>Przesyłanie szablonu do galerii usługi Microsoft Flow
 Prześlij szablon przepływu do galerii szablonów usługi Microsoft Flow. Szablony pomagają nie tylko łatwiej tworzyć przepływy, ale pozwalają także wyobrazić sobie inne scenariusze, w których można wykorzystać przepływ. 

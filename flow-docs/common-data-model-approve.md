@@ -1,13 +1,13 @@
 ---
-title: "Tworzenie pętli zatwierdzania za pomocą usługi Common Data Service | Microsoft Docs"
-description: "Utwórz jednostkę, przepływ i aplikację, które współpracują ze sobą tak, aby recenzenci mogli zatwierdzać lub odrzucać pliki dodane do usługi Dropbox."
-services: 
+title: Tworzenie pętli zatwierdzania za pomocą usługi Common Data Service | Microsoft Docs
+description: Utwórz jednostkę, przepływ i aplikację, które współpracują ze sobą tak, aby recenzenci mogli zatwierdzać lub odrzucać pliki dodane do usługi Dropbox.
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
 ms.openlocfilehash: f56b109cc0263c8464d6d7475421ab32af8888d5
-ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29351342"
 ---
 # <a name="build-an-approval-loop-by-using-microsoft-flow-and-the-microsoft-common-data-service"></a>Tworzenie pętli zatwierdzania za pomocą usługi Microsoft Flow i usługi Microsoft Common Data Service
 Usługa Common Data Service umożliwia tworzenie przepływów, których informacje są przechowywane w bazie danych niezależnej od przepływu. Najlepszym przykładem są zatwierdzenia. Jeśli stan zatwierdzania zostanie zapisany w jednostce, przepływ może działać na jego podstawie.

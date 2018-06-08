@@ -1,13 +1,13 @@
 ---
-title: "Informacje dotyczące dodawania innych właścicieli do przepływu i tworzenia przepływów zespołu | Microsoft Docs"
-description: "Usługa Microsoft Flow ułatwia automatyzację powtarzających się zadań. Użytkowników lub grupy możesz dodawać jako właścicieli oraz wspólnie projektować przepływy i zarządzać nimi."
-services: 
+title: Informacje dotyczące dodawania innych właścicieli do przepływu i tworzenia przepływów zespołu | Microsoft Docs
+description: Usługa Microsoft Flow ułatwia automatyzację powtarzających się zadań. Użytkowników lub grupy możesz dodawać jako właścicieli oraz wspólnie projektować przepływy i zarządzać nimi.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 04/21/2017
 ms.author: deonhe
 ms.openlocfilehash: d4e8de2f9f67c07861297e079948a5336ff66e7f
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23439690"
 ---
 # <a name="create-team-flows"></a>Tworzenie przepływów zespołu
 Utwórz przepływ zespołu, dodając inne osoby w Twojej organizacji jako właścicieli. Wszyscy właściciele przepływu zespołu mogą wykonywać następujące akcje:
