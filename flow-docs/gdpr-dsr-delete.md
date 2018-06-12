@@ -15,11 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: d750ee2bc672d08bff940341349663b4721f9a57
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: f7ceaa76ddf4e1980ad8144a6152fc8211c3880b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561315"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Reagowanie na żądania podmiotów danych RODO dotyczące usuwania przy użyciu usługi Microsoft Flow
 
@@ -33,17 +34,17 @@ W poniższej tabeli przedstawiono automatycznie usuwane dane osobowe i dane, kt�
 |------|------|
 |Środowisko*|Dzienniki generowane przez system|
 |Uprawnienia środowiska**|Historia uruchamiania|
-|Przepływy|Zadania użytkownika|
+|Przepływy|Kanał aktywności|
 |Uprawnienia przepływu|Brama |
-|Szczegóły użytkownika|Uprawnienia do bramy |
+|Szczegóły użytkownika|Uprawnienia do bramy|
 |Połączenia*||
 |Uprawnienia do połączenia||
 |Łącznik niestandardowy*||
 |Uprawnienia łącznika niestandardowego||
 
-* Każdy z tych zasobów zawiera rekordy „Utworzony przez” i „Zmodyfikowany przez”, które zawierają dane osobowe. Ze względów bezpieczeństwa te rekordy zostaną zachowane aż do usunięcia zasobu.
+*Każdy z tych zasobów zawiera rekordy „Utworzony przez” i „Zmodyfikowany przez”, które zawierają dane osobowe. Ze względów bezpieczeństwa te rekordy zostaną zachowane aż do usunięcia zasobu.
 
-* W przypadku środowisk zawierających bazę danych Common Data Service for Apps uprawnienia środowiska (czyli użytkownicy przypisani do ról Twórca środowiska i Administrator) są przechowywane jako rekordy w bazie danych usługi Common Data Service. Zobacz [Executing DSRs against Common Data Service Customer Data](https://go.microsoft.com/fwlink/?linkid=872251) (Wykonywanie żądań podmiotów danych dotyczących danych klientów usługi Common Data Service), aby uzyskać wskazówki dotyczące sposobu reagowania na żądania podmiotów danych w przypadku użytkowników usługi Common Data Service.
+**W przypadku środowisk zawierających bazę danych Common Data Service for Apps uprawnienia środowiska (czyli użytkownicy przypisani do ról Twórca środowiska i Administrator) są przechowywane jako rekordy w bazie danych usługi Common Data Service. Zobacz [Executing DSRs against Common Data Service Customer Data](https://go.microsoft.com/fwlink/?linkid=872251) (Wykonywanie żądań podmiotów danych dotyczących danych klientów usługi Common Data Service), aby uzyskać wskazówki dotyczące sposobu reagowania na żądania podmiotów danych w przypadku użytkowników usługi Common Data Service.
 
 W przypadku danych i zasobów, które wymagają przeglądania ręcznego, usługa Microsoft Flow oferuje poniższe środowiska umożliwiające wyszukiwanie lub zmienianie danych osobowych określonego użytkownika:
 
@@ -59,11 +60,11 @@ Poniżej przedstawiono podział środowisk dostępnych dla administratora, w kt�
 |Środowisko|Centrum administracyjne usługi Microsoft Flow|Polecenia cmdlet usługi PowerApps||
 |Uprawnienia środowiska*|Centrum administracyjne usługi Microsoft Flow|Polecenia cmdlet usługi PowerApps||
 |Historia uruchamiania||| Usuwanie na podstawie zasad przechowywania przez 28 dni|
-|Źródło działań ||Polecenia cmdlet usługi PowerApps||
+|Źródło działań |||Usuwanie na podstawie zasad przechowywania przez 28 dni|
 |Zadania użytkownika|| ||
 |Przepływy|Portal twórców w usłudze Microsoft**|||
 |Uprawnienia przepływu|Portal twórców w usłudze Microsoft Flow|||
-|Szczegóły użytkownika|| ||
+|Szczegóły użytkownika||Polecenia cmdlet usługi PowerApps||
 |Połączenia|Portal twórców w usłudze Microsoft Flow| ||
 |Uprawnienia do połączenia|Portal twórców w usłudze Microsoft Flow| ||
 |Łącznik niestandardowy|Portal twórców w usłudze Microsoft Flow| ||
@@ -76,7 +77,7 @@ Poniżej przedstawiono podział środowisk dostępnych dla administratora, w kt�
 
 ## <a name="manage-delete-requests"></a>Zarządzanie żądaniami usunięcia
 
-Poniższe kroki opisują, jak istniejące funkcje administracyjne obsługują żądania usunięcia dla rozporządzenia RODO.
+Poniższe kroki opisują, jak istniejące funkcje administracyjne obsługują żądania usunięcia dla rozporządzenia RODO. Te kroki należy wykonać w kolejności przedstawionej poniżej.
 
 > [!IMPORTANT]
 > Aby uniknąć uszkodzenia danych, wykonaj poniższe kroki w podanej kolejności.
@@ -124,6 +125,7 @@ Te kroki mają na celu skopiowanie istniejących przepływów odchodzącego uży
     ![Potwierdzenie usunięcia przepływu](./media/gdpr-dsr-delete/delete-flow-confirmation.png)
 
 1. Włącz kopię przepływu, otwierając obszar **Moje przepływy**, a następnie przełączając kontrolkę do położenia **Wł.**
+
     ![Włączanie przepływu](./media/gdpr-dsr-delete/toggle-on.png)
 
 1. Teraz kopia wykonuje tę samą logikę przepływu pracy, co wersja oryginalna.
@@ -142,6 +144,7 @@ Te kroki mają na celu skopiowanie istniejących przepływów odchodzącego uży
 
 Zobacz [Executing DSRs against Common Data Service Customer Data](https://go.microsoft.com/fwlink/?linkid=872251) (Wykonywanie żądań podmiotów danych dotyczących danych klientów usługi Common Data Service), aby uzyskać dodatkowe wskazówki dotyczące sposobu reagowania na żądania podmiotów danych w przypadku użytkowników usługi Common Data Service.
 
+
 ## <a name="delete-connections-created-by-a-user"></a>Usuwanie połączeń utworzonych przez użytkownika
 
 Połączenia są używane w kombinacji z łącznikami w celu ustanowienia łączności z innymi interfejsami API i systemami SaaS.  Połączenia obejmują odwołania do użytkownika, który je utworzył, i w związku z tym można je usunąć, aby usunąć wszystkie odwołania do użytkownika.
@@ -159,8 +162,14 @@ Get-Connection | Remove-Connection
 
 Polecenia cmdlet programu PowerShell w usłudze PowerApps dla administratorów
 
-Niedostępne.
+```PowerShell
+Add-PowerAppsAccount
 
+$deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+#Retrieves all connections for the DSR user and deletes them 
+Get-AdminConnection -CreatedBy $deleteDsrUserId | Remove-AdminConnection 
+
+```
 ## <a name="delete-the-users-permissions-to-shared-connections"></a>Usuwanie uprawnień użytkownika do połączeń udostępnionych
 
 Polecenia cmdlet programu PowerShell w usłudze PowerApps dla twórców
@@ -174,14 +183,20 @@ Add-PowerAppsAccount
 Get-ConnectionRoleAssignment | Remove-ConnectionRoleAssignment
 ```
 
+Polecenia cmdlet programu PowerShell w usłudze PowerApps dla administratorów
+
+```PowerShell
+Add-PowerAppsAccount
+
+$deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+#Retrieves all shared connections for the DSR user and deletes their permissions 
+Get-AdminConnectionRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-AdminConnectionRoleAssignment  
+
+```
 > [!NOTE]
 > Przypisań roli Właściciel nie można usunąć bez wcześniejszego usunięcia zasobów połączenia.
 >
 >
-
-Polecenia cmdlet programu PowerShell w usłudze PowerApps dla administratorów
-
-Niedostępne.
 
 ## <a name="delete-custom-connectors-created-by-the-user"></a>Usuwanie łączników niestandardowych utworzonych przez użytkownika
 
@@ -199,8 +214,14 @@ Get-Connector -FilterNonCustomConnectors | Remove-Connector
 ```
 
 Polecenia cmdlet programu PowerShell w usłudze PowerApps dla administratorów
+```PowerShell
+Add-PowerAppsAccount
 
-Niedostępne.
+$deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+#Retrieves all custom connectors created by the DSR user and deletes them 
+Get-AdminConnector -CreatedBy $deleteDsrUserId | Remove-AdminConnector  
+
+```
 
 ## <a name="delete-the-users-permissions-to-shared-custom-connectors"></a>Usuwanie uprawnień użytkownika do udostępnionych łączników niestandardowych
 
@@ -215,14 +236,21 @@ Add-PowerAppsAccount
 Get-ConnectorRoleAssignment | Remove-ConnectorRoleAssignment
 ```
 
+Polecenia cmdlet programu PowerShell w usłudze PowerApps dla administratorów
+```PowerShell
+Add-PowerAppsAccount
+
+$deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+#Retrieves all custom connector role assignments for the DSR user and deletes them 
+Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-AdminConnectorRoleAssignment  
+
+```
+
 > [!NOTE]
 > Przypisań roli Właściciel nie można usunąć bez wcześniejszego usunięcia zasobów połączenia.
 >
 >
 
-Polecenia cmdlet programu PowerShell w usłudze PowerApps dla administratorów
-
-Niedostępne.
 
 ## <a name="delete-or-reassign-all-environments-created-by-the-user"></a>Usuwanie lub ponowne przypisywanie wszystkich środowisk utworzonych przez użytkownika
 
@@ -246,3 +274,43 @@ Użytkownikom można przypisać uprawnienia (na przykład administrator środowi
 Jeśli po wprowadzeniu usługi Common Data Service for Apps baza danych jest tworzona w środowisku, „przypisania roli” są przechowywane jako rekordy w wystąpieniu bazy danych usługi Common Data Service for Apps.
 
 Aby uzyskać więcej informacji o usuwaniu uprawnienia użytkownika w środowisku, przejdź do tematu [Używanie środowisk za pomocą usługi Microsoft Flow](https://docs.microsoft.com/flow/environments-overview-admin).
+
+## <a name="delete-gateway-settings"></a>Usuwanie ustawień bramy
+Sposób reagowania na żądania usunięcia podmiotu danych w przypadku lokalnych bram danych można znaleźć [tutaj](https://docs.microsoft.com/en-us/power-bi/service-gateway-onprem#tenant-level-administration).
+
+## <a name="delete-user-details"></a>Usuwanie szczegółów użytkownika
+Szczegóły użytkownika stanowią połączenie między użytkownikiem a konkretną dzierżawą. Przed uruchomieniem tego polecenia upewnij się, że wszystkie przepływy dla tego użytkownika zostały ponownie przypisane i/lub usunięte. Po wykonaniu tej czynności administrator może usunąć szczegóły użytkownika, wywołując polecenie cmdlet **Remove-AdminFlowUserDetails** i przekazując identyfikator obiektu dla użytkownika.
+
+
+Polecenia cmdlet programu PowerShell w usłudze PowerApps dla administratorów
+```PowerShell
+Add-PowerAppsAccount
+Remove-AdminFlowUserDetails -UserId 1b6759b9-bbea-43b6-9f3e-1af6206e0e80
+```
+
+> [!IMPORTANT]
+> Jeśli użytkownik nadal jest właścicielem przepływów indywidualnych lub przepływów zespołu, to polecenie zwróci błąd. Aby rozwiązać ten problem, usuń wszystkie pozostałe przepływy lub przepływy zespołu dla tego użytkownika, a następnie uruchom ponownie polecenie.
+>
+>
+## <a name="delete-the-user-from-azure-active-directory"></a>Usuwanie użytkownika z usługi Azure Active Directory
+Po wykonaniu powyższych czynności ostatnim krokiem jest usunięcie konta użytkownika usługi Azure Active Directory za pomocą procedury opisanej w dokumentacji RODO dotyczącej żądania podmiotu danych platformy Azure, którą można znaleźć w witrynie [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR).
+
+## <a name="delete-the-user-from-unmanaged-tenant"></a>Usuwanie użytkownika z dzierżawy niezarządzanej
+W przypadku, gdy jesteś członkiem dzierżawy niezarządzanej, musisz wykonać akcję **zamknięcia konta** z witryny [Work and School Privacy Portal](https://go.microsoft.com/fwlink/?linkid=873123).
+
+Aby ustalić, czy jesteś użytkownikiem dzierżawy zarządzanej, czy niezarządzanej, wykonaj następujące akcje:
+1. Otwórz następujący adres URL w przeglądarce, zastępując adres e-mail w adresie URL: [ https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1).
+1. Jeśli jesteś członkiem **dzierżawy niezarządzanej**, zobaczysz w odpowiedzi ciąg `"IsViral": true`.
+
+    {
+
+     "Login": "foobar@unmanagedcontoso.com",
+
+    "DomainName": "unmanagedcontoso.com",
+
+    "IsViral": **true**,
+    
+    }
+
+1. W przeciwnym razie należysz do dzierżawy zarządzanej.
+

@@ -13,13 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/12/2018
+ms.date: 06/04/2018
 ms.author: stepsic
-ms.openlocfilehash: bae4991754de37ca9483d540891431e216ee74cd
-ms.sourcegitcommit: b6ac1562b3ed6601401d23f4009b7528c1ce8925
+ms.openlocfilehash: 61c6382a35a55ca18dbfbce5b5b6fe38dc6ee0f2
+ms.sourcegitcommit: 3f7f5a941466485cd16e78239fcfd89d71f501e0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34755580"
 ---
 # <a name="release-notes"></a>Informacje o wersji
 ## <a name="top-questions"></a>Najczęściej zadawane pytania
@@ -45,7 +46,17 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="whats-new"></a>Co nowego
 
-### <a name="release-2014-05-01"></a>Wersja 2014-05-01
+### <a name="release-2018-05-21"></a>Wersja 2018-05-21
+
+- **Przepływy „należące” do list i bibliotek programu SharePoint** — przepływy obejmujące listy i biblioteki programu SharePoint można udostępnić do współużytkowania tym listom lub bibliotekom. W ten sposób zostaną one udostępnione wszystkim użytkownikom z dostępem do listy, a nie poszczególnym osobom lub grupom. Ponieważ użytkownicy są dodawani lub usuwani w ramach listy lub biblioteki, ich członkostwa automatycznie odpowiednio zmieniają się.
+- **Analiza szczegółów błędu** — nowy osadzony raport, który zawiera informacje o wszystkich błędach, które wystąpiły w ramach przepływu.
+- **Udostępnij przepływy do współużytkowania dla grup usługi Office 365** — grupa nowoczesna usługi Office 365 może być właścicielem przepływu, a przepływy przycisku można udostępnić do współużytkowania grupom usługi Office 365, tak aby każdy członek grupy mógł uruchomić przepływ.
+- **Ulepszenia łącznika programu SharePoint** — są dostępne dwie nowe możliwości łącznika programu SharePoint: wyzwolenie przepływów po usunięciu elementów lub plików i wywołanie dowolnego punktu końcowego HTTP obsługiwanego przez interfejs API REST programu SharePoint.
+- **Dwa nowe łączniki** — dodano obsługę usług Azure Data Factory and MailParser
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/share-with-sharepoint-office-365/) na temat tej wersji.
+
+### <a name="release-2018-05-01"></a>Wersja 2018-05-01
 
 - **Tekst sformatowany w komunikatach zatwierdzających** — za pomocą języka znaczników Markdown możesz sformatować wysyłane szczegóły zatwierdzenia.
 - **Przyciski umożliwiające wielokrotny wybór danych wejściowych** — możesz tworzyć przyciski przepływu, które umożliwiają pobieranie wielu wartości jednocześnie za pomocą listy wielokrotnego wyboru.

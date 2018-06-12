@@ -13,13 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 4/18/2018
+ms.date: 4/24/2018
 ms.author: keweare
-ms.openlocfilehash: 9f9513ca0239f72c36e96387fc010040936bbd02
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: c57296bed460dbf94aa597542413783292e1a8f7
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552173"
 ---
 # <a name="responding-to-gdpr-data-subject-requests-for-microsoft-flow"></a>Reagowanie na żądania podmiotów danych RODO w usłudze Microsoft Flow
 
@@ -42,6 +43,9 @@ Możesz wykonywać opisane w tym artykule operacje, które wymagają uprawnień 
     [Licencja w wersji próbnej](http://web.powerapps.com/trial) wygasa w ciągu 30 dni.
 
 - [Administrator globalny usługi Office 365](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) lub [administrator globalny usługi Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal).
+
+### <a name="unmanaged-tenants"></a>Dzierżawy niezarządzane
+Jeśli jesteś członkiem [dzierżawy niezarządzanej](https://docs.microsoft.com/azure/active-directory/domains-admin-takeover) (co oznacza, że dzierżawa usługi Azure AD nie ma administratora globalnego), nadal będziesz mieć możliwość wykonania kroków opisanych w tym artykule w celu wyeksportowania i usunięcia własnych danych osobowych. 
 
 ## <a name="responding-to-dsrs-for-microsoft-flow-customer-data"></a>Reagowanie na żądania podmiotów danych dotyczące danych klientów usługi Microsoft Flow
 

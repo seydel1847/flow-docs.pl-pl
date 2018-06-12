@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: d34cfd6632ca0e8c560c5af199877b13b210a64a
-ms.sourcegitcommit: a378fb36722ae4be9909fb453efa81808b509255
+ms.openlocfilehash: 2db995eafaf8e73af7cd29b8a2469d4abaab2356
+ms.sourcegitcommit: 7d04ee86361fe5d70ee89cde06d01754ada757b5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/01/2018
-ms.locfileid: "34689381"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799676"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Tworzenie przepływu przy użyciu usługi Dynamics 365 (online)
 Za pomocą łącznika usługi Dynamics 365 możesz utworzyć przepływy, które będą inicjowane w momencie wystąpienia zdarzenia w usłudze Dynamics 365 lub innej, a następnie będą wykonywać akcję w usłudze Dynamics 365 lub innej. 
@@ -91,6 +91,11 @@ W tym przewodniku zawarto informacje dotyczące tworzenia zadania w programie [W
 8. W obszarze **Identyfikator listy** wybierz opcję **skrzynka odbiorcza**.
 9. W obszarze **Tytuł** wybierz opcję **Podmiot** w okienku zawartości dynamicznej.
 10. Kliknij lub naciśnij pozycję **Utwórz przepływ**.  
+
+## <a name="trigger-based-logic"></a>Logika oparta na wyzwalaczach
+Wyzwalacze, takie jak **Przy tworzeniu rekordu**, **Przy aktualizacji rekordu** i **Przy usuwaniu rekordu** inicjują przepływ w ciągu kilku minut od wystąpienia zdarzenia.  W rzadkich przypadkach wyzwolenie przepływu może potrwać maksymalnie 2 godziny.
+
+Gdy nastąpi wyzwolenie, przepływ otrzyma powiadomienie, lecz przepływ działa na danych istniejących w momencie uruchomienia akcji.  Na przykład jeśli przepływ jest wyzwalany przy tworzeniu nowego rekordu i rekord zostanie zaktualizowany dwukrotnie przed uruchomieniem przepływu, przepływ zostanie uruchomiony tylko raz przy użyciu najnowszych danych.
 
 ## <a name="specify-advanced-options"></a>Określanie opcji zaawansowanych
 Po dodaniu kroku do przepływu możesz kliknąć lub nacisnąć pozycję **Pokaż opcje zaawansowane**, aby dodać zapytanie filtru lub ustalania kolejności, które kontroluje sposób filtrowania danych w przepływie.

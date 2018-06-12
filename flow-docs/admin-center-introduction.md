@@ -1,13 +1,13 @@
 ---
-title: "Zarządzaj środowiskami i zasadami dotyczącymi danych za pomocą centrum administracyjnego. | Microsoft Docs"
-description: "Centrum administracyjne usługi Microsoft Flow umożliwia administratorom dzierżawy i środowiska zarządzanie zasadami dotyczącymi danych oraz środowiskami dla wdrożeń usługi Microsoft Flow."
-services: 
+title: Zarządzaj środowiskami i zasadami dotyczącymi danych za pomocą centrum administracyjnego. | Microsoft Docs
+description: Centrum administracyjne usługi Microsoft Flow umożliwia administratorom dzierżawy i środowiska zarządzanie zasadami dotyczącymi danych oraz środowiskami dla wdrożeń usługi Microsoft Flow.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 10/31/2017
 ms.author: deonhe
 ms.openlocfilehash: 368b208a6f1d47f76a6f195edcd8055a03c06800
-ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23981325"
 ---
 # <a name="the-admin-center"></a>Centrum administracyjne
 
@@ -29,7 +30,7 @@ Centrum administracyjne to centralna lokalizacja, z której administratorzy dzie
 
 ## <a name="access-the-admin-center"></a>Dostęp do Centrum administracyjnego
 
-* Przejdź pod adres https://admin.flow.microsoft.com w celu uzyskania dostępu do centrum administracyjnego usługi Microsoft Flow.
+* Przejdź na stronę https://admin.flow.microsoft.com, aby uzyskać dostęp do centrum administracyjnego usługi Microsoft Flow.
 
 ## <a name="environments"></a>Środowiska
 

@@ -1,13 +1,13 @@
 ---
-title: "Pytania i odpowiedzi dotyczące rejestracji w usłudze Flow w organizacji | Microsoft Docs"
-description: "Typowe pytania i odpowiedzi dotyczące licencji, administracji i użytkowników rejestrujących się w usłudze Flow w ramach dzierżawy usługi Office 365"
-services: 
+title: Pytania i odpowiedzi dotyczące rejestracji w usłudze Flow w organizacji | Microsoft Docs
+description: Typowe pytania i odpowiedzi dotyczące licencji, administracji i użytkowników rejestrujących się w usłudze Flow w ramach dzierżawy usługi Office 365
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 12/05/2016
 ms.author: stepsic
 ms.openlocfilehash: f8807ca0941761018c92a385c26f427e69ededcb
-ms.sourcegitcommit: 56d69fadcbc9169feb2e1a68d9e9361709084cf4
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442498"
 ---
 # <a name="flow-in-your-organization-qa"></a>Usługa Flow w organizacji — pytania i odpowiedzi
 W tym temacie opisano sposób używania przez użytkowników usługi Flow w organizacji oraz sposób kontrolowania usługi Flow.
@@ -122,7 +123,7 @@ Bezpłatna licencja na usługę Microsoft Flow jest dołączana tylko do celów 
 Użytkownicy mogą korzystać z usługi Microsoft Flow indywidualnie lub w ramach organizacji. Licencje na poziomie organizacji są zawsze widoczne w portalu usługi Office 365. Jednak jeśli użytkownik samodzielnie zarejestruje się w celu korzystania z wersji próbnej, takie konto nie jest zarządzane przez jego administratora usługi Office 365 i nie będzie widoczne w portalu.
 
 ### <a name="how-does-an-individual-find-out-what-plan-they-are-on"></a>Jak sprawdzić, z którego planu korzystam?
-Każdy użytkownik może sprawdzić swój plan, odwiedzając stronę z cenami usługi Flow pod adresem [https://flow.microsoft.com/pricing](https://flow.microsoft.com/pricing). Na tej stronie będzie widoczny obecnie używany plan lub wersja próbna.
+Każdy użytkownik może wyświetlić swój plan, odwiedzając stronę z cenami usługi Flow pod adresem [https://flow.microsoft.com/pricing](https://flow.microsoft.com/pricing). Na tej stronie będzie widoczny obecnie używany plan lub wersja próbna.
 
 ### <a name="will-microsoft-flow-sign-up-impact-the-identities-in-my-organization"></a>Czy rejestracja w usłudze Microsoft Flow będzie miała wpływ na tożsamości w mojej organizacji?
 Jeśli organizacja ma już istniejące środowisko usługi Office 365 i wszyscy użytkownicy w organizacji mają konta usługi Office 365, zarządzanie tożsamościami nie ulega zmianie.
@@ -137,7 +138,7 @@ Jeśli usługa Microsoft Flow utworzyła nową dzierżawę, możesz ją przeją�
 1. Dołącz do dzierżawy, rejestrując się w usłudze Flow przy użyciu domeny adresu e-mail pasującej do domeny dzierżawy, którą chcesz zarządzać. Jeśli np. firma Microsoft utworzyła dzierżawę contoso.com, dołącz do dzierżawy przy użyciu adresu e-mail kończącego się na @contoso.com.
 2. Zarezerwuj kontrolę administratora, sprawdzając własność domeny: gdy jesteś w dzierżawie, możesz wypromować siebie do roli administratora przez sprawdzenie własności domeny. W tym celu wykonaj następujące czynności:    
    
-   1. Przejdź do witryny [https://portal.office.com](https://portal.office.com/Start?sku=flow_free).
+   1. Przejdź na stronę [https://portal.office.com](https://portal.office.com/Start?sku=flow_free).
    2. Wybierz ikonę uruchamiania aplikacji w lewym górnym rogu i wybierz opcję Administrator.
    3. Zapoznaj się z instrukcjami na stronie **Zostań administratorem**, a następnie wybierz opcję **Tak, chcę być administratorem**.  
       
