@@ -1,4 +1,4 @@
-1. Zaloguj się w usłudze [Microsoft Flow](https://flow.microsoft.com).
+1. Zaloguj się do usługi [Microsoft Flow](https://flow.microsoft.com).
    
     ![logowanie](media/modern-approvals/sign-in.png)
 2. Wybierz kartę **Moje przepływy**.

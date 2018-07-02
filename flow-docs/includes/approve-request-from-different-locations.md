@@ -13,7 +13,7 @@ Aby zatwierdzić żądanie:
     ![wprowadzanie komentarza](media/modern-approvals/request-in-approval-center.png)
 
 ### <a name="from-the-approvals-center"></a>Za pomocą centrum zatwierdzeń
-1. Zaloguj się w usłudze [Microsoft Flow](https://flow.microsoft.com).
+1. Zaloguj się do usługi [Microsoft Flow](https://flow.microsoft.com).
    
     ![logowanie](media/modern-approvals/sign-in.png)
 2. Wybierz kartę **Zatwierdzenia**.

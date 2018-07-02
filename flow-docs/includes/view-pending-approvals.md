@@ -1,6 +1,6 @@
 Aby wyświetlić wszystkie żądania oczekujące na zatwierdzenie, wykonaj następujące czynności:
 
-1. Zaloguj się w usłudze [Microsoft Flow](https://flow.microsoft.com).
+1. Zaloguj się do usługi [Microsoft Flow](https://flow.microsoft.com).
    
     ![logowanie](media/modern-approvals/sign-in.png)
 2. Wybierz kartę **Zatwierdzenia**.

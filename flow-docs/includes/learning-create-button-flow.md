@@ -2,7 +2,7 @@ W ramach tego tematu dowiesz się, jak **utworzyć przepływ przycisku** dla fir
 
 Przepływów przycisków można używać do **wysyłania wiadomości e-mail** do zespołu i **powiadamiania o zadaniach** do wykonania. **Własność** przepływów **może zostać przypisana do jednego** pracownika lub **współdzielona przez wielu** członków zespołu.  
 
-1. Przejdź najpierw do [witryny usługi Microsoft Flow](https://ms.flow.microsoft.com) i zaloguj się.
+1. Przejdź najpierw do [witryny internetowej usługi Microsoft Flow](https://ms.flow.microsoft.com) i zaloguj się.
 2. Po zalogowaniu wybierz pozycję **Moje przepływy**, a następnie pozycję **Utwórz z pustego**.
    
     ![Tworzenie z pustego](./media/learning-create-button-flow/2-create-from-blank.png)
