@@ -16,11 +16,11 @@ ms.workload: na
 ms.date: 07/15/2017
 ms.author: deonhe
 ms.openlocfilehash: 016673948ffaeaf98e81cc2c561d9ff9f5f627e4
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.sourcegitcommit: 4a8d11e1768cd0ca96a60b6f5548a68c0c8999e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23439528"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38949448"
 ---
 # <a name="manage-approval-requests-in-microsoft-flow"></a>Zarządzanie żądaniami zatwierdzenia w usłudze Microsoft Flow
 Usługa Microsoft Flow ułatwia automatyzację [procesów przepływu pracy zatwierdzania](modern-approvals.md). W tym przewodniku dowiesz się, jak wyświetlać, zatwierdzać i odrzucać żądania zatwierdzenia wysłane z usługi Microsoft Flow.
