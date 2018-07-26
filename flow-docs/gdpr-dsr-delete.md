@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: f7ceaa76ddf4e1980ad8144a6152fc8211c3880b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: 70206e0ed6c2b59d0dfffa0c4608ba47e0fac1dc
+ms.sourcegitcommit: ca875127f607034d7ef6a3fe270fc48e4f7eeee6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561315"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39175137"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Reagowanie na żądania podmiotów danych RODO dotyczące usuwania przy użyciu usługi Microsoft Flow
 
@@ -258,10 +258,10 @@ Jako administrator podczas przetwarzania żądania podmiotu danych dotyczącego 
 
 1. Jeśli stwierdzisz, że środowisko nie jest używane przez inną osobę w organizacji, możesz wybrać opcję usunięcia środowiska.
 1. Jeśli stwierdzisz, że środowisko jest nadal wymagane, możesz wybrać opcję rezygnacji z usunięcia środowiska i dodać siebie (lub innego użytkownika w organizacji) jako administratora środowiska.
-    > [!IMPORTANT]
-    > Usunięcie środowiska spowoduje trwałe usunięcie wszystkich zasobów w obrębie środowiska, w tym wszystkich aplikacji, przepływów, połączeń, itp., dlatego przed usunięciem przejrzyj zawartość środowiska.
-    >
-    >
+> [!IMPORTANT]
+> Usunięcie środowiska spowoduje trwałe usunięcie wszystkich zasobów w obrębie środowiska, w tym wszystkich aplikacji, przepływów, połączeń, itp., dlatego przed usunięciem przejrzyj zawartość środowiska.
+>
+>
 
 ## <a name="give-access-to-a-users-environments-from-the-microsoft-flow-admin-center"></a>Nadawanie praw dostępu do środowisk użytkownika z poziomu Centrum administracyjnego usługi Microsoft Flow
 
