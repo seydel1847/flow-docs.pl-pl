@@ -73,7 +73,7 @@ Poniżej przedstawiono podział środowisk dostępnych dla administratora, w kt�
 
 * Jeśli po wprowadzeniu usługi Common Data Service for Apps baza danych jest tworzona w środowisku, uprawnienia środowiska i oparte na modelu uprawnienia aplikacji są przechowywane jako rekordy w wystąpieniu bazy danych usługi Common Data Service for Apps. Zobacz [Executing DSRs against Common Data Service Customer Data](https://go.microsoft.com/fwlink/?linkid=872251) (Wykonywanie żądań podmiotów danych dotyczących danych klientów usługi Common Data Service), aby uzyskać wskazówki dotyczące sposobu reagowania na żądania podmiotów danych w przypadku użytkowników usługi Common Data Service.
 
-** Administrator będzie mógł uzyskiwać dostęp do tych zasobów z portalu twórców w usłudze Microsoft Flow tylko w sytuacji, gdy ma prawa dostępu przypisane w Centrum administracyjnym usługi Microsoft Flow.
+\*\*Administrator będzie mógł uzyskiwać dostęp do tych zasobów z portalu twórców w usłudze Microsoft Flow tylko w sytuacji, gdy ma prawa dostępu przypisane w Centrum administracyjnym usługi Microsoft Flow.
 
 ## <a name="manage-delete-requests"></a>Zarządzanie żądaniami usunięcia
 
