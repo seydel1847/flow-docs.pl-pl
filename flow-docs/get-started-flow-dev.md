@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/22/2017
 ms.author: barathb
-ms.openlocfilehash: a3f1e21cfbf00749a0ef09c0363da162f0419f42
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: 1bcdbf3772ab2481b15bd224523dff74afc53101
+ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23439708"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39718286"
 ---
 # <a name="start-to-build-with-microsoft-flow"></a>Rozpocznij tworzenie z usługą Microsoft Flow
 
@@ -56,11 +56,11 @@ Po przesłaniu tych informacji firma Microsoft rozpocznie ocenianie działania i
 
 ## <a name="embed-the-flow-experience-into-your-website-or-app"></a>Osadzanie przepływu w witrynie internetowej lub aplikacji
 
-Możesz [osadzić](embed-flow-dev.md) usługę Microsoft Flow w aplikacji, aby umożliwić głęboką, kontekstową integrację aplikacji i wszystkich innych usług obsługiwanych przez usługę Microsoft Flow. Na przykład możesz wykonywać następujące działania:
+Możesz [osadzić](developer/embed-flow-dev.md) usługę Microsoft Flow w aplikacji, aby umożliwić głęboką, kontekstową integrację aplikacji i wszystkich innych usług obsługiwanych przez usługę Microsoft Flow. Na przykład możesz wykonywać następujące działania:
 
 * Przeglądanie wszystkich szablonów związanych z usługą i umożliwienie użytkownikom wyboru szablonu.
 * Zarządzanie przepływami, które użytkownicy powiązali z daną aplikacją.
 
 ## <a name="next-steps"></a>Następne kroki
 
-Dowiedz się, jak [osadzić](embed-flow-dev.md) usługę Microsoft Flow w aplikacji.
+Dowiedz się, jak [osadzić](developer/embed-flow-dev.md) usługę Microsoft Flow w aplikacji.

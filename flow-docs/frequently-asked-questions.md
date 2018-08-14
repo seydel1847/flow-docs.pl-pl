@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: 4fa6af7557fdbae46db5eb74a82a9d30a991e93b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: af179e30c3b8b7c6d4200f10f122f0d928526f1b
+ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34453313"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39718309"
 ---
 # <a name="frequently-asked-questions"></a>Często zadawane pytania
 ## <a name="audience-and-strategy"></a>Odbiorcy i strategia
@@ -80,7 +80,7 @@ Szablony to wstępnie utworzone przepływy dla popularnych i typowych scenariusz
 Można nawiązać połączenia z ponad 100 standardowymi usługami firmy Microsoft i innych firm, takimi jak Office 365, Twitter, SharePoint, OneDrive, Dropbox, SQL Server itp. Można także nawiązywać połączenie z usługami w warstwie Premium, takimi jak Salesforce i usługa Common Data Service dla aplikacji PowerApps.
 
 ### <a name="how-do-i-connect-to-a-rest-api-in-my-flow"></a>Jak połączyć interfejs API REST z moim przepływem?
-Aby nawiązać połączenie z dowolnym interfejsem API REST, który używa formatu JSON i obsługuje co najmniej jedną z ponad 10 metod uwierzytelniania, możesz utworzyć [łącznik niestandardowy](register-custom-api.md).
+Aby nawiązać połączenie z dowolnym interfejsem API REST, który używa formatu JSON i obsługuje co najmniej jedną z ponad 10 metod uwierzytelniania, możesz utworzyć [łącznik niestandardowy](developer/register-custom-api.md).
 
 ### <a name="how-do-i-connect-to-sql-server-and-other-on-premises-data-sources"></a>Jak połączyć się z programem SQL Server i innymi lokalnymi źródłami danych?
 Z usługami w sieci lokalnej można połączyć się przy użyciu [lokalnej bramy danych](gateway-manage.md).
