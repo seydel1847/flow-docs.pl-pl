@@ -5,7 +5,7 @@ metadata:
   description: Witamy na kursie Nauka z przewodnikiem poświęconym usłudze Microsoft Flow. Użytkownicy mogą zapoznawać się z zagadnieniami tego kursu online we własnym tempie. Zagadnienia są omawiane kolejno, można więc zdobywać wiedzę od podstaw.
   audience: Business User
   level: Beginner
-  nextTutorialHref: build-flows
+  nextTutorialHref: build-flows.yml
   nextTutorialTitle: Kompilowanie przepływów
   displayType: one-column
   author: MSFTMan
@@ -14,12 +14,12 @@ metadata:
   ms.topic: get-started-article
   ms.date: 10/04/2017
   ms.author: deonhe
-  ms.openlocfilehash: acfe8fb4e4a4eaaaf849ff86b708cb207853a13d
-  ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+  ms.openlocfilehash: b77255b42beb2f90adb9bf7d85da822be7ce9edf
+  ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
   ms.translationtype: HT
   ms.contentlocale: pl-PL
-  ms.lasthandoff: 06/04/2018
-  ms.locfileid: "31813482"
+  ms.lasthandoff: 08/08/2018
+  ms.locfileid: "39718401"
 items:
 - durationInMinutes: 1
   content: >
