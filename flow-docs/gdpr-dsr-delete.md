@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: 70206e0ed6c2b59d0dfffa0c4608ba47e0fac1dc
-ms.sourcegitcommit: ca875127f607034d7ef6a3fe270fc48e4f7eeee6
+ms.openlocfilehash: 532d3c1affe899da3125e9f512b21bf3e39ca25e
+ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39175137"
+ms.lasthandoff: 08/06/2018
+ms.locfileid: "39520082"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Reagowanie na żądania podmiotów danych RODO dotyczące usuwania przy użyciu usługi Microsoft Flow
 
@@ -73,7 +73,7 @@ Poniżej przedstawiono podział środowisk dostępnych dla administratora, w kt�
 
 * Jeśli po wprowadzeniu usługi Common Data Service for Apps baza danych jest tworzona w środowisku, uprawnienia środowiska i oparte na modelu uprawnienia aplikacji są przechowywane jako rekordy w wystąpieniu bazy danych usługi Common Data Service for Apps. Zobacz [Executing DSRs against Common Data Service Customer Data](https://go.microsoft.com/fwlink/?linkid=872251) (Wykonywanie żądań podmiotów danych dotyczących danych klientów usługi Common Data Service), aby uzyskać wskazówki dotyczące sposobu reagowania na żądania podmiotów danych w przypadku użytkowników usługi Common Data Service.
 
-\*\*Administrator będzie mógł uzyskiwać dostęp do tych zasobów z portalu twórców w usłudze Microsoft Flow tylko w sytuacji, gdy ma prawa dostępu przypisane w Centrum administracyjnym usługi Microsoft Flow.
+\*\* Administrator będzie mógł uzyskiwać dostęp do tych zasobów z portalu twórców w usłudze Microsoft Flow tylko w sytuacji, gdy ma prawa dostępu przypisane w Centrum administracyjnym usługi Microsoft Flow.
 
 ## <a name="manage-delete-requests"></a>Zarządzanie żądaniami usunięcia
 

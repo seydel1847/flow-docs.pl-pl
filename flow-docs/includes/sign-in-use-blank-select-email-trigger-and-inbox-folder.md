@@ -7,7 +7,8 @@
     ![wyzwalacz poczty e-mail](media/email-triggers/email-triggers-1.png)
 4. Wybierz folder, który przepływ ma monitorować pod kątem przychodzących wiadomości e-mail, a następnie wybierz pozycję **Pokaż opcje zaawansowane**.
    
-     Uwaga: aby wyświetlić wszystkie foldery poczty e-mail, należy wybrać ikonę **Pokaż narzędzie wyboru** znajdującą się po prawej stronie pola **Folder** na karcie **Po nadejściu nowej wiadomości e-mail**.
+     >[!NOTE]
+     > Aby wyświetlić wszystkie foldery poczty e-mail, wybierz ikonę **Pokaż narzędzie wyboru** znajdującą się po prawej stronie pola **Folder** na karcie **Po nadejściu nowej wiadomości e-mail**.
    
     ![właściwości folderu](media/email-triggers/email-triggers-subject-folder.png)
 

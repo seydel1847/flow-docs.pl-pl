@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/21/2017
 ms.author: deonhe
-ms.openlocfilehash: d4e8de2f9f67c07861297e079948a5336ff66e7f
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: ec7801f249ce4f3a1e33a6092726a6574a2e6d4c
+ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23439690"
+ms.lasthandoff: 08/06/2018
+ms.locfileid: "39520013"
 ---
 # <a name="create-team-flows"></a>Tworzenie przepływów zespołu
 Utwórz przepływ zespołu, dodając inne osoby w Twojej organizacji jako właścicieli. Wszyscy właściciele przepływu zespołu mogą wykonywać następujące akcje:
@@ -64,6 +64,10 @@ Poniżej przedstawiono procedurę tworzenia przepływu zespołu i dodawania kole
     ![nowy właściciel](./media/create-team-flows/addowner4.png)
    
      Gratulujemy &mdash; utworzono przepływ zespołu!
+
+##<a name="add-a-list-as-a-co-owner"></a>Dodawanie listy jako współwłaściciela
+
+Listy programu SharePoint można dodać do przepływu jako współwłaścicieli, aby każdy, kto ma dostęp do listy z możliwością edycji, automatycznie uzyskiwał dostęp do przepływu z możliwością edycji. Po udostępnieniu przepływu wystarczy rozpowszechnić link do niego.
 
 ## <a name="remove-an-owner"></a>Usuwanie właściciela
 > [!IMPORTANT]
