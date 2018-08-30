@@ -1,0 +1,1 @@
+Funkcje w wersji zapoznawczej nie są przeznaczone do użytku produkcyjnego i mogą działać w ograniczony sposób. Te funkcje są udostępniane przed oficjalnym wydaniem, aby klienci mogli uzyskać do nich wczesny dostęp i podzielić się opinią na ich temat.
