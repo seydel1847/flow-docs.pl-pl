@@ -13,14 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/31/2018
+ms.date: 06/19/2018
 ms.author: stepsic
-ms.openlocfilehash: 0595fa9113d85c6517392149f510a3a11df36061
-ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
+ms.openlocfilehash: dcdd82b358737867372c1adece907158fa2ee77b
+ms.sourcegitcommit: 4489d9587bfb1ef197df7f4c0253a3ab4ecb1d1d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "39519875"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "43774313"
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Limity i konfiguracja w usłudze Microsoft Flow
 Ten temat zawiera informacje o obecnych limitach i szczegóły konfiguracji dla przepływów.
@@ -46,7 +46,9 @@ Są to limity dotyczące pojedynczego żądania wychodzącego.
 
 | Nazwa | Limit |
 | --- | --- |
-| Ponowne próby |4 |
+| Ponowne próby |90 | Wartość domyślna to 4. Aby zmienić wartość domyślną, użyj ustawień akcji | 
+| Maksymalna opóźnienie ponowienia próby |1 dzień | |
+| Minimalne opóźnienie ponowienia próby |5 sekund | |
 
 ## <a name="run-duration-and-retention"></a>Czas trwania i przechowywanie przebiegu
 Są to limity dotyczące pojedynczego przebiegu przepływu.
@@ -64,10 +66,12 @@ Są to limity dotyczące pojedynczego przebiegu przepływu.
 
 | Nazwa | Limit | Uwagi |
 | --- | --- | --- |
-| Elementy ForEach |5000 |Akcji filtrowania możesz używać do filtrowania większych tablic zgodnie z potrzebami. |
+| Elementy akcji Zastosuj do każdego |100 000 |Wartość 100 000 jest dostępna tylko w przypadku planów w warstwie premium. W przeciwnym razie ograniczenie wynosi 5000. Akcji filtrowania możesz używać do filtrowania większych tablic zgodnie z potrzebami. |
 | Iteracje Until |5000 | |
-| Elementy SplitOn |5000 | |
-| Równoległość ForEach |1 | |
+| Elementy SplitOn |100 000 |Podobnie jak w przypadku akcji Zastosuj do każdego, limit wynosi 5000, o ile nie masz planu w warstwie premium. |
+| Równoległość akcji Zastosuj do każdego |50 |Domyślnie pętle są uruchamiane kolejno (istotnie równoległość wynosi 1). Można skonfigurować maksymalnie 50 równoległych. |
+| Wykonania akcji na 5 minut | 100 000 | Ponadto można rozłożyć obciążenie na więcej niż jeden przepływ, zgodnie z potrzebami. |
+| Połączenia wychodzące jednoczesnych akcji | ~2500 | Zmniejsz liczbę jednoczesnych żądań lub skróć czas trwania, zgodnie z potrzebami. | 
 
 ## <a name="definition-limits"></a>Limity definicji
 Są to limity dotyczące pojedynczego przepływu.

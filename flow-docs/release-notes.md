@@ -13,14 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/04/2018
+ms.date: 07/21/2018
 ms.author: stepsic
-ms.openlocfilehash: 61c6382a35a55ca18dbfbce5b5b6fe38dc6ee0f2
-ms.sourcegitcommit: 3f7f5a941466485cd16e78239fcfd89d71f501e0
+ms.openlocfilehash: 063fd316f1c4e1679935fb7a83560441d2704701
+ms.sourcegitcommit: 4489d9587bfb1ef197df7f4c0253a3ab4ecb1d1d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755580"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "43774314"
 ---
 # <a name="release-notes"></a>Informacje o wersji
 ## <a name="top-questions"></a>Najczęściej zadawane pytania
@@ -45,6 +45,35 @@ ms.locfileid: "34755580"
 3. Wyzwalacze plików nie będą uruchamiane w przypadku plików dodawanych wewnątrz folderów zagnieżdżonych w wybranym folderze.
 
 ## <a name="whats-new"></a>Co nowego
+
+### <a name="release-2018-07-23"></a>Wersja 2018-07-23
+
+- **Kompilowanie i uruchamianie przepływów z poziomu programu Excel** — przy użyciu nowego przycisku **Przepływ** (dostępnego na karcie **Dane** wstążki), można tworzyć i wyzwalać automatyzacje z usługi Flow względem danych tabeli w programie Excel. Automatyzacja przetwarzania danych lub kopiowania/importowania danych.
+- **Tworzenie przepływu procesu biznesowego** — przepływ procesu biznesowego to nowy typ stanowego, interaktywnego przepływu opartego na usłudze Common Data Service for Apps. Te nowe przepływy służą do zdefiniowania zestawów etapów i kroków do obserwowania przez użytkowników. Użytkownicy mogą przechodzić do przodu i do tyłu, zgodnie z potrzebami.
+- **Tworzenie przepływu dla Microsoft To-Do w aplikacji Outlook Web App** — w przypadku, gdy osoba jest \@wspomniana w aplikacji Outlook Web App, widzi skrót do utworzenia przepływu. Ten przepływ automatycznie utworzy zadania dla osoby \@wspomnianej w Microsoft To-Do na podstawie zawartości wiadomości e-mail.
+- **Obsługa widoku SharePoint** — teraz łącznik programu SharePoint obsługuje wybór określonego widoku programu SharePoint do wyzwalaczy i akcji. Powoduje to filtrowanie kolumn do tych pól, które należą do wybranego widoku.
+- **Cztery nowe łączniki** — dodano Azure IoT Central — wysoce skalowalne rozwiązanie SaaS (oprogramowanie jako usługa) dla IoT — oraz Survey 123, LMS365 i ProjectWise Design Integration.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/excel-bpf-todo-and-more/) na temat tej wersji.
+
+### <a name="release-2018-06-29"></a>Wersja 2018-06-29
+
+- **Przepływ Żądaj zatwierdzenia wbudowany w program SharePoint** — po wybraniu pliku lub elementu w programie SharePoint, pojawia się nowy przepływ **Żądaj zatwierdzenia**. Ten przepływ nie wymaga konfiguracji ani ustawień, pozwalając wysłać żądanie zatwierdzenia za pomocą jednego kliknięcia.
+- **Dwa nowe łączniki** — dodano Cloud Connect Studio i PoliteMail.
+- **Ulepszenia historii i strony tworzenia** — odświeżyliśmy listę historii przebiegów, umieszczając dokładne czasy uruchomienia, a do strony tworzenia dodaliśmy nowy film wideo przewodnika.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/request-sign-off-four-connectors/) na temat tej wersji.
+
+### <a name="release-2018-06-08"></a>Wersja 2018-06-08
+
+- **Polecenia cmdlet programu PowerShell** — zarówno twórcy przepływu, jak i administratorzy dzierżawy mogą teraz używać programu PowerShell do programowego zarządzania przepływami.
+- **Ulepszenia bota Teams Flow** — bot Flow w usłudze Microsoft Teams może uruchamiać przyciski przepływów i opisywać przepływy.
+- **Trzy nowe łączniki** — dodano obsługę oprogramowania Marketo, ElasticOCR i DynamicSignal. 
+- **Dodatkowe informacje o udostępnianiu** — dodano dodatkowe informacje podczas udostępniania (lub uruchamiania udostępnionych) przepływów, aby było wiadomo dokładnie, jakie uprawnienia otrzymają inne osoby.
+- **Automatyczne przycinanie adresów URL programu SharePoint** — adres URL programu SharePoint kopiowany i wklejany w przeglądarce może zawierać dodatkowy tekst poza adresem witryny, a ten tekst zostanie automatycznie usunięty, aby dało się połączyć się właśnie z tą witryną.
+- **Dokumentacja żądań RODO** — utworzyliśmy kompleksowy przewodnik i zestaw narzędzi dla przedsiębiorstw w celu obsługi żądań praw podmiotu danych.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/powershell-flow-bot-marketo/) na temat tej wersji.
 
 ### <a name="release-2018-05-21"></a>Wersja 2018-05-21
 
