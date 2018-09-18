@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/18/2016
 ms.author: adiregev
-ms.openlocfilehash: 27a2001e3fa154f9354ef5ad888e194f30b3d6ab
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: f87320c61427957c02ff75675e4e15b938ac99f4
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23440302"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44688334"
 ---
 # <a name="create-a-flow-from-your-phone-by-using-microsoft-flow"></a>Tworzenie przepływu na telefonie przy użyciu usługi Microsoft Flow
 Utwórz przepływ na telefonie za pomocą szablonu, który można znaleźć, przeszukując listę usług, przeglądając kategorie lub określając słowa kluczowe. Wykonaj instrukcje zawarte w tym temacie, aby utworzyć przepływ wysyłający powiadomienie wypychane na telefon po otrzymaniu wiadomości e-mail od kierownika.

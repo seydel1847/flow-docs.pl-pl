@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/11/2016
 ms.author: adiregev
-ms.openlocfilehash: a9318a1571d46635babbb0b061ff65734ad172fe
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 3ba49aff12118d79d41a7b76f7c8a0f7e3f1d01b
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23440158"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689691"
 ---
 # <a name="monitor-activity-in-microsoft-flow-from-your-phone"></a>Monitorowanie aktywności w usłudze Microsoft Flow z telefonu
 Wyświetl podsumowanie liczby pomyślnie i niepomyślnie uruchomionych przepływów dzisiaj, wczoraj i w poprzednich dniach. Sprawdź szczegóły każdego przebiegu, np. czas jego uruchomienia, czas trwania każdego etapu, a także sprawdź, czy przebieg zakończył się pomyślnie, czy niepomyślnie.

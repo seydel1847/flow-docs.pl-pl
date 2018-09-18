@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/20/2017
 ms.author: stepsic
-ms.openlocfilehash: f6c936cbf5a2bd481adb52ec9b01545fb9ba7b0b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 9dd2aed8b8cdb1f0a8e673c5466291f60baaf41d
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23442120"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689392"
 ---
 # <a name="add-multiple-actions-and-advanced-options-to-a-flow"></a>Dodawanie wielu akcji i opcji zaawansowanych do przepływu
 Dostosuj przepływ, dodając jedną lub więcej opcji zaawansowanych i wiele akcji dla tego samego wyzwalacza. Możesz na przykład dodać opcję zaawansowaną, która wysyła wiadomość e-mail, nadając jej wysoki priorytet. Oprócz wysyłania wiadomości e-mail po dodaniu elementu do listy programu SharePoint, możesz też utworzyć plik zawierający te same informacje w usłudze Dropbox.

@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 483837a013b5fa0c8dfa27d2ed3a1e3481c36c5b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: f0e075a63331a70c32fd87a25ad0b3fdb7cf043b
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34308722"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689967"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>Wprowadzenie do przepływów przycisku z danymi wejściowymi użytkownika
 Utwórz przepływ przycisku do uruchamiania rutynowych zadań za pomocą prostego naciśnięcia przycisku. Dostosuj przepływ przez umożliwienie użytkownikowi wprowadzenia konkretnych szczegółów, które zostaną użyte podczas przebiegów przepływów. W tym temacie omówiono tworzenie przepływu przycisku, który akceptuje dane wejściowe od użytkownika, a następnie uruchomienie przepływu przycisku ze szczególnym naciskiem na wprowadzanie danych wejściowych użytkownika.

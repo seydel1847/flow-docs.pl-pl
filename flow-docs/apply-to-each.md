@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/16/2017
 ms.author: deonhe
-ms.openlocfilehash: 37f1ce939db23694bcd92e7f1af75bf6c474be91
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 914fe6d84bb63e1f3e184794d34fbfd58ad30963
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23440464"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690174"
 ---
 # <a name="use-the-apply-to-each-action-in-microsoft-flow-to-process-a-list-of-items-periodically"></a>Używanie akcji Zastosuj do każdego w usłudze Microsoft Flow w celu okresowego przetwarzania listy elementów
 Wiele wyzwalaczy może natychmiast uruchomić przepływ na podstawie zdarzenia, takiego jak odebranie nowej wiadomości e-mail w skrzynce odbiorczej. Te wyzwalacze są znakomite, ale czasami trzeba uruchomić przepływ, który wykonuje zapytania względem źródła danych zgodnie ze wstępnie zdefiniowanym harmonogramem i wykonuje określone akcje na podstawie właściwości elementów w źródle danych. W tym celu Twój przepływ może być uruchamiany zgodnie z harmonogramem (na przykład raz dziennie) i używać akcji pętli, takiej jak **Zastosuj do każdego** do przetwarzania listy elementów. Akcji **Zastosuj do każdego** można użyć na przykład w celu zaktualizowania rekordów z bazy danych lub listy elementów z programu Microsoft SharePoint.

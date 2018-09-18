@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: e4e92bfdcf1ea65de272233b2056523641010cf2
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: b2cf6c52a2cbaf06fc638fe8fc898689e6d523c4
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "29351306"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690837"
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Tworzenie przepływu, który używa usługi Common Data Service
 Popraw wydajność operacyjną za pomocą ujednoliconego widoku danych biznesowych, tworząc przepływ, który używa usługi [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/). Wdróż w swojej organizacji tę bezpieczną biznesową bazę danych, która obejmuje dobrze sformułowane jednostki biznesowe, takie jak Sales (Dział sprzedaży), Purchase (Dział zakupów), Customer Service (Dział obsługi klienta) i Productivity (Dział produktywności). Przechowuj dane organizacyjne w co najmniej jednej [jednostce niestandardowej](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/), które mają kilka zalet w porównaniu z zewnętrznymi źródłami danych, takimi jak program Microsoft Excel i usługa Salesforce.

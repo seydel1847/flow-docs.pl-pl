@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: 532d3c1affe899da3125e9f512b21bf3e39ca25e
-ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
+search.app:
+- Flow
+- Powerplatform
+search.audienceType:
+- admin
+ms.openlocfilehash: 77ce6e368c8cb54d360ebeaa32f1f649e30aa297
+ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "39520082"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45727187"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Reagowanie na żądania podmiotów danych RODO dotyczące usuwania przy użyciu usługi Microsoft Flow
 
@@ -276,7 +281,7 @@ Jeśli po wprowadzeniu usługi Common Data Service for Apps baza danych jest two
 Aby uzyskać więcej informacji o usuwaniu uprawnienia użytkownika w środowisku, przejdź do tematu [Używanie środowisk za pomocą usługi Microsoft Flow](https://docs.microsoft.com/flow/environments-overview-admin).
 
 ## <a name="delete-gateway-settings"></a>Usuwanie ustawień bramy
-Sposób reagowania na żądania usunięcia podmiotu danych w przypadku lokalnych bram danych można znaleźć [tutaj](https://docs.microsoft.com/en-us/power-bi/service-gateway-onprem#tenant-level-administration).
+Sposób reagowania na żądania usunięcia podmiotu danych w przypadku lokalnych bram danych można znaleźć [tutaj](https://docs.microsoft.com/power-bi/service-gateway-onprem#tenant-level-administration).
 
 ## <a name="delete-user-details"></a>Usuwanie szczegółów użytkownika
 Szczegóły użytkownika stanowią połączenie między użytkownikiem a konkretną dzierżawą. Przed uruchomieniem tego polecenia upewnij się, że wszystkie przepływy dla tego użytkownika zostały ponownie przypisane i/lub usunięte. Po wykonaniu tej czynności administrator może usunąć szczegóły użytkownika, wywołując polecenie cmdlet **Remove-AdminFlowUserDetails** i przekazując identyfikator obiektu dla użytkownika.

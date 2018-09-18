@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
-ms.openlocfilehash: 2804c683defb94f87c40452a27382bc143c11f10
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 77b46d10ec3856054dcc8e1734b327bac9a01596
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23442264"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690349"
 ---
 # <a name="share-button-flows-in-microsoft-flow"></a>Udostępnianie przepływów przycisków w usłudze Microsoft Flow
 W aplikacji mobilnej Microsoft Flow możesz udostępniać [przepływy przycisków](introduction-to-button-flows.md) (przyciski) innym użytkownikom lub grupom w swojej organizacji. Po udostępnieniu przycisku osoba lub grupa, której go udostępnisz, może uruchamiać Twój przycisk w taki sam sposób, jak własne przyciski. Możesz również [udostępnić link](share-buttons.md#re-share-a-button) do przycisków, które udostępniła Ci inna osoba. W dowolnym momencie możesz [zatrzymać udostępnianie](share-buttons.md#stop-sharing-a-button) przycisków.
