@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f0e075a63331a70c32fd87a25ad0b3fdb7cf043b
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: f87b0d93b912799a4977f347d89b12421cf42e70
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44689967"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711570"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>Wprowadzenie do przepływów przycisku z danymi wejściowymi użytkownika
 Utwórz przepływ przycisku do uruchamiania rutynowych zadań za pomocą prostego naciśnięcia przycisku. Dostosuj przepływ przez umożliwienie użytkownikowi wprowadzenia konkretnych szczegółów, które zostaną użyte podczas przebiegów przepływów. W tym temacie omówiono tworzenie przepływu przycisku, który akceptuje dane wejściowe od użytkownika, a następnie uruchomienie przepływu przycisku ze szczególnym naciskiem na wprowadzanie danych wejściowych użytkownika.
@@ -122,7 +122,6 @@ W tym przewodniku uruchomisz utworzony właśnie przepływ przycisku za pomocą 
 
 ## <a name="next-steps"></a>Następne kroki
 * [Udostępnianie przepływów przycisków](share-buttons.md)
-* [Więcej informacji na temat przepływów](guided-learning/get-started.yml?tutorial-step=1)  
 * [Więcej informacji na temat przepływów przycisku](introduction-to-button-flows.md)  
 * [Więcej informacji na temat przepływów przycisku z tokenami wyzwalacza](introduction-to-button-trigger-tokens.md)  
 
