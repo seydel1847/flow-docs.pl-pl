@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -15,18 +15,27 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/31/2017
 ms.author: stepsic
-ms.openlocfilehash: 11c8d9846982cfd372df787b6a7c9e6584d61ae5
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: cfd337180d1517df67864e239b611f6283e3af14
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23439996"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689783"
 ---
 # <a name="get-started-with-microsoft-flow"></a>Wprowadzenie do usługi Microsoft Flow #
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iMteXfAvDSE?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>
 
-Zapraszamy! Microsoft Flow to usługa, która umożliwia tworzenie zautomatyzowanych przepływów pracy w wielu lubianych aplikacjach i usługach. Przepływy te mogą dotyczyć synchronizowania plików, odbierania powiadomień, gromadzenia danych i wykonywania wielu innych działań.
+Zapraszamy! Microsoft Flow to usługa, która umożliwia tworzenie zautomatyzowanych przepływów pracy między lubianymi aplikacjami i usługami. Przepływy te mogą dotyczyć synchronizowania plików, odbierania powiadomień, gromadzenia danych i wykonywania wielu innych działań.
+
+Główne typy przepływów to przepływy [automatyczne](get-started-logic-flow.md), [przycisków](introduction-to-button-flows.md), [zaplanowane](run-scheduled-tasks.md) i [procesów biznesowych](business-process-flows-overview.md).
+
+Jeśli jesteś konfiguratorem usługi Dynamics 365 Customer Engagement, być może znasz procesy klasycznej usługi Common Data Service for Apps, które obejmują [przepływy pracy](configure-workflow-steps.md), [akcje](create-actions.md), [przepływy zadań dla urządzeń przenośnych](create-mobile-task-flow.md) i [sesje dialogowe](use-cds-for-apps-dialogs.md).
 
 Najpierw musisz [zarejestrować się](sign-up-sign-in.md) lub — jeśli masz już konto z usługą Microsoft Flow — [zalogować się](https://flow.microsoft.com/signin) na tablecie, komputerze stacjonarnym lub telefonie.
 
