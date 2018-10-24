@@ -1,0 +1,1 @@
+Udostępniamy tę wersję zapoznawczą, aby umożliwić jej wypróbowanie i przesłanie opinii na jej temat. Twoja opinia pomoże nam określić priorytety pracy, aby uwzględnić funkcje, które są najbardziej potrzebne. Prosimy o zgłaszanie sugestii i problemów za pomocą naszej publicznie dostępnej witryny opinii:

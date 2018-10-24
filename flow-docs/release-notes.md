@@ -13,14 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/21/2018
+ms.date: 08/31/2018
 ms.author: stepsic
-ms.openlocfilehash: 063fd316f1c4e1679935fb7a83560441d2704701
-ms.sourcegitcommit: 4489d9587bfb1ef197df7f4c0253a3ab4ecb1d1d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 244f3f072dd0250d4c9c4a8c62760009f54a6a45
+ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "43774314"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45727256"
 ---
 # <a name="release-notes"></a>Informacje o wersji
 ## <a name="top-questions"></a>Najczęściej zadawane pytania
@@ -45,6 +50,29 @@ ms.locfileid: "43774314"
 3. Wyzwalacze plików nie będą uruchamiane w przypadku plików dodawanych wewnątrz folderów zagnieżdżonych w wybranym folderze.
 
 ## <a name="whats-new"></a>Co nowego
+
+### <a name="release-2018-08-31"></a>Wersja 2018-08-31
+
+- **Testowanie przepływu przy użyciu przykładowych danych** — przykładowe dane z łączników umożliwiają przetestowanie przepływu utworzonego projektancie usługi Microsoft Flow. Przetestowanie przepływu przy użyciu przykładowych danych pozwala sprawdzić, czy przepływ działa zgodnie z oczekiwaniami po wdrożeniu w środowisku produkcyjnym.
+- **Pięć nowych łączników** — dodaliśmy cztery nowe łączniki zarządzania: PowerApps dla twórców aplikacji, platforma Power dla administratorów, PowerApps dla administratorów, Microsoft Flow dla administratorów i Microsoft School Data Sync.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/test-data-management-connectors/) na temat tej wersji.
+
+### <a name="release-2018-08-24"></a>Wersja 2018-08-24
+
+- **Nowe szablony synchronizacji kalendarza** — nowe szablony kalendarza umożliwiające kopiowanie zdarzeń między Kalendarzem Google i usługą Office 365 lub Outlook.com.
+- **Obsługa wielu wartości w programie SharePoint** — odczytuj i zapisuj pola wielowartościowe w programie SharePoint z typami wyboru, osoby lub wyszukiwania.
+- **Wysyłanie zatwierdzeń w imieniu innych użytkowników w organizacji** — wysyłaj zatwierdzenia w imieniu innych użytkowników w organizacji, na przykład osoby, która przekazała plik na liście programu SharePoint, zamiast osoby, która utworzyła przepływ.
+- **Więcej typów wejściowych przycisków** — przyciski mają dwa nowe typy wejściowe: Liczba i Tak/Nie.
+- **Aktualizacje łączników** — nowy łącznik NetDocuments, ulepszenia łączników platformy Azure i nie tylko.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/button-types-more/) na temat tej wersji.
+
+### <a name="release-2018-08-02"></a>Wersja 2018-08-02
+
+Usługa Microsoft Flow w wersji zapoznawczej zapewnia wczesny dostęp do funkcji i aktualizacji usługi Microsoft Flow, które dopiero mają zostać wprowadzone. Aby uzyskać wczesny dostęp do najnowszych funkcji, po prostu utwórz środowisko w regionie wersji zapoznawczej, a następnie użyj go.
+
+[Dowiedz się więcej i zadaj pytania](https://flow.microsoft.com/blog/flow-preview-program/) na temat tej wersji.
 
 ### <a name="release-2018-07-23"></a>Wersja 2018-07-23
 

@@ -2,7 +2,7 @@
 layout: HubPage
 hide_bc: true
 title: Dokumentacja usługi Microsoft Flow | Microsoft Flow
-description: Microsoft Flow to usługa, która umożliwia tworzenie zautomatyzowanych przepływów pracy w wielu lubianych aplikacjach i usługach. Przepływy te mogą dotyczyć synchronizowania plików, odbierania powiadomień, gromadzenia danych i wykonywania wielu innych działań.
+description: Microsoft Flow to usługa, która umożliwia tworzenie zautomatyzowanych przepływów pracy między lubianymi aplikacjami i usługami. Przepływy te mogą dotyczyć synchronizowania plików, odbierania powiadomień, zbierania danych i wykonywania wielu innych działań.
 keywords:
 - Microsoft Flow
 - przepływ pracy
@@ -16,12 +16,17 @@ ms.date: 03/28/2018
 ms.topic: hub-page
 ms.reviewer:
 - karann-msft
-ms.openlocfilehash: 05bf99aa91b5cfe8635cc7be72669b4d1012ef49
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 03eebb10c1155894b9dc1db5a0283cd72d78a1ae
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34479763"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711593"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -56,16 +61,16 @@ ms.locfileid: "34479763"
                     <a href="#start-all"></a>
                     <ul id="start-all" class="cardsC">
                         <li>
-                            <a href="./guided-learning/index.yml">
+                            <a href="https://docs.microsoft.com/learn/paths/automate-process-using-flow">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage  bgdAccent1">
-                                                <img src="media/index/guidedlearningtour.svg" alt="Take a guided learning tour" /><br/>                                            </div>
+                                                <img src="media/index/guidedlearningtour.svg" alt="Learn Microsoft Flow" /><br/>                                            </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Zapoznaj się z przewodnikiem szkoleniowym</h3>
+                                            <h3>Poznaj usługę Microsoft Flow</h3>
                                             <p>Rozpocznij swoją podróż szkoleniową z tą uporządkowaną sekwencyjnie kolekcją kursów, aby zapoznać się z informacjami o kompleksowych i zaawansowanych możliwościach usługi Microsoft Flow.</p>
                                         </div>
                                     </div>
@@ -391,6 +396,44 @@ ms.locfileid: "34479763"
                                         <div class="cardText">
                                             <h3>Rozszerzanie przepływów przy użyciu usługi Logic Apps</h3>
                                             <p>Usługa Azure Logic Apps oferuje zestaw możliwości większy niż uwzględniony w usłudze Microsoft Flow. Po prostu zapisz dowolny przepływ jako szablon usługi Logic Apps, a następnie zarządzaj nim tak samo jak innymi zasobami usługi Logic Apps.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/flow/business-process-flows-overview">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/analytics_reporting.svg" alt="Drive data collection and workflow consistency." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Zbieranie danych z dysku i spójność przepływu pracy</h3>
+                                            <p>Zbieranie danych z dysku i uzyskiwanie spójności przepływu pracy za pomocą przepływów procesów biznesowych.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/flow/workflow-processes">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/analytics_reporting.svg" alt="Use Common Data Service (CDS) for apps." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Korzystanie z usługi Common Data Service (CDS) for Apps</h3>
+                                            <p>Korzystaj z procesów przepływów pracy usługi Common Data Service (CDS) for Apps.</p>
                                         </div>
                                     </div>
                                 </div>

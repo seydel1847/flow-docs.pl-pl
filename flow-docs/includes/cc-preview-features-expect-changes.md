@@ -1,0 +1,1 @@
+Planowane jest wprowadzanie zmian dotyczących tej funkcji, dlatego nie należy jej używać w środowisku produkcyjnym. Należy jej używać tylko w środowiskach testowych i deweloperskich.

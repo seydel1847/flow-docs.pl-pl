@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 9a054ab8179d4c2a06cbab95cd2633088bbf7458
-ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
+ms.openlocfilehash: c780b3d305fbd5549f9c7ffc2a23571007dac7a7
+ms.sourcegitcommit: f7985b96afe68b079b7fd4a6d04cd0a042d893e0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45727210"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47188621"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Tworzenie przepływu przy użyciu usługi Dynamics 365 (online)
 Za pomocą łącznika usługi Dynamics 365 możesz utworzyć przepływy, które będą inicjowane w momencie wystąpienia zdarzenia w usłudze Dynamics 365 lub innej, a następnie będą wykonywać akcję w usłudze Dynamics 365 lub innej. 
@@ -61,7 +61,7 @@ Jeśli nie ma dostępnego szablonu spełniającego dane wymagania, utwórz szabl
      Na potrzeby tego przewodnika wybierz opcję **Potencjalni klienci**.
    
     ![Szczegóły przepływu](./media/connection-dynamics365/flow-details.png)
-    > [WAŻNE] Aby umożliwić wyzwalanie przepływu dla jednostki usługi Dynamics 365, dla definicji tej jednostki powinno być włączone śledzenie zmian (Change Tracking). Zobacz [Włączanie śledzenia zmian w celu kontrolowania synchronizacji danych](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization)
+    > [WAŻNE] Aby umożliwić wyzwalanie przepływu dla jednostki usługi Dynamics 365, dla definicji tej jednostki musi być włączone śledzenie zmian (**Change Tracking**). Zobacz [Włączanie śledzenia zmian w celu kontrolowania synchronizacji danych](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization)
     
 7. Kliknij lub naciśnij przycisk **Nowy krok**, a następnie kliknij lub naciśnij przycisk **Dodaj akcję**.
 8. Kliknij lub naciśnij pozycję **Dynamics 365 — utwórz nowy rekord**.

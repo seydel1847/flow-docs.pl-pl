@@ -1,16 +1,6 @@
 ---
 title: Używanie wyrażeń z warunkami | Microsoft Docs
-description: 'Używanie wyrażeń zaawansowanych, takich jak '
-"\"and\"\",": ''
-"\"\"or\"\",": ''
-"\"\"empty\"\",": ''
-"\"\"less\"\"": ''
-and: ''
-"\"\"greater\"\"": ''
-with: ''
-microsoft: ''
-flow: ''
-conditions.": ''
+description: Możesz używać wyrażeń zaawansowanych, takich jak „and”, „or”, „empty”, „less” i „greater”, z warunkami usługi Microsoft Flow.
 services: ''
 suite: flow
 documentationcenter: na
@@ -25,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/01/2017
 ms.author: deonhe
-ms.openlocfilehash: 3a089735cc2d8c9144e18a2765b549b528470d1e
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 81aa718837fa14615459f3688a282c25cb99bab6
+ms.sourcegitcommit: dc188618c36583b20af3e838d72bd7b020575d7d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31008642"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48874442"
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>Sprawdzanie wielu wartości przy użyciu wyrażeń w warunkach
 W tym przewodniku dowiesz się, jak porównywać wiele wartości w **trybie zaawansowanym** przy użyciu wyrażeń i **warunków**.
@@ -49,7 +44,7 @@ Wyrażenie|Opis|Przykład
 |[greater](#use-the-greater-expression)|Przyjmuje dwa argumenty i zwraca wartość true, jeśli wartość pierwszego argumentu jest większa niż wartość drugiego argumentu. <br><b>Uwaga</b>: obsługiwane typy to liczba całkowita, liczba zmiennoprzecinkowa i ciąg.|To wyrażenie zwraca wartość false:<br>greater(10,10)
 |greaterOrEquals|Przyjmuje dwa argumenty i zwraca wartość true, jeśli pierwszy argument ma wartość równą wartości drugiego argumentu lub większą. <br><b>Uwaga</b>: obsługiwane typy to liczba całkowita, liczba zmiennoprzecinkowa i ciąg.|To wyrażenie zwraca wartość false:<br>greaterOrEquals(10,100)
 |[empty](#use-the-empty-expression)|Zwraca wartość true, jeśli obiekt, tablica lub ciąg są puste.|To wyrażenie zwraca wartość true:<br>empty('')
-|not|Przyjmuje dwa argumenty i zwraca wartość true, jeśli argumenty mają wartość false. <br><b>Uwaga</b>: oba argumenty muszą być wartościami logicznymi.|To wyrażenie zwraca wartość true:<br>not(contains('200 Success','Fail'))
+|not|Zwraca odwrotną wartość logiczną. |To wyrażenie zwraca wartość true:<br>not(contains('200 Success','Fail'))
 |if|Zwraca określoną wartość, jeśli wynikiem wyrażenia jest wartość true lub false.|To wyrażenie zwraca wartość „yes”:<br>if(equals(1, 1), 'yes', 'no')
 
 ## <a name="prerequisites"></a>Wymagania wstępne

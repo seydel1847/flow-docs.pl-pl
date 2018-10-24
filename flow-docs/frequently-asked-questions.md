@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: af179e30c3b8b7c6d4200f10f122f0d928526f1b
-ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 15f7a58f6cee58d588cf10976cabf55b800f28ce
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39718309"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711662"
 ---
 # <a name="frequently-asked-questions"></a>Często zadawane pytania
 ## <a name="audience-and-strategy"></a>Odbiorcy i strategia
@@ -43,8 +48,23 @@ Usługa Microsoft Flow jest częścią potężnej i pozwalającej na dostosowani
 ### <a name="what-do-i-need-to-use-microsoft-flow"></a>Co jest potrzebne do korzystania z usługi Microsoft Flow?
 Do korzystania z usługi Microsoft Flow wystarcza przeglądarka internetowa i adres e-mail.
 
-### <a name="what-browsers-does-microsoft-flow-support"></a>Jakie przeglądarki są obsługiwane przez usługę Microsoft Flow?
-Usługa Microsoft Flow obsługuje przeglądarkę Microsoft Edge oraz aktualne wersje przeglądarek Chrome i Safari.
+### <a name="what-browsers-and-devices-can-i-use-with-microsoft-flow"></a>Jakich przeglądarek i urządzeń można używać z usługą Microsoft Flow?
+
+Usługę Microsoft Flow można uruchamiać we wszystkich nowoczesnych urządzeniach i przeglądarkach.
+
+#### <a name="supported-devices"></a>Obsługiwane urządzenia
+
+Usługa Microsoft Flow działa bezproblemowo w nowoczesnych urządzeniach. Jeśli chcesz zarządzać usługą Microsoft Flow za pomocą urządzenia przenośnego, wypróbuj aplikację mobilną Microsoft Flow dostępną dla telefonów [iPhone](https://itunes.apple.com/app/microsoft-flow/id1094928825?ls=1&mt=8) oraz systemów [Android](https://play.google.com/store/apps/details?id=com.microsoft.flow) i [Windows Phone](https://www.microsoft.com/p/microsoft-flow/9nkn0p5l9n84?rtc=1#activetab=pivot:overviewtab).
+
+#### <a name="supported-browsers"></a>Obsługiwane przeglądarki
+
+Zalecamy używanie najnowszej przeglądarki zgodnej z systemem operacyjnym. Obsługiwane są następujące przeglądarki:
+
+* Microsoft Edge
+* Internet Explorer 11
+* Safari
+* Chrome
+* Firefox
 
 ### <a name="which-email-addresses-are-supported"></a>Jakie adresy e-mail są obsługiwane?
 Usługa Microsoft Flow obsługuje adresy e-mail z dowolną końcówką inną niż .gov i .mil.  
@@ -125,6 +145,10 @@ Microsoft Flow jest następcą programu SharePoint Designer i umożliwia obsług
 ### <a name="how-does-microsoft-flow-ensure-that-corporate-data-isnt-accidentally-released-to-social-media-services"></a>Jak usługa Microsoft Flow zabezpiecza dane firmowe przed przypadkowym ujawnieniem w mediach społecznościowych?
 Administratorzy mogą tworzyć [zasady ochrony przed utratą danych](prevent-data-loss.md), aby zapewnić możliwość korzystania w usłudze Microsoft Flow tylko z zatwierdzonych usług.
 
+### <a name="does-microsoft-flow-support-service-accounts"></a>Czy usługa Microsoft Flow obsługuje konta usługi?
+
+Możesz tworzyć przepływy przy użyciu konta usługi, jednak nie jest to zalecane, gdy poświadczenia konta usługi są współużytkowane.
+
 ## <a name="licensing"></a>Licencjonowanie
 ### <a name="will-microsoft-flow-still-have-a-free-or-trial-option"></a>Czy usługa Microsoft Flow będzie nadal dostępna w wersji bezpłatnej lub próbnej?
 Tak. Możesz skorzystać z bezpłatnej oferty z ograniczonymi prawami użytkownika lub zarejestrować się w celu skorzystania z 90-dniowej bezpłatnej wersji próbnej usługi Microsoft Flow. Subskrypcję możesz aktywować w dowolnym momencie podczas okresu próbnego.
@@ -134,5 +158,5 @@ Usługa Microsoft Flow oferuje poziomy bezpłatne i płatne. [Dowiedz się więc
 
 ## <a name="learn-more"></a>Dowiedz się więcej
 
-* Zapoznaj się z [przewodnikiem szkoleniowym](guided-learning/index.yml) po usłudze Microsoft Flow
+* Zapoznaj się z [przewodnikiem szkoleniowym](https://docs.microsoft.com/learn/paths/automate-process-using-flow) po usłudze Microsoft Flow
 * Zapoznaj się z [wprowadzeniem](getting-started.md) do usługi Microsoft Flow, aby poznać jej podstawy.
