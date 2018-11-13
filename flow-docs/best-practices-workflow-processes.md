@@ -22,12 +22,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 94c38a54fec91e6a480cd90d0a72f19ca56ae51c
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: bba5b203782cfa813de6ddc509a8be604e5e146b
+ms.sourcegitcommit: 50ea1cdd763863a2cbc88f9f965bdf9351f1059c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44689530"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51225545"
 ---
 # <a name="best-practices-for-workflow-processes"></a>Najlepsze rozwiązania dotyczące procesów przepływu pracy
 
@@ -61,7 +61,7 @@ W przypadku przepływów pracy, które nie działają w tle (synchroniczne), zal
 ![Opcja zachowywania dzienników z przepływów pracy, które się nie powiodły](media/keep-logs-for-workflows.png)
 
 ## <a name="limit-the-number-of-workflows-that-update-the-same-entity"></a>Ograniczanie liczby przepływów pracy, które aktualizują tę samą jednostkę
-Uruchomienie więcej niż jednego przepływu pracy, który aktualizuje tę samą jednostkę, może powodować problemy z blokowaniem zasobów. Wyobraź sobie wiele uruchomionych przepływów pracy, w których każda aktualizacja szansy sprzedaży powoduje aktualizację powiązanego klienta. Gdy wiele wystąpień tych przepływów pracy działa i próbuje jednocześnie zaktualizować ten sam rekord klienta, mogą pojawić się problemy z blokadą zasobów. Wystąpią błędy przepływu pracy i zostanie zarejestrowany komunikat o błędzie, taki jak **Limit czasu SQL: nie można uzyskać blokady zasobu *nazwa zasobu***. 
+Uruchomienie więcej niż jednego przepływu pracy, który aktualizuje tę samą jednostkę, może powodować problemy z blokowaniem zasobów. Wyobraź sobie wiele uruchomionych przepływów pracy, w których każda aktualizacja szansy sprzedaży powoduje aktualizację powiązanego klienta. Gdy wiele wystąpień tych przepływów pracy działa i próbuje jednocześnie zaktualizować ten sam rekord klienta, mogą pojawić się problemy z blokadą zasobów. Wystąpią błędy przepływu pracy i zostanie zarejestrowany komunikat o błędzie, taki jak **Limit czasu SQL: nie można uzyskać blokady zasobu _nazwa zasobu_**. 
 
   
 <a name="BKMK_DocumentChangesUsingNotes"></a>   
