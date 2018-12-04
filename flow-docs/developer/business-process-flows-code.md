@@ -15,10 +15,10 @@ search.app:
 search.audienceType:
 - developer
 ms.openlocfilehash: ae3633047bda556058c8e2ec94e6411e7f277e76
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.sourcegitcommit: 50ea1cdd763863a2cbc88f9f965bdf9351f1059c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
+ms.lasthandoff: 11/28/2018
 ms.locfileid: "44691071"
 ---
 # <a name="work-with-business-process-flows-using-code"></a>Praca z przepływami procesów biznesowych przy użyciu kodu
@@ -354,7 +354,7 @@ Domyślnie w przypadku nowej jednostki, dla której zdefiniowano wiele przepływ
 1. Zidentyfikuj wszystkie przepływy procesów biznesowych dotyczące nowego rekordu jednostki na podstawie atrybutu **Workflow.PrimaryEntity** rekordów definicji przepływów procesów biznesowych.
 2. Określ definicje przepływów procesów biznesowych, do których ma dostęp bieżący użytkownik. Aby uzyskać informacje na temat sposobu określania dostępu do przepływu procesów biznesowych i zarządzania nim, zobacz [Zarządzanie zabezpieczeniami przepływów procesów biznesowych](#BPFSecurity) we wcześniejszej części tego tematu.<br/>  
 3. Wszystkie definicje przepływów procesów biznesowych w systemie podlegają globalnej kolejności na jednostkę. Kolejność przepływu procesów biznesowych jest przechowywana w atrybucie **Workflow.ProcessOrder**. Definicje przepływów procesów biznesowych dla jednostki są sortowane według tej kolejności i wybierana jest definicja o najmniejszej wartości kolejności.
-4. Jeśli rekord jednostki jest tworzony przy użyciu aplikacji biznesowej (moduł aplikacji), stosowany jest dodatkowy poziom filtrowania w celu wybrania przepływu procesów biznesowych, który ma być automatycznie stosowany do nowych rekordów jednostek. Podczas pracy w aplikacji użytkownicy mogą uzyskiwać dostęp tylko do odpowiednich jednostek, widoków i formularzy, do których mają dostęp na podstawie ról zabezpieczeń przypisanych do aplikacji biznesowej. 
+4. Jeśli rekord jednostki jest tworzony przy użyciu aplikacji biznesowej (moduł aplikacji), stosowany jest dodatkowy poziom filtrowania w celu wybrania przepływu procesów biznesowych, który ma być automatycznie stosowany do nowych rekordów jednostek. Podczas pracy w aplikacji użytkownicy mogą uzyskiwać dostęp tylko do odpowiednich jednostek, widoków i formularzy, do których mają dostęp na podstawie ról zabezpieczeń przypisanych do aplikacji biznesowej. 
     - Jeśli aplikacja biznesowa nie zawiera żadnych przepływów procesów biznesowych, przepływ procesów biznesowych jest stosowany zgodnie z objaśnieniem do kroku 3.
     - Jeśli aplikacja biznesowa zawiera co najmniej jeden przepływ procesów biznesowych, będą mieć zastosowanie tylko przepływy procesów biznesowych istniejące w aplikacji. W takim przypadku, gdy użytkownik pracuje w kontekście aplikacji biznesowej, lista przepływów procesów biznesowych z kroku 3 jest dodatkowo filtrowana do przepływów stanowiących część aplikacji biznesowej i obecnych w module aplikacji oraz sortowana na podstawie kolejności przetwarzania. 
     - W przypadku braku dostępnych przepływów procesów biznesowych w aplikacji biznesowej dla jednostki lub braku przepływów dostępnych dla użytkownika do nowego rekordu jednostki nie jest stosowany żaden przepływ procesów biznesowych.
