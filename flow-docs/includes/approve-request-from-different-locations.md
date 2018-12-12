@@ -35,5 +35,5 @@ Aby zatwierdzić żądanie:
    
     ![strona z informacją o sukcesie akcji](media/modern-approvals/mobile-approval-confirmation.png)
 
-Uwaga: ekrany w systemach Android, iOS i Windows Phone mogą się nieznacznie różnić, jednak funkcjonalność jest taka sama na wszystkich urządzeniach.
+Uwaga: Ekrany w systemach Android, iOS i Windows Phone mogą się nieznacznie różnić, jednak funkcjonalność jest taka sama na wszystkich urządzeniach.
 

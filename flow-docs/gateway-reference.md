@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 95081295bfe0fd6c904876aaf70974575a7986c1
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: 8baaf85ae07d2763886eb1ffda0141e4804cb630
+ms.sourcegitcommit: 8a36a3211e76b2b1a4a3154bc41e12a87dc3c288
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690910"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53179822"
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Informacje o lokalnych bramach danych dla programu Microsoft Flow
 Przy użyciu lokalnych bram danych w usłudze Microsoft Flow możesz ustanawiać bezpieczne połączenia z lokalnymi źródłami danych, takimi jak program Microsoft SQL Server.
@@ -123,14 +123,14 @@ W celu sprawdzenia wszystkich możliwości należy zastąpić wartości parametr
 Zapora może również blokować połączenia, które usługa Azure Service Bus nawiązuje z centrami danych platformy Azure. Jeśli tak jest rzeczywiście, wszystkie [adresy IP](https://www.microsoft.com/download/details.aspx?id=41653) z regionu dla tych centrów danych należy umieścić na liście dozwolonych adresów IP (należy je odblokować).
 
 ## <a name="configure-ports"></a>Konfigurowanie portów
-Brama tworzy połączenie wychodzące do usługi Azure Service Bus. Komunikuje się na portach wyjściowych: TCP 443 (domyślnie), 5671, 5672 i od 9350 do 9354. Brama nie wymaga portów wejściowych.
+Brama tworzy połączenie wychodzące do usługi Azure Service Bus. Komunikuje się przy użyciu portów wychodzących: TCP 443 (domyślny), 5671, 5672, od 9350 do 9354. Brama nie wymaga portów wejściowych.
 
 Dowiedz się więcej o [rozwiązaniach hybrydowych](https://azure.microsoft.com/documentation/articles/service-bus-fundamentals-hybrid-solutions/).
 
 | Nazwy domen | Porty wyjściowe | Opis |
 | --- | --- | --- |
 | *.analysis.windows.net |443 |HTTPS |
-| *.login.windows.net |443 |HTTPS |
+| *.login.microsoftonline.com |443 |HTTPS |
 | *.servicebus.windows.net |5671-5672 |Advanced Message Queuing Protocol (AMQP) |
 | *.servicebus.windows.net |443, 9350-9354 |Odbiorniki usługi Service Bus Relay przez TCP (wymagany jest port 443 w celu pozyskania tokenu kontroli dostępu) |
 | *.frontend.clouddatahub.net |443 |HTTPS |
@@ -179,8 +179,8 @@ Obecnie nie ma jednego miejsca, w którym administratorzy dzierżawy mogą zarz�
 **Pytanie:** Czy brama musi być zainstalowana na tej samej maszynie co źródło danych?
 **Odpowiedź:** Nie. Brama połączy się ze źródłem danych przy użyciu podanych informacji o połączeniu. W tym kontekście bramę należy traktować jako aplikację kliencką. Należy tylko zadbać o możliwość jej połączenia z serwerem o podanej nazwie.
 
-**Pytanie:** Jakie jest opóźnienie, po jakim uruchamiane są zapytania względem źródła danych z bramy? Jaka jest najlepsza architektura?
-**Odpowiedź:** Aby zmniejszyć opóźnienia sieci, należy zainstalować bramę tak blisko źródła danych, jak to możliwe. Opóźnienia zostaną zminimalizowane, jeśli można zainstalować bramę na rzeczywistym źródle danych. Uwzględnij również centra danych. Jeśli na przykład Twoja usługa używa centrum danych w regionie Zachodnie stany USA, a program SQL Server jest hostowany na maszynie wirtualnej platformy Azure, wówczas maszyna wirtualna platformy Azure również powinna się znajdować w regionie Zachodnie stany USA. Spowoduje to zminimalizowania opóźnień i pozwoli uniknąć opłat za ruch wychodzący na maszynie wirtualnej platformy Azure.
+**Pytanie:** Jakie jest opóźnienie przy uruchamianiu zapytań względem źródła danych z bramy? Jaka jest najlepsza architektura?
+**Odpowiedź:**  Aby zmniejszyć opóźnienia sieci, należy zainstalować bramę tak blisko źródła danych, jak to możliwe. Opóźnienia zostaną zminimalizowane, jeśli można zainstalować bramę na rzeczywistym źródle danych. Uwzględnij również centra danych. Jeśli na przykład Twoja usługa używa centrum danych w regionie Zachodnie stany USA, a program SQL Server jest hostowany na maszynie wirtualnej platformy Azure, wówczas maszyna wirtualna platformy Azure również powinna się znajdować w regionie Zachodnie stany USA. Spowoduje to zminimalizowania opóźnień i pozwoli uniknąć opłat za ruch wychodzący na maszynie wirtualnej platformy Azure.
 
 **Pytanie:** Czy istnieją jakieś wymagania dotyczące przepustowości sieci?
 **Odpowiedź:** Zalecana jest dobra przepływność na potrzeby połączenia sieciowego. Każde środowisko jest inne, a ilość wysyłanych danych będzie wpływać na wyniki. Korzystanie z usługi ExpressRoute może pomóc w zapewnieniu odpowiedniego poziomu przepływności między lokalnymi centrami danych a centrami danych platformy Azure.
@@ -193,7 +193,7 @@ W celu określenia przepustowości sieci można użyć narzędzia innej firmy, k
 **Pytanie:** W jaki sposób wyniki są wysyłane do chmury?
 **Odpowiedź:** Wyniki są wysyłane przy użyciu usługi Azure Service Bus. Aby uzyskać więcej informacji, zobacz [jak to działa](gateway-reference.md#how-the-gateway-works).
 
-**Pytanie:** gdzie przechowywane są moje poświadczenia?
+**Pytanie:** Gdzie są przechowywane moje poświadczenia?
 **Odpowiedź:** Wprowadzone poświadczenia dotyczące źródła danych są zaszyfrowane i przechowywane w usłudze bramy w chmurze. Poświadczenia są odszyfrowywane lokalnie w bramie.
 
 ### <a name="high-availabilitydisaster-recovery"></a>Wysoka dostępność/odzyskiwanie po awarii
@@ -201,9 +201,9 @@ W celu określenia przepustowości sieci można użyć narzędzia innej firmy, k
 **Odpowiedź:** Tak, obsługa wysokiej dostępności [została już udostępniona](https://flow.microsoft.com/blog/gateway-ha-increased-apply-to-each).
 
 **Pytanie:** Jakie opcje są dostępne na potrzeby odzyskiwania po awarii?
-**Odpowiedź:** w celu przywrócenia lub przeniesienia bramy można użyć klucza odzyskiwania.
+**Odpowiedź:** W celu przywrócenia lub przeniesienia bramy można użyć klucza odzyskiwania.
 
-**Pytanie:** Jakie korzyści wynikają z korzystania z klucza odzyskiwania?
+**Pytanie:** Jakie korzyści wynikają z używania klucza odzyskiwania?
 **Odpowiedź:** Jest to sposób migracji lub odzyskiwania ustawień bramy.
 
 ### <a name="troubleshooting-questions"></a>Pytania dotyczące rozwiązywania problemów
@@ -231,7 +231,7 @@ Gdy użytkownik użyje elementu, który jest połączony z lokalnym źródłem d
 ### <a name="update-to-the-latest-version"></a>Aktualizowanie do najnowszej wersji
 Gdy wersja bramy jest nieaktualna, może pojawić się wiele problemów. Upewnij się, że korzystasz z najnowszej wersji.  Jeśli brama nie była ostatnio aktualizowana, warto zainstalować najnowszą wersję i sprawdzić, czy można odtworzyć problem.
 
-#### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>Błąd: nie można dodać użytkownika do grupy.  (-2147463168   PBIEgwService   Użytkownicy dzienników wydajności   )
+#### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>Błąd: Nie można dodać użytkownika do grupy.  (-2147463168   PBIEgwService   Użytkownicy dzienników wydajności   )
 Ten błąd może pojawić się przy próbie zainstalowania bramy na kontrolerze domeny, co nie jest obsługiwane. Bramę należy zainstalować na maszynie, która nie jest kontrolerem domeny.
 
 ## <a name="tools"></a>Narzędzia

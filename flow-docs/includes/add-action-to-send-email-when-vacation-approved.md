@@ -16,5 +16,5 @@
    
      Ta karta jest szablonem wiadomości e-mail, która jest wysyłana, gdy stan wniosku urlopowego się zmienia.
    
-     Uwaga: w polu **Treść** na karcie **Wyślij wiadomość e-mail** użyj tokenu **Komentarze** z akcji **Zatwierdzenia — Rozpocznij zatwierdzenie**.
+     Uwaga: W polu **Treść** na karcie **Wyślij wiadomość e-mail** użyj tokenu **Komentarze** z akcji **Zatwierdzenia — Rozpocznij zatwierdzenie**.
 

@@ -24,12 +24,12 @@
 * Można utworzyć środowiska dla różnych typów aplikacji i przepływów. Na przykład w jednym środowisku można przechowywać aplikacje testowe, a w innym aplikacje produkcyjne.  
 * Dodatkowo można tworzyć środowiska na podstawie struktury organizacji, a nawet oparte na lokalizacji geograficznej działów lub zespołów. Jeśli na przykład poszczególne zespoły pracują w Australii, Meksyku i Europie, można utworzyć środowiska dla każdej z tych lokalizacji i niezależnie zarządzać nimi.  
 
-**Uwaga**: środowiska nie są widoczne dla użytkowników, którzy nie muszą wiedzieć, w którym środowisku się znajdują. Środowiska pozwalają administratorom kategoryzować oraz udostępniać aplikacje i przepływy używane w organizacji oraz zarządzać nimi.  
+**Uwaga**: Środowiska nie są widoczne dla użytkowników, którzy nie muszą wiedzieć, w którym środowisku się znajdują. Środowiska pozwalają administratorom kategoryzować oraz udostępniać aplikacje i przepływy używane w organizacji oraz zarządzać nimi.  
 
 ## <a name="what-are-roles"></a>Co to są role?
 Osoba mająca dostęp do środowiska musi mieć przypisaną rolę **Administrator środowiska** lub **Twórca środowiska**. Administratorzy mogą wykonywać wszystkie zadania administracyjne w środowisku. Twórca może tworzyć zasoby w istniejącym środowisku. Jedna osoba może mieć przypisane obie role.  
 
-**Uwaga**: przyznanie wszystkim użytkownikom dostępu do usługi Microsoft Flow skutkuje przyznaniem im dostępu do środowiska domyślnego. Użytkownicy mogą mieć dostęp do wielu środowisk.  
+**Uwaga**: Przyznanie wszystkim użytkownikom dostępu do usługi Microsoft Flow skutkuje przyznaniem im dostępu do środowiska domyślnego. Użytkownicy mogą mieć dostęp do wielu środowisk.  
 
 ## <a name="create-an-environment"></a>Tworzenie środowiska
 Środowiska można tworzyć z poziomu [Centrum administracyjnego usługi Microsoft Flow](https://admin.flow.microsoft.com), wykonując następujące kroki:  

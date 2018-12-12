@@ -2,7 +2,7 @@
 title: Wywoływanie akcji niestandardowych z przepływu pracy | MicrosoftDocs
 description: Informacje na temat wywoływania akcji niestandardowej z przepływu pracy
 ms.custom: ''
-ms.date: 06/27/2018
+ms.date: 11/22/2018
 ms.reviewer: ''
 ms.service: crm-online
 ms.suite: ''
@@ -22,21 +22,21 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 8b2904632f4b3bf097275906d917e686cace67ba
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: e4dbedbd8157f2dd1814bbbbd080a6b366c04938
+ms.sourcegitcommit: a505b0aac796960d57fccee92eb18c6566ac9c35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44688524"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "53006983"
 ---
 # <a name="invoke-custom-actions-from-a-workflow"></a>Wywoływanie akcji niestandardowych z przepływu pracy
 
-Przepływy pracy mają wiele możliwości obsługi scenariuszy biznesowych. Wywoływanie w ramach przepływu pracy podstawowych akcji zestawu SDK dla rekordu, takich jak tworzenie, aktualizacja i usuwanie, pozwala obsłużyć sporą liczbę scenariuszy biznesowych. Jeśli jednak połączysz możliwości przepływów pracy z mocą akcji niestandardowych wywoływanych bezpośrednio z poziomu przepływu pracy, dodajesz do swojej aplikacji cały szereg nowych scenariuszy biznesowych bez konieczności pisania kodu.  
+Przepływy pracy mają wiele możliwości obsługi scenariuszy biznesowych. Wywołując w ramach przepływu pracy podstawowe akcje operujące na danych dla rekordu (takie jak tworzenie, aktualizacja i usuwanie), można obsłużyć sporą liczbę scenariuszy biznesowych. Jeśli jednak połączysz możliwości przepływów pracy z mocą akcji niestandardowych wywoływanych bezpośrednio z poziomu przepływu pracy, dodajesz do swojej aplikacji cały szereg nowych scenariuszy biznesowych bez konieczności pisania kodu.  
   
  Przyjrzyjmy się scenariuszowi, w którym akcja niestandardowa jest wywoływana z przepływu pracy. Wywołamy akcję niestandardową polegającą na żądaniu zgody menedżera, gdy zniżka dla konkretnej szansy sprzedaży przekroczy 20%.  
   
 <a name="action"></a>   
-## <a name="dynamics-365-customer-engagement-example-create-a-custom-action-using-the-opportunity-entity"></a>Przykład z usługi Dynamics 365 Customer Engagement: tworzenie akcji niestandardowej przy użyciu jednostki szansy sprzedaży
+## <a name="dynamics-365-customer-engagement-example-create-a-custom-action-using-the-opportunity-entity"></a>Przykład usługi Dynamics 365 Customer Engagement: Tworzenie akcji niestandardowej przy użyciu jednostki szansy sprzedaży
   
 1. W [eksploratorze rozwiązań](/powerapps/maker/model-driven-apps/advanced-navigation#solution-explorer) wybierz pozycję **Procesy**.  
   

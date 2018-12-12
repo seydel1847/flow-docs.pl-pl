@@ -14,12 +14,12 @@ search.app:
 - Flow
 search.audienceType:
 - developer
-ms.openlocfilehash: ae3633047bda556058c8e2ec94e6411e7f277e76
-ms.sourcegitcommit: 50ea1cdd763863a2cbc88f9f965bdf9351f1059c
+ms.openlocfilehash: 1283d9d0a8e7f2b9b0495400c5db1f624ef91954
+ms.sourcegitcommit: a505b0aac796960d57fccee92eb18c6566ac9c35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "44691071"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "53007006"
 ---
 # <a name="work-with-business-process-flows-using-code"></a>Praca z przepływami procesów biznesowych przy użyciu kodu
 
@@ -65,7 +65,7 @@ Definicja przepływu procesów biznesowych jest przechowywana w jednostce <xref:
   
  Jeśli na przykład określisz „Niestandardowy PPB” jako nazwę definicji przepływu procesów biznesowych i używasz domyślnego wydawcy (nowego) dla aktywnego rozwiązania, nazwa niestandardowej jednostki utworzonej w celu przetwarzania wystąpień procesów będzie mieć postać „nowy_niestandardowyppb”.  
   
- Jeśli wartość `uniquename` nie jest dostępna dla definicji przepływu procesów biznesowych, na przykład jeśli przepływ procesów biznesowych został zaimportowany jako część rozwiązania z wcześniejszej wersji, domyślną nazwą jednostki niestandardowej będzie „*\<prefiks_aktywnego_rozwiazania>*\_bpf\_*<identyfikator_GUID_definicji_PPB>*:  
+ Jeśli wartość `uniquename` nie jest dostępna dla definicji przepływu procesów biznesowych, na przykład jeśli przepływ procesów biznesowych został zaimportowany jako część rozwiązania z wcześniejszej wersji, domyślną nazwą jednostki niestandardowej będzie „`\<activesolutionprefix>_bpf_<GUID_BPF_Definition>`:  
   
 > [!IMPORTANT]
 >  W przykładowych rekordach przepływów procesów biznesowych jednostki systemowe są używane do przechowywania odpowiednich rekordów wystąpień przepływów procesów biznesowych.  
@@ -74,10 +74,10 @@ Definicja przepływu procesów biznesowych jest przechowywana w jednostce <xref:
 
 Nazwę jednostki przepływu procesów biznesowych można pobrać na jeden z następujących sposobów:
 
-- **Za pomocą interfejsu użytkownika**: użyj interfejsu użytkownika dostosowywania, aby przeglądać jednostkę przepływu procesów biznesowych:
+- **Za pomocą interfejsu użytkownika**: Skorzystaj z interfejsu użytkownika dostosowywania, aby przeglądać jednostkę przepływu procesów biznesowych:
 
     ![](media/bpf-entity-name.png)
-- **Za pomocą internetowego interfejsu API**: użyj następującego żądania:
+- **Za pomocą internetowego interfejsu API**: Użyj następującego żądania:
 
     **Żądanie**
 
@@ -97,8 +97,8 @@ Nazwę jednostki przepływu procesów biznesowych można pobrać na jeden z nast
          }
       ]
     }
-
-- **Using the Organization service**: Use the following code sample:
+    ```
+- **Za pomocą usługi organizacji**: Skorzystaj z poniższego przykładu kodu:
 
     ```c#
     QueryExpression query = new QueryExpression
@@ -119,35 +119,35 @@ Nazwę jednostki przepływu procesów biznesowych można pobrać na jeden z nast
         }
     };
     Workflow Bpf = (Workflow)_serviceProxy.RetrieveMultiple(query).Entities[0]; 
-
+    ```
 > [!NOTE]
-> The <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsBPFEntity> property is `true` for business process flow entities. You can retrieve all the business process flow entities in your instance by running the following Web API request:
+> Właściwość <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsBPFEntity> ma wartość `true` dla jednostek przepływu procesów biznesowych. Możesz pobrać wszystkie jednostki przepływu procesów biznesowych w wystąpieniu, uruchamiając następujące żądanie internetowego interfejsu API:
 > ```http
 > GET [Organization URI]/api/data/v9.0/EntityDefinitions?$select=SchemaName,LogicalName,DisplayName&$filter=IsBPFEntity eq true HTTP/1.1
 > ```
 
 <a name="BPFSecurity"></a>   
-## Manage security for business process flows
+## <a name="manage-security-for-business-process-flows"></a>Zarządzanie zabezpieczeniami dla przepływów procesów biznesowych
 
-The custom entity that is automatically created on activating a business process flow to store business process flow instances adheres to the standard security model as for any other custom entity in Customer Engagement. This implies that privileges granted on these entities define the runtime permissions for users for business process flows.
+Jednostka niestandardowa, która zostaje automatycznie utworzona przy uaktywnianiu przepływu procesów biznesowych w celu przechowywania wystąpień przepływu procesów biznesowych, jest zgodna ze standardowym modelem zabezpieczeń, podobnie jak każda inna jednostka niestandardowa w rozwiązaniu Customer Engagement. Oznacza to, że uprawnienia przyznane tym jednostkom definiują uprawnienia środowiska uruchomieniowego dla użytkowników na potrzeby przepływów procesów biznesowych.
 
-The custom business process flow entity has organization scope. The regular create, retrieve, update and delete privileges on this entity define the permission the user would have based on his/her assigned roles. By default, when the business process flow custom entity is created, only **System Administrator** and **System Customizer** security roles are granted access to it, and you must explicitly grant permissions to the new business process flow entity (for example, **My Custom BPF**) for other security roles as required.
+Niestandardowa jednostka przepływu procesów biznesowych ma zakres organizacji. Zwykłe uprawnienia do tworzenia, pobierania, aktualizowania i usuwania dla tej jednostki definiują uprawnienia, które miałby użytkownik na podstawie przypisanych mu ról. Domyślnie po utworzeniu niestandardowej jednostki przepływu procesów biznesowych dostęp do niej jest przyznawany tylko rolom zabezpieczeń **Administrator systemu** i **Konfigurator systemu**. Należy jawnie udzielić uprawnień do nowej jednostki przepływu procesów biznesowych (np. **Niestandardowy PPB**) dla innych ról zabezpieczeń, zgodnie z potrzebami.
 
 ![](media/bpf-privileges.png)
 
 <a name="ManageBPF"></a>   
-## Create, retrieve, update, and delete business process flow entity records (process instances)  
- The custom entity that is automatically created on activating a business process flow definition stores all the process instances for the business process flow definition. The custom entity supports the standard programmatic creation and management of records (process instances) using Web API and CRM 2011 endpoint.
+## <a name="create-retrieve-update-and-delete-business-process-flow-entity-records-process-instances"></a>Tworzenie, pobieranie, aktualizowanie i usuwanie rekordów jednostek przepływu procesów biznesowych (wystąpień procesu)  
+ Jednostka niestandardowa, która zostaje automatycznie utworzona przy uaktywnianiu przepływu procesów biznesowych, przechowuje wszystkie wystąpienia procesu dla definicji przepływu procesów biznesowych. Jednostka niestandardowa obsługuje standardowe programowe tworzenie rekordów (wystąpień procesu) i zarządzanie nimi przy użyciu internetowego interfejsu API i punktu końcowego oprogramowania CRM 2011.
 
 > [!IMPORTANT]
-> Switching to another process instance for an entity record is only supported through UI (client) or programmatically using information available in this section. You can no longer use the `SetProcess` message (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> or <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>) to programmatically switch processes (set another business process flow as the active process instance) for the target entity record. 
+> Przełączanie do innego wystąpienia procesu dla rekordu jednostki jest obsługiwane tylko za pośrednictwem interfejsu użytkownika (klienta) lub programowo przy użyciu informacji dostępnych w tej sekcji. Nie można już używać komunikatu `SetProcess` (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> lub <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>), aby programowo przełączać procesy (ustawiać inny przepływ procesów biznesowych jako aktywne wystąpienie procesu) dla docelowego rekordu jednostki. 
 
- Lets consider the following example where we have a cross-entity business process flow, "My Custom BPF," with 3 stages: S1:Account, S2:Account, and S3:Contact. 
+ Rozważmy następujący przykład, w którym istnieje przepływ procesów biznesowych obejmujący wiele jednostek („Niestandardowy PPB”) z 3 etapami: S1:Konto, S2:Konto i S3:Kontakt. 
 
  ![](media/sample-bpf.png)
  
-### Retrieve all the records (instances) for a business process flow entity
- If the name of your business process flow entity is "new_mycustombpf", use the following query to retrieve all the records (process instances) for your business process flow entity:  
+### <a name="retrieve-all-the-records-instances-for-a-business-process-flow-entity"></a>Pobieranie wszystkich rekordów (wystąpień) dla jednostki przepływu procesów biznesowych
+ Jeśli jednostka przepływu procesów biznesowych ma nazwę „nowy_niestandardowyppb”, użyj następującego zapytania w celu pobrania wszystkich rekordów (wystąpień procesu) dla jednostki przepływu procesów biznesowych:  
   
 ```http
 GET [Organization URI]/api/data/v9.0/new_mycustombpfs HTTP/1.1 
@@ -266,16 +266,16 @@ OData-Version: 4.0
 
 #### <a name="change-the-state-of-a-process-instance-abort-reactivate-or-finish"></a>Zmienianie stanu wystąpienia procesu: przerywanie, ponowne uaktywnianie lub kończenie 
 
-Wystąpienie procesu może mieć następujące stany: **Aktywne**, **Zakończone** lub **Przerwane**. Stan jest określany na podstawie następujących atrybutów w rekordzie wystąpienia procesu:
+Wystąpienie procesu może mieć jeden z następujących stanów: **Aktywne**, **Zakończone** lub **Przerwane**. Stan jest określany na podstawie następujących atrybutów w rekordzie wystąpienia procesu:
 
-- **statecode**: wyświetla stan wystąpienia procesu.
+- **statecode**: Wyświetla stan wystąpienia procesu.
 
     |Wartość|Etykieta|
     |-----|-----|
     |0    |Aktywne|
     |1    |Nieaktywne|
 
-- **statuscode**: wyświetla informacje o stanie wystąpienia procesu.
+- **statuscode**: Wyświetla informacje o stanie wystąpienia procesu.
 
     |Wartość|Etykieta|
     |-----|-----|
@@ -343,7 +343,7 @@ Każdy rekord wystąpienia przepływu procesów biznesowych zwrócony dla rekord
   
  Po uzyskaniu informacji o aktywnym etapie i aktywnej ścieżce dla wystąpienia przepływu procesów biznesowych można użyć tych informacji, aby przejść do poprzedniego lub następnego etapu w aktywnej ścieżce. Przechodzenie do następnych etapów powinno odbywać się w kolejności, co oznacza, że należy przechodzić tylko do następnego etapu w aktywnej ścieżce.   
   
- Aby zapoznać się z pełnym przykładem kodu, w którym pokazano użycie tych dwóch metod oraz przechodzenie między etapami przy użyciu [usługi organizacji](/dynamics365/customer-engagement/developer/org-service/use-organization-service-read-write-data-metadata), zobacz [Przykład: Praca z przepływami procesów biznesowych](sample-work-business-process-flows.md). 
+ Aby zapoznać się z pełnym przykładem kodu, w którym pokazano użycie tych dwóch metod oraz przechodzenie między etapami przy użyciu [usługi organizacji](/dynamics365/customer-engagement/developer/org-service/use-organization-service-read-write-data-metadata), zobacz [Przykład: praca z przepływami procesów biznesowych](sample-work-business-process-flows.md). 
 
 <a name="ApplyBPF"></a>   
 ## <a name="apply-business-process-flow-while-creating-an-entity-record"></a>Stosowanie przepływu procesów biznesowych podczas tworzenia rekordu jednostki

@@ -19,7 +19,7 @@ Zasady DLP to po prostu nazwana reguła, która umieszcza każdą usługę w jed
 | **Tylko dane biznesowe** |Wszystkie usługi w tej grupie mogą udostępniać dane między sobą. Nie mogą one współdzielić danych z grupą **bez danych biznesowych**. |
 | **Bez danych biznesowych** |Wszystkie usługi w tej grupie mogą udostępniać dane między sobą. Nie mogą one udostępniać danych grupie **tylko dane biznesowe**. |
 
-**Uwaga**: dodanie usługi do jednej grupy danych automatycznie powoduje jej usunięcie z drugiej grupy danych. Jeśli na przykład usługa Twitter znajduje się obecnie w grupie **tylko dane biznesowe**, a nie chcesz zezwalać, aby dane biznesowe można było udostępniać w usłudze Twitter, wystarczy dodać usługę Twitter do grupy danych **bez danych biznesowych**. Spowoduje to usunięcie usługi Twitter z grupy danych **tylko dane biznesowe**.
+**Uwaga**: Dodanie usługi do jednej grupy danych automatycznie powoduje jej usunięcie z drugiej grupy danych. Jeśli na przykład usługa Twitter znajduje się obecnie w grupie **tylko dane biznesowe**, a nie chcesz zezwalać, aby dane biznesowe można było udostępniać w usłudze Twitter, wystarczy dodać usługę Twitter do grupy danych **bez danych biznesowych**. Spowoduje to usunięcie usługi Twitter z grupy danych **tylko dane biznesowe**.
 
 ## <a name="heres-what-you-need-to-create-a-dlp"></a>Do wprowadzenia ochrony przed utratą danych wymagane są następujące elementy
 * Dostęp do [centrum administracyjnego](https://admin.flow.microsoft.com) usługi Microsoft Flow  
