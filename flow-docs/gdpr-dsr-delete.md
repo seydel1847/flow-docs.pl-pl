@@ -20,12 +20,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 77ce6e368c8cb54d360ebeaa32f1f649e30aa297
-ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
+ms.openlocfilehash: 9edad8ef0aa4e51292bddc5dc59c90ae84223de2
+ms.sourcegitcommit: ade400bab38f85071d4c8bf6a5380f561f12f2f5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45727187"
+ms.lasthandoff: 12/11/2018
+ms.locfileid: "53248850"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Reagowanie na żądania podmiotów danych RODO dotyczące usuwania przy użyciu usługi Microsoft Flow
 
@@ -55,7 +55,7 @@ W przypadku danych i zasobów, które wymagają przeglądania ręcznego, usługa
 
 * **Dostęp do witryny internetowej:** zaloguj się do [Centrum administracyjnego usługi PowerApps](https://admin.powerapps.com/) lub [Centrum administracyjnego usługi Microsoft Flow](https://admin.flow.microsoft.com/)
 
-* **Dostęp do programu PowerShell:** [Polecenia cmdlet programu PowerShell w usłudze PowerApps dla administratorów](https://go.microsoft.com/fwlink/?linkid=871804) 
+* **Dostęp do programu PowerShell:**  [Polecenia cmdlet programu PowerShell w usłudze PowerApps dla administratorów](https://go.microsoft.com/fwlink/?linkid=871804) 
 
 Poniżej przedstawiono podział środowisk dostępnych dla administratora, w których może on usuwać poszczególne typy danych osobowych w obrębie każdego typu zasobu:
 
@@ -175,6 +175,7 @@ $deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
 Get-AdminConnection -CreatedBy $deleteDsrUserId | Remove-AdminConnection 
 
 ```
+
 ## <a name="delete-the-users-permissions-to-shared-connections"></a>Usuwanie uprawnień użytkownika do połączeń udostępnionych
 
 Polecenia cmdlet programu PowerShell w usłudze PowerApps dla twórców
@@ -281,11 +282,12 @@ Jeśli po wprowadzeniu usługi Common Data Service for Apps baza danych jest two
 Aby uzyskać więcej informacji o usuwaniu uprawnienia użytkownika w środowisku, przejdź do tematu [Używanie środowisk za pomocą usługi Microsoft Flow](https://docs.microsoft.com/flow/environments-overview-admin).
 
 ## <a name="delete-gateway-settings"></a>Usuwanie ustawień bramy
+
 Sposób reagowania na żądania usunięcia podmiotu danych w przypadku lokalnych bram danych można znaleźć [tutaj](https://docs.microsoft.com/power-bi/service-gateway-onprem#tenant-level-administration).
 
 ## <a name="delete-user-details"></a>Usuwanie szczegółów użytkownika
-Szczegóły użytkownika stanowią połączenie między użytkownikiem a konkretną dzierżawą. Przed uruchomieniem tego polecenia upewnij się, że wszystkie przepływy dla tego użytkownika zostały ponownie przypisane i/lub usunięte. Po wykonaniu tej czynności administrator może usunąć szczegóły użytkownika, wywołując polecenie cmdlet **Remove-AdminFlowUserDetails** i przekazując identyfikator obiektu dla użytkownika.
 
+Szczegóły użytkownika stanowią połączenie między użytkownikiem a konkretną dzierżawą. Przed uruchomieniem tego polecenia upewnij się, że wszystkie przepływy dla tego użytkownika zostały ponownie przypisane i/lub usunięte. Po wykonaniu tej czynności administrator może usunąć szczegóły użytkownika, wywołując polecenie cmdlet **Remove-AdminFlowUserDetails** i przekazując identyfikator obiektu dla użytkownika.
 
 Polecenia cmdlet programu PowerShell w usłudze PowerApps dla administratorów
 ```PowerShell
@@ -297,14 +299,18 @@ Remove-AdminFlowUserDetails -UserId 1b6759b9-bbea-43b6-9f3e-1af6206e0e80
 > Jeśli użytkownik nadal jest właścicielem przepływów indywidualnych lub przepływów zespołu, to polecenie zwróci błąd. Aby rozwiązać ten problem, usuń wszystkie pozostałe przepływy lub przepływy zespołu dla tego użytkownika, a następnie uruchom ponownie polecenie.
 >
 >
+
 ## <a name="delete-the-user-from-azure-active-directory"></a>Usuwanie użytkownika z usługi Azure Active Directory
+
 Po wykonaniu powyższych czynności ostatnim krokiem jest usunięcie konta użytkownika usługi Azure Active Directory za pomocą procedury opisanej w dokumentacji RODO dotyczącej żądania podmiotu danych platformy Azure, którą można znaleźć w witrynie [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR).
 
 ## <a name="delete-the-user-from-unmanaged-tenant"></a>Usuwanie użytkownika z dzierżawy niezarządzanej
+
 W przypadku, gdy jesteś członkiem dzierżawy niezarządzanej, musisz wykonać akcję **zamknięcia konta** z witryny [Work and School Privacy Portal](https://go.microsoft.com/fwlink/?linkid=873123).
 
 Aby ustalić, czy jesteś użytkownikiem dzierżawy zarządzanej, czy niezarządzanej, wykonaj następujące akcje:
-1. Otwórz następujący adres URL w przeglądarce, zastępując adres e-mail w adresie URL: [ https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1).
+
+1. Otwórz następujący adres URL w przeglądarce, zastępując adres e-mail w adresie URL:[https://login.microsoftonline.com/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.microsoftonline.com/common/userrealm/foobar@contoso.com?api-version=2.1).
 1. Jeśli jesteś członkiem **dzierżawy niezarządzanej**, zobaczysz w odpowiedzi ciąg `"IsViral": true`.
 
     {
@@ -318,4 +324,3 @@ Aby ustalić, czy jesteś użytkownikiem dzierżawy zarządzanej, czy niezarząd
     }
 
 1. W przeciwnym razie należysz do dzierżawy zarządzanej.
-
